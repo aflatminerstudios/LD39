@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "fcd96fa2-cf6d-4fc5-bf6e-7a7cdeca57fb",
+            "Value": {
+                "id": "ac4e2757-b55d-48b4-a5b5-68de590887a4",
+                "resourcePath": "objects\\objWalkPoint\\objWalkPoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fcfb5f75-e45a-4384-b08a-930c59bb5d80",
             "Value": {
                 "id": "a83f028c-01e3-4592-a30f-f59618f10d9b",

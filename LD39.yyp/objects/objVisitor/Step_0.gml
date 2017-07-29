@@ -5,8 +5,25 @@ if(currentState == VISITOR_IDLE) {
 		scrFindCabinetToPlayForVisitor(self.id);
 		// Didn't find someting to do, so just go to the center of the room
 		if(currentState == VISITOR_IDLE) {
-			targetLocation[0] = room_width/2;
-			targetLocation[1] = room_height/2;
+    
+      //Find 3 random walking points, pick the closest, so it biases towards not moving as much
+      var tar1 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
+      var tar2 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
+      var tar3 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
+      var d1 = distance_to_point(tar1.x, tar1.y);
+      var d2 = distance_to_point(tar1.x, tar1.y);
+      var d3 = distance_to_point(tar1.x, tar1.y);
+      var target;
+      if (d1 < d2 && d1 < d3) {
+        target = tar1;
+      } else if (d2 < d1 && d2 < d3) {
+        target = tar2;
+      } else {
+        target = tar3;
+      }
+      
+			targetLocation[0] = target.x;
+			targetLocation[1] = target.y;
 			currentState = VISITOR_ENROUTE;
 		}
 } else if(currentState == VISITOR_ACTIVE) {
@@ -28,6 +45,9 @@ if(currentState == VISITOR_IDLE) {
   
 } else if(currentState == VISITOR_WAITING) {
 	// if alarm is not active, set waiting alarm
+  if (alarm[3] <= 0) {
+    alarm[3] = objGameControl.timeStep;
+  }
 } else if(currentState == VISITOR_ENROUTE) {
 	// Move one step closer, avoiding obstacles
 	motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);
@@ -46,7 +66,7 @@ if(currentState == VISITOR_IDLE) {
 			// wait or give up
 			// give up for now
 			futureActivity = noone;
-			currentState = VISITOR_IDLE;
+			currentState = VISITOR_WAITING;
 			speed = 0;
 		}
 	}

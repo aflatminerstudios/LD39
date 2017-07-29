@@ -17,6 +17,8 @@ cabinetID.isBeingPlayed = false;
 
 /*TODO: Change this to something else, perhaps have some sets 
 of points it's safe to head towards and head towards closest?*/
-visitorID.targetLocation[0] = room_width/2;
-visitorID.targetLocation[1] = room_height/2;
+
+var target = instance_nearest(x, y, objWalkPoint);
+visitorID.targetLocation[0] = target.x;
+visitorID.targetLocation[1] = target.y;
 visitorID.currentState = VISITOR_ENROUTE;
