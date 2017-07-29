@@ -5,7 +5,7 @@
     "name": "objPowerManager",
     "eventList": [
         {
-            "id": "9836a3a5-8aeb-41de-ab95-e412a6b043ef",
+            "id": "31e1b0e4-7cd8-4a1c-aede-92abc124c515",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "13b17941-5399-4469-9e1b-55b3901423c9"
         },
         {
-            "id": "b0ef05fc-902e-40a9-8696-73ae04e0b49a",
+            "id": "c77481b0-904f-4a00-8f70-c7692d04c527",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

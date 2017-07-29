@@ -5,7 +5,7 @@
     "name": "objCabinet",
     "eventList": [
         {
-            "id": "61df87a6-2837-4773-bef7-bf0c3013cc9e",
+            "id": "cde6c7e5-94b2-4e45-8aae-f2d0e2da8ac0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "2ed4a512-b89b-4036-bc27-58ef3ee1d7c9"
         },
         {
-            "id": "6b51daf3-8f52-423a-a6be-0b5771ee33c6",
+            "id": "bd937bf7-8920-4aa9-be3c-cc71e1a6bb94",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "2ed4a512-b89b-4036-bc27-58ef3ee1d7c9"
         },
         {
-            "id": "5f73a1dd-40d0-41c1-85d5-64ca5d64f6ef",
+            "id": "3b166223-7751-4ee2-829c-0e713ab57597",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

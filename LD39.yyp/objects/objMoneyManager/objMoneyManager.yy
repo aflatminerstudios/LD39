@@ -5,7 +5,7 @@
     "name": "objMoneyManager",
     "eventList": [
         {
-            "id": "0972999a-fa23-4b39-8a65-aad424df0f8b",
+            "id": "9ee692dd-0d12-48ef-9c62-2612196e3891",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "1bf623c3-d19e-402a-b1e9-ebb97f883c75"
         },
         {
-            "id": "d14b1b33-31fd-489d-9154-a72f81a5d94d",
+            "id": "592305ce-c2ca-4186-a597-6d99e164e258",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "1bf623c3-d19e-402a-b1e9-ebb97f883c75"
         },
         {
-            "id": "1c6c716c-de9d-4f73-8aeb-5d7d51cc6a6f",
+            "id": "b58e22e7-93aa-414d-a072-8e3e1cbcbd8f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

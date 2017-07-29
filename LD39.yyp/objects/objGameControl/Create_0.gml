@@ -3,6 +3,3 @@
 
 timeStep = room_speed * 5;
 timeStepsInDay = 24;
-
-instance_create_layer(x, y, "Managers", objMoneyManager);
-instance_create_layer(x, y, "Managers", objPowerManager);
