@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Change depth
+depth = layer_get_depth(layer) - ( y + sprite_height / 2);
+
+//Handle state
 if(currentState == VISITOR_IDLE) {
 		scrFindCabinetToPlayForVisitor(self.id);
 		// Didn't find someting to do, so just go to the center of the room
