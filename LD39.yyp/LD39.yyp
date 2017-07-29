@@ -224,7 +224,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scrFindCabinetToPlay\/scrFindCabinetToPlay.yy",
+                "resourcePath": "scripts\/scrFindCabinetToPlayForVisitor\/scrFindCabinetToPlayForVisitor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -321,6 +321,25 @@
                 ],
                 "resourcePath": "views\/5ca981bb-61a0-40ec-a6a8-26850888d815.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
+            "Value": {
+                "id": "0991f7f5-2eac-40b4-9165-57421a091c59",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrPlayCabinetWithVisitor\/scrPlayCabinetWithVisitor.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -785,7 +804,8 @@
         "deed745a-555b-461f-96d1-1c64ee28fd2f",
         "ac0c7180-847c-4b70-8564-82a4eaf7081a",
         "2622fca6-06d5-487b-a489-eba6da93426f",
-        "39a8e03b-5302-4c3c-8763-0aa623fc42f1"
+        "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
+        "65b0fe0f-edc0-42c3-89f2-b145ef69d523"
     ],
     "tutorial": ""
 }

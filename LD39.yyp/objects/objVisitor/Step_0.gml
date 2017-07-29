@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 if(currentActivity == noone) {
-	scrFindCabinetToPlay(self.id);
+	scrFindCabinetToPlayForVisitor(self.id);
 }
