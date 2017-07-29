@@ -4,6 +4,6 @@
 money -= rent + powerCost;
 
 if (money < 0) {
-	show_message("YOU LOSE! Money is negative!");
+	show_debug_message("YOU LOSE! Money is negative!");
 	room_goto(room0);
 }
