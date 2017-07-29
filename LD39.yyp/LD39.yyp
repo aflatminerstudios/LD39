@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2b65a9c3-37b7-4174-a0a0-7a565f38a4f9",
+            "Value": {
+                "id": "bae10be7-521a-4066-b307-9920576f813f",
+                "resourcePath": "sprites\\sprMPMCabinetPlaying\\sprMPMCabinetPlaying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b999a9d-96e0-4104-8f60-210561c7340e",
             "Value": {
                 "id": "827fddba-37f0-4b18-9e89-9700c6f68caa",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "5f0c5874-a6d5-44ce-8e49-bbcb384f1a5e",
+            "Value": {
+                "id": "ecac84ff-692a-48c2-84f0-a3a57144ca92",
+                "resourcePath": "sprites\\sprMPMCabinetFried\\sprMPMCabinetFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "64f08d98-9877-42eb-98d1-a9d307ac2d5e",
             "Value": {
                 "id": "efe39904-f3ae-44d8-8e7f-dc3303a7cd88",
@@ -207,6 +223,14 @@
             }
         },
         {
+            "Key": "72384546-fe8b-425d-ad49-4f5db9bcb250",
+            "Value": {
+                "id": "766da8cb-1fbe-425b-aa9b-303a1f937857",
+                "resourcePath": "views\\72384546-fe8b-425d-ad49-4f5db9bcb250.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "76dff1ea-094c-4b7d-9a0c-3ae4042f40aa",
             "Value": {
                 "id": "94aab6b2-7282-4905-9b1d-08ccc64c506e",
@@ -228,6 +252,14 @@
                 "id": "941c76a6-0725-48f2-b614-047ab57a7b73",
                 "resourcePath": "shaders\/shaderLights\/shaderLights.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "7baa55d1-39dc-49d7-84c7-d46d9e05f786",
+            "Value": {
+                "id": "f84ce9ab-78f8-443b-bf43-bdee952ba3d6",
+                "resourcePath": "sprites\\sprMPMCabinetOff\\sprMPMCabinetOff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -436,6 +468,22 @@
                 "id": "c6267071-68b3-406a-9977-ddfcf58e216c",
                 "resourcePath": "scripts\/scrGetPowerUsage\/scrGetPowerUsage.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e150f47a-f43b-425f-9ff9-8f33299e5b10",
+            "Value": {
+                "id": "28b31a4d-904e-45e7-baaa-6fabc835d783",
+                "resourcePath": "sprites\\sprMPMCabinetOn\\sprMPMCabinetOn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e154199c-6749-4e84-b184-b79cbdf16b0e",
+            "Value": {
+                "id": "56fe6128-ded4-488f-abe9-ed94e12f08ba",
+                "resourcePath": "objects\\objMPMCabinet\\objMPMCabinet.yy",
+                "resourceType": "GMObject"
             }
         },
         {

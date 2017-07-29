@@ -17,6 +17,8 @@ incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 //sprites
 onSprite = sprCabinet;
 offSprite = sprCabinetOff;
+playingSprite = sprCabinet;
+friedSprite = sprCabinet;
 
 //user related variables
 style = 0;

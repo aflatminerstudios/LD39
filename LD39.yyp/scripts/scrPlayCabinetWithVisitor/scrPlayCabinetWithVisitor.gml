@@ -16,3 +16,4 @@ visitorInstance.futureActivity = noone;
 visitorInstance.speed = 0;
 
 cabinetInstance.isBeingPlayed = true;
+cabinetInstance.sprite_index = cabinetInstance.playingSprite;
