@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "2ed4a512-b89b-4036-bc27-58ef3ee1d7c9",
+            "Value": {
+                "id": "3a109b70-517c-4f6e-a3a4-d11eb127132e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objCabinet\/objCabinet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3064573a-feb4-4f13-980c-f149a956db54",
             "Value": {
                 "id": "c079366f-2bbc-46ca-ab92-7a12d892af0b",
@@ -150,6 +169,25 @@
                 ],
                 "resourcePath": "views\/51269d3f-0f42-4f71-9a7c-f14dff9bac6b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b2e5a9d-6da6-4f07-a7a9-dea6eb18c6f0",
+            "Value": {
+                "id": "739995ad-6635-460a-9003-8078f1e6a09a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprCabinet\/sprCabinet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
