@@ -16,3 +16,5 @@ onSprite = sprMPMCabinetOn;
 offSprite = sprMPMCabinetOff;
 playingSprite = sprMPMCabinetPlaying;
 friedSprite = sprMPMCabinetFried;
+
+reflection.sprite_index = sprMPMReflection;

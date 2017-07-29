@@ -27,3 +27,7 @@ baseHappiness = 0.10;
 coinBox = 0.0;
 
 lowPowerAdjustment = 0;
+
+
+//Related objects
+reflection = instance_create_layer(x, y, "Reflections", objReflection);
