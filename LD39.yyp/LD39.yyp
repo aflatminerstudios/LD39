@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "94508565-2c70-4ebb-b4b3-6eead5099bf1",
+            "Value": {
+                "id": "3ffff030-06f6-4c2f-ae20-2106b3216ba9",
+                "resourcePath": "scripts\\scrCreateMacros\\scrCreateMacros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a41422eb-7690-4cae-8f36-83073f009e43",
             "Value": {
                 "id": "016291f4-6c53-48d0-9d1d-c77215085389",
