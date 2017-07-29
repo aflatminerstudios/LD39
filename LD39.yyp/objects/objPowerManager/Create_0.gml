@@ -7,6 +7,9 @@ usedPower = 0;
 powerDifference = 0;
 brightness = 1.0;
 
+minTime = 5;
+maxTime = 15;
+
 
 //fluctuate in alarm[0]
-alarm[0] = irandom_range(1, 5) * room_speed;
+alarm[0] = irandom_range(minTime, maxTime) * room_speed;
