@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "84cfd20b-514e-42d7-b8bd-070b5be78115",
+            "Value": {
+                "id": "4d24f222-d54a-41d3-9e6b-a6b99814bd46",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrGetCabinetIncome\/scrGetCabinetIncome.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "870946fd-f22e-4ef0-9634-f231945a8373",
             "Value": {
                 "id": "48dadb40-21ba-440f-8c05-04e2947a0fa4",
@@ -552,6 +571,25 @@
             }
         },
         {
+            "Key": "deed745a-555b-461f-96d1-1c64ee28fd2f",
+            "Value": {
+                "id": "07c9686e-6840-41ff-8983-5ed5d4501c5d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrGetPowerUsage\/scrGetPowerUsage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "1f994459-8128-41da-bc5e-2bf1269b3581",
@@ -591,7 +629,8 @@
         }
     ],
     "script_order": [
-        
+        "deed745a-555b-461f-96d1-1c64ee28fd2f",
+        "84cfd20b-514e-42d7-b8bd-070b5be78115"
     ],
     "tutorial": ""
 }
