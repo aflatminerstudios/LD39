@@ -106,7 +106,7 @@
             "Key": "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
             "Value": {
                 "id": "ba02c8ef-2789-43c4-805c-aff5927b1e44",
-                "resourcePath": "scripts\/scrFindCabinetToPlay\/scrFindCabinetToPlay.yy",
+                "resourcePath": "scripts\/scrFindCabinetToPlayForVisitor\/scrFindCabinetToPlayForVisitor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -163,6 +163,14 @@
             "Value": {
                 "id": "efe39904-f3ae-44d8-8e7f-dc3303a7cd88",
                 "resourcePath": "scripts\\scrLayerShaderEnd\\scrLayerShaderEnd.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
+            "Value": {
+                "id": "0991f7f5-2eac-40b4-9165-57421a091c59",
+                "resourcePath": "scripts\/scrPlayCabinetWithVisitor\/scrPlayCabinetWithVisitor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -242,7 +250,7 @@
             "Key": "94508565-2c70-4ebb-b4b3-6eead5099bf1",
             "Value": {
                 "id": "3ffff030-06f6-4c2f-ae20-2106b3216ba9",
-                "resourcePath": "scripts\\scrCreateMacros\\scrCreateMacros.yy",
+                "resourcePath": "scripts\/scrCreateMacros\/scrCreateMacros.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -375,6 +383,7 @@
         "94508565-2c70-4ebb-b4b3-6eead5099bf1",
         "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
         "3bae9287-5eed-4319-9071-cd43f9109ca7",
+        "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
         "c90f6540-2dfa-4a9c-a157-eb10299423e6",
         "64f08d98-9877-42eb-98d1-a9d307ac2d5e"
     ],
