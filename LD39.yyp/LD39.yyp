@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "76dff1ea-094c-4b7d-9a0c-3ae4042f40aa",
+            "Value": {
+                "id": "94aab6b2-7282-4905-9b1d-08ccc64c506e",
+                "resourcePath": "objects\\objCircuit\\objCircuit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b4313b7-2dac-46d9-b36a-b1de094881cb",
             "Value": {
                 "id": "941c76a6-0725-48f2-b614-047ab57a7b73",
