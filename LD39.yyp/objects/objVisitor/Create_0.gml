@@ -38,6 +38,14 @@ energy = 1.0;
 moneyOnHand = 100.0;
 
 
+//Sets up how much a particular visitor likes each style. All the same for now.
+
+for (var i = 0; i < NUM_STYLES; ++i) {
+  stylePrefs[i] = 1.0;
+}
+
+
+
 //Calculate endurance every time step
 alarm[0] = objGameControl.timeStep;
 

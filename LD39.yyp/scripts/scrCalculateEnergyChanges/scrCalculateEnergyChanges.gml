@@ -11,7 +11,7 @@ with (visitorID) {
   } else if (currentState = VISITOR_ACTIVE) {
     if (scrIsActivityCabinet(currentActivity)) {
       //If currently playing, you don't lose energy as fast
-      amountToChange += 0.025;
+      amountToChange += 0.025 * stylePrefs[currentActivity.style];
     }
   } else if (currentState = VISITOR_WAITING) {
   
