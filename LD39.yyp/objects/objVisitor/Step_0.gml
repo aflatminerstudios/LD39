@@ -3,6 +3,12 @@
 
 if(currentState == VISITOR_IDLE) {
 		scrFindCabinetToPlayForVisitor(self.id);
+		// Didn't find someting to do, so just go to the center of the room
+		if(currentState == VISITOR_IDLE) {
+			targetLocation[0] = room_width/2;
+			targetLocation[1] = room_height/2;
+			currentState = VISITOR_ENROUTE;
+		}
 } else if(currentState == VISITOR_ACTIVE) {
 
 } else if(currentState == VISITOR_WAITING) {
@@ -13,11 +19,12 @@ if(currentState == VISITOR_IDLE) {
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
 	
-	// Check if we are there and interact with activity instance\
+	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
 	if(distance_to_point(targetLocation[0], targetLocation[1]) < 10.0) {
-		if(!futureActivity.isBeingPlayed) {
+		if(futureActivity != noone &&
+			 futureActivity.isPowered && !futureActivity.isBeingPlayed) {
 			scrPlayCabinetWithVisitor(futureActivity, self.id);
 			return;
 		} else {
