@@ -180,8 +180,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_185D7ADB",
-                    "x": 160,
-                    "y": 608,
+                    "x": 448,
+                    "y": 384,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -204,7 +204,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_73733630",
-                    "x": 256,
+                    "x": 352,
                     "y": 448,
                     "IsDnD": false,
                     "colour": {
@@ -301,8 +301,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_60B5C315",
-                    "x": 64,
-                    "y": 352,
+                    "x": 128,
+                    "y": 320,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -350,7 +350,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_1571A81A",
                     "x": 640,
-                    "y": 160,
+                    "y": 192,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -374,7 +374,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_6B9D3024",
                     "x": 768,
-                    "y": 224,
+                    "y": 256,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -398,7 +398,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_34F72B76",
                     "x": 896,
-                    "y": 320,
+                    "y": 288,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -511,11 +511,11 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "20452c61-f9f0-431b-b489-2de9cf6319fb",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
