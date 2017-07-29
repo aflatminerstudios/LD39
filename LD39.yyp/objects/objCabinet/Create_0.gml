@@ -3,7 +3,10 @@
 
 isPowered = true;
 
-powerUsage = 45.0;
+powerUsage = 30.0;
 incomePerPlay = 0.25;
 
-incomePerTimeStep = 10.0;
+incomePerTimeStep = 5.0;
+
+onSprite = sprCabinet;
+offSprite = sprCabinetOff;

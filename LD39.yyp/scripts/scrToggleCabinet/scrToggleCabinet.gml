@@ -8,9 +8,9 @@ with (cabinetID) {
 	isPowered = !isPowered;
 
 	if(isPowered) {
-		sprite_index = sprCabinet;
+		sprite_index = onSprite;
 	} else {
-		sprite_index = sprCabinetOff;
+		sprite_index = offSprite;
 	}
 }
 

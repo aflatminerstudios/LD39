@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "18ad76a6-47b4-4d65-9762-e562aed7855c",
+            "Value": {
+                "id": "fae43c3b-cf8b-474b-a0b5-dc37583ed1d7",
+                "resourcePath": "objects\\objRightCabinet\\objRightCabinet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1bf623c3-d19e-402a-b1e9-ebb97f883c75",
             "Value": {
                 "id": "868b8f5f-ca79-4694-9054-cbea8f66f8a5",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "aa611d9f-6489-487b-abec-6fab8ee6f679",
+            "Value": {
+                "id": "7999636f-3d1c-4a2e-ab9e-e3df19a902f0",
+                "resourcePath": "sprites\\sprRightCabinetOff\\sprRightCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac0c7180-847c-4b70-8564-82a4eaf7081a",
             "Value": {
                 "id": "e1337ab7-7859-49bc-baf1-0e272ff8a328",
@@ -204,6 +220,14 @@
                 "id": "bb37fc91-7e8a-438a-98f6-4a9a776d7570",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d59bd09d-fca0-4c6a-9d93-f2e83b216c88",
+            "Value": {
+                "id": "eb6414f5-f538-43fd-aa78-5d90e412a0c5",
+                "resourcePath": "sprites\\sprRightCabinet\\sprRightCabinet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
