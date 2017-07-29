@@ -20,7 +20,7 @@ offSprite = sprCabinetOff;
 
 //user related variables
 style = 0;
-baseHappiness = 10;
+baseHappiness = 0.10;
 
 coinBox = 0.0;
 

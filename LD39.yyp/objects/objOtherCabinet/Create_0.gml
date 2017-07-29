@@ -9,7 +9,7 @@ incomePerTimeStep = 7.0;
 incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 
 style = STYLE_SHMUP;
-baseHappiness = 25;
+baseHappiness = 0.25;
 
 
 onSprite = sprOtherCabinet;

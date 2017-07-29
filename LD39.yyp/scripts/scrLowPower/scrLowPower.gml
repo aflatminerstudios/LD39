@@ -14,10 +14,10 @@ if (r < 0.10) {
   adjust = -0.5 * cabinetID.baseHappiness;
 } else if (r < 0.50) {
   //just drops by a basic 5
-  adjust = -5;
+  adjust = -0.05;
 } else if (r < 0.70) {
   //25% chance good things happen
-  adjust = 5;
+  adjust = 0.05;
 } else if (r < 0.75) {
   //5% chance happiness doubles
   adjust = cabinetID.baseHappiness;
