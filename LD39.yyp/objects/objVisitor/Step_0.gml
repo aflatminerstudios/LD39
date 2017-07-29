@@ -10,8 +10,11 @@ if(currentState == VISITOR_IDLE) {
 			currentState = VISITOR_ENROUTE;
 		}
 } else if(currentState == VISITOR_ACTIVE) {
+  //Remove money
+  if (scrIsActivityCabinet(currentActivity)) {
+    moneyOnHand = clamp(moneyOnHand - currentActivity.incomePerStep, 0, moneyOnHand);
+  }
   
-  //Most of this is being done in alarm[0], perhaps need a check for stopping activity
 } else if(currentState == VISITOR_WAITING) {
 	// if alarm is not active, set waiting alarm
 } else if(currentState == VISITOR_ENROUTE) {
