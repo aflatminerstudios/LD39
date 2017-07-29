@@ -3,5 +3,16 @@
 var visitorID = argument0;
 var cabinetID = argument1;
 
-var amountToChange = stylePrefs[cabinetID.style] * cabinetID.baseHappiness;
+var styleMult = visitorID.stylePrefs[cabinetID.style];
+var amountToChange = styleMult * cabinetID.baseHappiness;
 visitorID.happiness = clamp(visitorID.happiness + amountToChange, 0.0, 1.0);
+
+//Decide if user wants to quit playing
+
+var chanceToStay = visitorID.happiness * 0.75 * styleMult;
+var r = random(1);    
+
+if (r > chanceToStay) {
+  visitorID.alarm[2] = room_speed * random(0.75);
+}
+

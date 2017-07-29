@@ -12,8 +12,19 @@ if(currentState == VISITOR_IDLE) {
 } else if(currentState == VISITOR_ACTIVE) {
   //Remove money
   if (scrIsActivityCabinet(currentActivity)) {
-    moneyOnHand = clamp(moneyOnHand - currentActivity.incomePerStep, 0, moneyOnHand);
+    moneyOnHand = clamp(moneyOnHand - currentActivity.incomePerStep, 0, moneyOnHand);  
+    //Always quit immediately when visitor runs out of money
+    if (moneyOnHand == 0) {
+      alarm[2] = 1;
+    }
+    //Or cabinet gets turned off
+    if (!currentActivity.isPowered) {
+      alarm[2] = 1;
+    }  
   }
+  
+  
+  timeInActivity += 1;
   
 } else if(currentState == VISITOR_WAITING) {
 	// if alarm is not active, set waiting alarm

@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "79ac4f0b-ba3f-43da-b91c-2f7716093353",
+            "Value": {
+                "id": "b40956cf-1b31-4db7-9601-285c7f0e7810",
+                "resourcePath": "scripts\\scrStopPlayingCabinetWithVisitor\\scrStopPlayingCabinetWithVisitor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7b4313b7-2dac-46d9-b36a-b1de094881cb",
             "Value": {
                 "id": "941c76a6-0725-48f2-b614-047ab57a7b73",
@@ -499,6 +507,7 @@
         "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
         "2a42ea6b-21c0-4363-bc0b-75d6d769f38c",
         "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
+        "79ac4f0b-ba3f-43da-b91c-2f7716093353",
         "f1489e3e-067e-4f51-b826-ccbb2dc5611b",
         "684e9dbe-3af0-4166-a767-777da900cdb8",
         "fa66e190-4388-49db-bfb8-982a0dd459b8",

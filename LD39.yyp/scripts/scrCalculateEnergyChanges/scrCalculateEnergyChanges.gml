@@ -21,11 +21,11 @@ with (visitorID) {
   
   
   //Now adjust how much you want to leave based on happiness
-  if (happiness < 50) {    
-    var c = (50 - happiness) / 50;
+  if (happiness < 0.5) {    
+    var c = (0.5 - happiness) / 0.5;
     amountToChange = -0.2 * c * c * c * c + amountToChange;
   } else {
-    var c = (happiness - 50) / 50;
+    var c = (happiness - 0.5) / 0.5;
     amountToChange = 0.2 * c * c * c * c + amountToChange;
   }
   

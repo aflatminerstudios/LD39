@@ -23,5 +23,8 @@ if ( r >= toCompare) {
 } else {
   //Leave, will need to do something here, temporarily setting another alarm
   //random so they don't always leave on step
-  alarm[1] = 2 * room_speed * random(1);
+  //alarm[1] = 2 * room_speed * random(1);
+  
+  //TODO: REMOVE THIS LATER WHEN THEY ACTUALLY LEAVE
+  alarm[0] = objGameControl.timeStep;
 }

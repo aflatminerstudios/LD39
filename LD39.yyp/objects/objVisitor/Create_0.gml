@@ -39,10 +39,12 @@ moneyOnHand = 100.0;
 
 
 //Sets up how much a particular visitor likes each style. All the same for now.
-
 for (var i = 0; i < NUM_STYLES; ++i) {
   stylePrefs[i] = 1.0;
 }
+
+//Number of steps user has been doing current activity, used to help decide if they quit
+timeInActivity = 0;
 
 
 
