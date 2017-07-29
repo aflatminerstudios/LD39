@@ -408,6 +408,25 @@
             }
         },
         {
+            "Key": "684e9dbe-3af0-4166-a767-777da900cdb8",
+            "Value": {
+                "id": "c47ce8a4-faa1-4cfe-a7dd-72cb6a4e3fcc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrGetRandomPoweredCabinet\/scrGetRandomPoweredCabinet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "8ec872e3-a54c-448b-9dcc-ad0996f2f63f",
@@ -652,6 +671,25 @@
             }
         },
         {
+            "Key": "9e92d439-33f8-43e8-a9db-efcb0e836752",
+            "Value": {
+                "id": "d294f58f-b64d-4694-8f2e-cb7439509960",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/9e92d439-33f8-43e8-a9db-efcb0e836752.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a41422eb-7690-4cae-8f36-83073f009e43",
             "Value": {
                 "id": "016291f4-6c53-48d0-9d1d-c77215085389",
@@ -888,6 +926,25 @@
             }
         },
         {
+            "Key": "f1489e3e-067e-4f51-b826-ccbb2dc5611b",
+            "Value": {
+                "id": "fd7c110c-51d3-4bc4-b5bd-c87b664189a6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrGetRandomCabinet\/scrGetRandomCabinet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f19c5fdd-1933-4a3c-b924-cfe00c91d3b8",
             "Value": {
                 "id": "11265f6a-8543-4359-bfd8-760da1909b10",
@@ -923,6 +980,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa66e190-4388-49db-bfb8-982a0dd459b8",
+            "Value": {
+                "id": "19eb20cc-2d15-4bc1-977c-bc38b49c2a5e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrGetRandomOpenPoweredCabinet\/scrGetRandomOpenPoweredCabinet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -965,17 +1041,20 @@
         }
     ],
     "script_order": [
-        "84cfd20b-514e-42d7-b8bd-070b5be78115",
         "deed745a-555b-461f-96d1-1c64ee28fd2f",
-        "ac0c7180-847c-4b70-8564-82a4eaf7081a",
         "2622fca6-06d5-487b-a489-eba6da93426f",
         "94508565-2c70-4ebb-b4b3-6eead5099bf1",
-        "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
+        "84cfd20b-514e-42d7-b8bd-070b5be78115",
+        "ac0c7180-847c-4b70-8564-82a4eaf7081a",
         "3bae9287-5eed-4319-9071-cd43f9109ca7",
-        "c90f6540-2dfa-4a9c-a157-eb10299423e6",
-        "64f08d98-9877-42eb-98d1-a9d307ac2d5e",
+        "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
+        "2a42ea6b-21c0-4363-bc0b-75d6d769f38c",
         "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
-        "2a42ea6b-21c0-4363-bc0b-75d6d769f38c"
+        "f1489e3e-067e-4f51-b826-ccbb2dc5611b",
+        "684e9dbe-3af0-4166-a767-777da900cdb8",
+        "fa66e190-4388-49db-bfb8-982a0dd459b8",
+        "c90f6540-2dfa-4a9c-a157-eb10299423e6",
+        "64f08d98-9877-42eb-98d1-a9d307ac2d5e"
     ],
     "tutorial": ""
 }
