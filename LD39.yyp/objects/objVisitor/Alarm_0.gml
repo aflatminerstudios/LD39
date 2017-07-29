@@ -1,5 +1,12 @@
-/// @description Calculate energy and whether to leave
+/// @description Visitor updates every timestep
 // You can write your code in this editor
+
+//Visitor is playing cabinet
+if (scrIsActivityCabinet(currentActivity)) {
+  //Adjust visitor's happiness based on cabinet being played
+  scrVisitorCabinetActivity(self.id, currentActivity);
+}
+
 
 scrCalculateEnergyChanges(self.id);
 
