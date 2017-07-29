@@ -4,6 +4,7 @@
 money = 0;
 rent = 100;
 powerCost = 0;
+powerIncrement = 5;
 
 
 

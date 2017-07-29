@@ -421,7 +421,7 @@
         {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
-                "id": "95e9e1f3-d813-43fc-86f1-db7a2e6b5583",
+                "id": "3ec74620-4049-49cb-8d42-0b7da98f8d23",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -511,6 +511,25 @@
                 ],
                 "resourcePath": "views\/93f2416d-ee36-4a69-8544-43c15b6a1175.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "94508565-2c70-4ebb-b4b3-6eead5099bf1",
+            "Value": {
+                "id": "3ffff030-06f6-4c2f-ae20-2106b3216ba9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrCreateMacros\/scrCreateMacros.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -706,7 +725,7 @@
         {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
-                "id": "e940315d-f7e9-4cff-8651-21150508150d",
+                "id": "210e7479-def8-409b-9586-298b581f79e0",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -805,7 +824,8 @@
         "ac0c7180-847c-4b70-8564-82a4eaf7081a",
         "2622fca6-06d5-487b-a489-eba6da93426f",
         "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
-        "65b0fe0f-edc0-42c3-89f2-b145ef69d523"
+        "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
+        "94508565-2c70-4ebb-b4b3-6eead5099bf1"
     ],
     "tutorial": ""
 }

@@ -13,10 +13,11 @@ with (objCabinet) {
 
 
 if (usedPower > totalPower) {
-
+	show_message("TOO MUCH POWER!");
+	
 	with (objCabinet) {
 		if (isPowered) {
-			scrLowPower(self.id);
+			scrToggleCabinet(self.id);
 		}
 	}
 	
