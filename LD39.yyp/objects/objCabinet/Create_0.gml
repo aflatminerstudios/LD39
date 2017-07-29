@@ -24,4 +24,4 @@ baseHappiness = 10;
 
 coinBox = 0.0;
 
-
+lowPowerAdjustment = 0;
