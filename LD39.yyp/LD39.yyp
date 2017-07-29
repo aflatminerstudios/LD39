@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "2a42ea6b-21c0-4363-bc0b-75d6d769f38c",
+            "Value": {
+                "id": "25f62919-eebe-4aca-890d-707b9bf3be16",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrSetTargetCabinetForVisitor\/scrSetTargetCabinetForVisitor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2b999a9d-96e0-4104-8f60-210561c7340e",
             "Value": {
                 "id": "827fddba-37f0-4b18-9e89-9700c6f68caa",
@@ -824,6 +843,7 @@
         "ac0c7180-847c-4b70-8564-82a4eaf7081a",
         "2622fca6-06d5-487b-a489-eba6da93426f",
         "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
+        "2a42ea6b-21c0-4363-bc0b-75d6d769f38c",
         "65b0fe0f-edc0-42c3-89f2-b145ef69d523",
         "94508565-2c70-4ebb-b4b3-6eead5099bf1"
     ],

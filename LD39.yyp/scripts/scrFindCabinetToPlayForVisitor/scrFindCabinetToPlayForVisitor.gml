@@ -4,7 +4,7 @@ var visitorInstance = argument0;
 
 with(objCabinet) {
 	if(!isBeingPlayed) {
-		scrPlayCabinetWithVisitor(self.id, visitorInstance);
+		scrSetTargetCabinetForVisitor(self.id, visitorInstance);
 		return;
 	}
 }
