@@ -3,5 +3,5 @@
 
 randomise();
 
-timeStep = room_speed * 5;
-timeStepsInDay = 3;
+timeStep = room_speed * 2;
+timeStepsInDay = 12;
