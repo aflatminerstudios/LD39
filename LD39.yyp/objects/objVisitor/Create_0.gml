@@ -38,6 +38,10 @@ energy = 1.0;
 moneyOnHand = 100.0;
 
 
+//Calculate endurance every time step
+alarm[0] = objGameControl.timeStep;
+
+
 
 
 

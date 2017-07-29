@@ -10,7 +10,12 @@ if(currentState == VISITOR_IDLE) {
 			currentState = VISITOR_ENROUTE;
 		}
 } else if(currentState == VISITOR_ACTIVE) {
-
+  
+  //Visitor is playing cabinet
+  if (scrIsActivityCabinet(currentActivity)) {
+    //Adjust visitor's happiness based on cabinet being played
+    scrVisitorCabinetActivity(self.id, currentActivity);
+  }
 } else if(currentState == VISITOR_WAITING) {
 	// if alarm is not active, set waiting alarm
 } else if(currentState == VISITOR_ENROUTE) {
