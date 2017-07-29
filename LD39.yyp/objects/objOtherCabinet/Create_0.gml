@@ -4,13 +4,13 @@
 //call parent event
 event_inherited();
 
-powerUsage = 20.0;
-incomePerTimeStep = 3.0;
+powerUsage = 50.0;
+incomePerTimeStep = 7.0;
 incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 
-style = STYLE_ACTION;
-baseHappiness = 15;
+style = STYLE_SHMUP;
+baseHappiness = 25;
 
 
-onSprite = sprRightCabinet;
-offSprite = sprRightCabinetOff;
+onSprite = sprOtherCabinet;
+offSprite = sprOtherCabinetOff;
