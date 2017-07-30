@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_self();
+
 
 var boxCount = 0;
 
@@ -24,15 +24,20 @@ if (totalBoxes < usedBoxes)
 
 totalBoxes -= usedBoxes;
 
+var color = c_white;
 
+if (isInDanger)
+  color = c_red;
+
+draw_sprite_ext(sprite_index, 0, x, y, 1, 1, 0, color, 1);
 
 for (var i = 0; i < usedBoxes; ++i) {
-  draw_sprite(sprPowerFull, 0, x + 30 + 10 * boxCount, y);
+  draw_sprite_ext(sprPowerFull, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
   boxCount += 1;
 }
 
 for (var i = 0; i < totalBoxes; ++i) {
-  draw_sprite(sprPowerEmpty, 0, x + 30 + 10 * boxCount, y);
+  draw_sprite_ext(sprPowerEmpty, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
   boxCount += 1;
 }
 

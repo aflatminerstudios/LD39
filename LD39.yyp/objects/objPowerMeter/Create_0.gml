@@ -3,3 +3,5 @@
 
 isPowerIncreasing = false;
 isPowerDecreasing = false;
+
+isInDanger = false;

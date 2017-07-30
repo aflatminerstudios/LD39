@@ -13,25 +13,17 @@ with (objCabinet) {
 
 
 if (usedPower > totalPower) {
-  if (usedPower > totalPower + 25) {
-    //Turn them all off
-    with (objCabinet) {
-  		if (isPowered) {
-  			scrToggleCabinet(self.id);
-  		}
-  	}    
-    
-  } else {
-    if (!isLowPower) {
-    //low power mode
-    	with (objCabinet) {
-    		if (isPowered) {
-    			scrLowPower(self.id);
-    		}
-    	}
-  	}
+  
+  if (!isInDanger) {
+    alarm[3] = room_speed * 2;
   }
-  isLowPower = true;
+  
+  if ((usedPower > totalPower + 25) && isLowPower && alarm[3] <= 0) {
+    alarm[3] = 1;
+  }
+  objPowerMeter.isInDanger = true;
+  isInDanger = true;
+
 } else {
   if (isLowPower) {
     with (objCabinet) {
@@ -39,6 +31,10 @@ if (usedPower > totalPower) {
       lowPowerAdjustment = 0        
     }
   }
+  
+  isInDanger = false
+  objPowerMeter.isInDanger = false;
+  alarm[3] = -1;
   isLowPower = false;
 }
 
