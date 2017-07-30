@@ -5,10 +5,11 @@
 
 maxVisitors = 20;
 
+
 //Spawn initial visitors
 instance_create_layer(320, 544, "Instances", objVisitor);
-instance_create_layer(320, 544, "Instances", objVisitor);
-instance_create_layer(320, 544, "Instances", objVisitor);
+instance_create_layer(585, 358, "Instances", objVisitor);
+instance_create_layer(815, 500, "Instances", objVisitor);
 numVisitors= 3;
 
 

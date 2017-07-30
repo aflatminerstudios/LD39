@@ -1,10 +1,6 @@
 /// @description Spawn and set up points
 // You can write your code in this editor
 
-//This node is where people disappear and appear
-exitNode = instance_create_layer(265, 650, "WalkPoints", objWalkPoint);
-
-
 //These will be in groups of the "same" nodes, starting at similar positions and moving on
 //Will use data in objWalkPoint on similar nodes to populate
 numGroups = 8;

@@ -21,14 +21,15 @@ with (visitorID) {
   
   //If they have reached the target node
   if (distance_to_point(targetNode.x, targetNode.y) < 5.0) {
-    if (targetNode == objNavControl.exitNode) {
+    var door = instance_find(objDoorframe, 0);
+    if (targetNode == door) {
       targetNode = noone;
       nextNode = noone; 
       objVisitorManager.numVisitors -= 1;
       instance_destroy();
     } else {
-      nextNode = objNavControl.exitNode;
-      targetNode = nextNode;
+      nextNode = door;
+      targetNode = door;
     }  
   } else {
     //If they have reached the next node on their path
