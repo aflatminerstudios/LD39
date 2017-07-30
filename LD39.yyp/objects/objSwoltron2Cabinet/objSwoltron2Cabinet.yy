@@ -2,7 +2,7 @@
     "id": "f81dc541-4198-44ad-add2-66cd966e6423",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objSwoltronCabinet1",
+    "name": "objSwoltron2Cabinet",
     "eventList": [
         {
             "id": "74592a05-2646-4ffc-813c-33c56eba344b",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "c089f9ab-295b-4070-948d-b76e96d7fd69",
+    "spriteId": "89e7593a-bcd5-4846-bc67-dcd8ed36783c",
     "visible": true
 }

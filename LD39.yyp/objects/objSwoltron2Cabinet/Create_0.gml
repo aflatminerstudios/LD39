@@ -12,12 +12,12 @@ style = STYLE_PUZZLE;
 baseHappiness = 0.25;
 
 
-onSprite = sprSwoltronCabinetOn;
-offSprite = sprSwoltronCabinetOff;
-playingSprite = sprSwoltronCabinetPlaying;
-friedSprite = sprSwoltronCabinetFried;
+onSprite = sprSwoltron2CabinetOn;
+offSprite = sprSwoltron2CabinetOff;
+playingSprite = sprSwoltron2CabinetPlaying;
+friedSprite = sprSwoltron2CabinetFried;
 
-reflection.sprite_index = sprSwoltronCabinetReflection;
+reflection.sprite_index = sprSwoltron2CabinetReflection;
 
 playPos[0] = x - 16;
 playPos[1] = y + 81;

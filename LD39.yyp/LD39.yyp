@@ -628,6 +628,25 @@
             }
         },
         {
+            "Key": "3bf1f41c-3efe-40eb-bfda-a6114eaaa067",
+            "Value": {
+                "id": "08262d20-9091-4fc8-9fef-fe725ffef039",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/3bf1f41c-3efe-40eb-bfda-a6114eaaa067.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3eef34dc-e8d7-4a15-858e-4cc754006495",
             "Value": {
                 "id": "5888ad23-0c2c-4017-8eed-fe3dcb13a54e",
@@ -814,6 +833,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSwoltronCabinetReflection\/sprSwoltronCabinetReflection.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51258318-5ced-4d6c-9f95-2fa3b55132d4",
+            "Value": {
+                "id": "cca20136-89fd-4824-9d9c-331b61f541a6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltron2CabinetPlaying\/sprSwoltron2CabinetPlaying.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1008,6 +1046,25 @@
             }
         },
         {
+            "Key": "61044f5e-483d-49cc-8871-373f232190c7",
+            "Value": {
+                "id": "9d24737d-a399-4d57-9d17-5f7bf3677b39",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltron2CabinetReflection\/sprSwoltron2CabinetReflection.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "616ecf0e-53ab-442a-9e06-90026e04d361",
             "Value": {
                 "id": "22a5aea7-280d-42a3-bc4d-635e18c9694d",
@@ -1137,6 +1194,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprMsPinkManCabinetOff\/sprMsPinkManCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "715dc81f-4531-4064-abdf-9e1efeab65f9",
+            "Value": {
+                "id": "8b277f0a-bc2a-43bd-a9e0-c4e699df73c4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltron2CabinetOn\/sprSwoltron2CabinetOn.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1480,6 +1556,25 @@
                 ],
                 "resourcePath": "objects\/objOtherCabinet\/objOtherCabinet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "89e7593a-bcd5-4846-bc67-dcd8ed36783c",
+            "Value": {
+                "id": "c5354e6c-3df5-434b-bd12-63c3b81b5ec8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltron2CabinetOff\/sprSwoltron2CabinetOff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2075,7 +2170,18 @@
             "Key": "d0a1fbfd-4e17-4043-82f7-133a4b14cf45",
             "Value": {
                 "id": "ad9a9ec5-54d6-4a69-971c-0b1d02821e62",
-                "resourcePath": "fonts\\fontNormal\\fontNormal.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fontNormal\/fontNormal.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -2095,6 +2201,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprRightCabinet\/sprRightCabinet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d70b1947-4742-4f6c-ba37-c58ed2e0bcba",
+            "Value": {
+                "id": "dad6bcdb-3838-4bd4-a994-5a9cc3a6c26d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltron2CabinetFried\/sprSwoltron2CabinetFried.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2178,7 +2303,18 @@
             "Key": "dd1e3ae6-1100-4bcf-8e69-45015b4775f8",
             "Value": {
                 "id": "a882357d-ff13-41ac-ab5f-4df5188a8976",
-                "resourcePath": "fonts\\fontLarge\\fontLarge.yy",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/fontLarge\/fontLarge.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -2444,7 +2580,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/objSwoltronCabinet1\/objSwoltronCabinet1.yy",
+                "resourcePath": "objects\/objSwoltron2Cabinet\/objSwoltron2Cabinet.yy",
                 "resourceType": "GMObject"
             }
         },
