@@ -12,4 +12,7 @@ instance_create_layer(320, 544, "Instances", objVisitor);
 numVisitors= 3;
 
 
-alarm[0] = objGameControl.timeStep * random_range(0.5, 1.5);
+minTime = objGameControl.timeStep * 0.5;
+maxTime = objGameControl.timeStep * 3;
+
+alarm[0] = random_range(minTime, maxTime);

@@ -14,4 +14,4 @@ if (r < numVisitors || numVisitors == 0) {
   }
 }
 
-alarm[0] = objGameControl.timeStep * random_range(0.5, 1.5);
+alarm[0] = random_range(minTime, maxTime);
