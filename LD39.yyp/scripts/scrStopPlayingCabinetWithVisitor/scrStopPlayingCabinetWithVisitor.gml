@@ -22,6 +22,7 @@ var target = instance_nearest(x, y, objWalkPoint);
 visitorID.targetLocation[0] = target.x;
 visitorID.targetLocation[1] = target.y;
 visitorID.currentState = VISITOR_ENROUTE;
+visitorID.timeInActivity = 0;
 
 if (cabinetID.isPowered) 
   cabinetID.sprite_index = cabinetID.onSprite;
