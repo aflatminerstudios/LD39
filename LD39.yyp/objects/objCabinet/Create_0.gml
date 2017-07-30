@@ -31,3 +31,6 @@ lowPowerAdjustment = 0;
 
 //Related objects
 reflection = instance_create_layer(x, y, "Reflections", objReflection);
+
+playPos[0] = x;
+playPos[1] = y + 75;

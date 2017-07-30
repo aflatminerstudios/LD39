@@ -1,7 +1,7 @@
 /// @description Change depth and collect money if being played
 // You can write your code in this editor
 
-depth = layer_get_depth(layer) - (y + sprite_height / 2);
+depth = layer_get_depth("Instances") - (y + sprite_height / 2);
 
 if (isPowered && isFunctional && isBeingPlayed) {
   coinBox += incomePerStep;

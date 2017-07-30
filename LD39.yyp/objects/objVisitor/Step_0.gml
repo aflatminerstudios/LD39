@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Change depth
-depth = layer_get_depth(layer) - ( y + sprite_height / 2);
+depth = layer_get_depth("Instances") - ( y + sprite_height / 2);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
@@ -16,7 +16,7 @@ if(currentState == VISITOR_IDLE) {
       var tar3 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
       var d1 = distance_to_point(tar1.x, tar1.y);
       var d2 = distance_to_point(tar1.x, tar1.y);
-      var d3 = distance_to_point(tar1.x, tar1.y);
+      var d3 = 9999//;distance_to_point(tar1.x, tar1.y);
       var target;
       if (d1 < d2 && d1 < d3) {
         target = tar1;
@@ -61,7 +61,7 @@ if(currentState == VISITOR_IDLE) {
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
-	if(distance_to_point(targetLocation[0], targetLocation[1]) < 10.0) {
+	if(distance_to_point(targetLocation[0], targetLocation[1]) < 1.0) {
 		if(futureActivity != noone &&
 			 futureActivity.isPowered && !futureActivity.isBeingPlayed) {
 			scrPlayCabinetWithVisitor(futureActivity, self.id);

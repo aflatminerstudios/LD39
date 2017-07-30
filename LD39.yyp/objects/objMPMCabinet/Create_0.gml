@@ -18,3 +18,6 @@ playingSprite = sprMPMCabinetPlaying;
 friedSprite = sprMPMCabinetFried;
 
 reflection.sprite_index = sprMPMReflection;
+
+playPos[0] = x + 16;
+playPos[1] = y + 81;

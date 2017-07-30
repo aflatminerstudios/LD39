@@ -14,3 +14,5 @@ baseHappiness = 0.15;
 
 onSprite = sprRightCabinet;
 offSprite = sprRightCabinetOff;
+playingSprite = sprRightCabinet;
+friedSprite = sprRightCabinet;

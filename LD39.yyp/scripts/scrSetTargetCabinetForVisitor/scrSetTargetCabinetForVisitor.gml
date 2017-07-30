@@ -10,5 +10,7 @@ if(cabinetInstance == noone || visitorInstance == noone) {
 
 visitorInstance.currentState = VISITOR_ENROUTE;
 visitorInstance.futureActivity = cabinetInstance;
-visitorInstance.targetLocation[0] = cabinetInstance.x;
-visitorInstance.targetLocation[1] = cabinetInstance.y + 75;
+
+//Calculate based on size of sprites
+visitorInstance.targetLocation[0] = cabinetInstance.playPos[0];
+visitorInstance.targetLocation[1] = cabinetInstance.playPos[1] - sprite_get_height(visitorInstance.sprite_index) / 2;
