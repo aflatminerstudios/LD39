@@ -11,7 +11,9 @@
         "6582f480-a77d-4fa1-9427-fa2fbc0156d7",
         "a0efa0b1-4c10-4ab4-898a-8fe4c9a9d0db",
         "18ad76a6-47b4-4d65-9762-e562aed7855c",
-        "8895edba-02be-4055-af24-bbbaaf686123"
+        "8895edba-02be-4055-af24-bbbaaf686123",
+        "14dcacad-25e0-4156-bfb9-0296f31b8ade",
+        "f81dc541-4198-44ad-add2-66cd966e6423"
     ],
     "filterType": "GMObject",
     "folderName": "Cabinets",
