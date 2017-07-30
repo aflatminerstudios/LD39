@@ -3,8 +3,8 @@
 
 randomise();
 
-timeStep = room_speed * 12;
-timeStepsInDay = 2;
+timeStep = room_speed * 2;
+timeStepsInDay = 12;
 
 scrCreateMacros();
 
