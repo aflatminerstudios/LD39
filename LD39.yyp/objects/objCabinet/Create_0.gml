@@ -23,6 +23,7 @@ friedSprite = sprCabinet;
 //user related variables
 style = 0;
 baseHappiness = 0.10;
+baseEnergy = 0.0;
 
 coinBox = 0.0;
 
