@@ -15,4 +15,10 @@ layer_script_end(instancesID, scrLayerShaderEnd);
 
 showCircuits = false;
 
+//For sounds
+audio_group_load(soundEffects);
+
+
+//For debugging
 displayDebug = false;
+isSoundOn = false;
