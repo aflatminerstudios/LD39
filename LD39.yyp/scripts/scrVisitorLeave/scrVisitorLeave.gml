@@ -19,11 +19,6 @@ with (visitorID) {
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
   
-  
-  //If they have reached the next node on their path
-  if (distance_to_point(nextNode.x, nextNode.y) < 5.0) {
-    nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
-  }
   //If they have reached the target node
   if (distance_to_point(targetNode.x, targetNode.y) < 5.0) {
     if (targetNode == objNavControl.exitNode) {
@@ -34,6 +29,11 @@ with (visitorID) {
       nextNode = objNavControl.exitNode;
       targetNode = nextNode;
     }  
+  } else {
+    //If they have reached the next node on their path
+    if (distance_to_point(nextNode.x, nextNode.y) < 5.0) {
+      nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
+    }
   }
   
 }

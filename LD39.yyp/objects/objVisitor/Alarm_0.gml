@@ -30,7 +30,6 @@ but I changed it up to this to make the visitor less likely to leave, can always
 */
 //if (r >= energy)
 var toCompare = 1 - ((1 - energy) / 2)
-show_debug_message(string(r) + " vs " +string(toCompare));
 
 if ( r <= toCompare) {
   //Stick around, check endurance later

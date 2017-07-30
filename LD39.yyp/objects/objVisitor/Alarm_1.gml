@@ -4,3 +4,4 @@
 show_debug_message("Visitor " + string(self.id) + " should be leaving now.");
 
 currentState = VISITOR_LEAVING;
+energy = 0;
