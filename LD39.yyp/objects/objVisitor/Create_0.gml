@@ -24,6 +24,8 @@ futureActivity = noone;
 // Could be an empty location if they are just milling about
 targetLocation[0] = room_width/2;
 targetLocation[1] = room_height/2;
+targetNode = noone;
+nextNode = noone;
 
 // Happiness goes from 0.0-1.0, where 1.0 is max happiness
 happiness = 0.5;

@@ -27,6 +27,10 @@ if(currentState == VISITOR_IDLE) {
         target = tar3;
       }
       
+      targetNode = target;
+      nextNode = chooseNode(self.id);
+      
+      
 			targetLocation[0] = target.x;
 			targetLocation[1] = target.y;
 			currentState = VISITOR_ENROUTE;

@@ -43,24 +43,30 @@ scrSetupNodeSameListsViaArray(nodeArray, indexArray);
 
 //Points 5
 nodeArray[5] = instance_create_layer(625, 390, "WalkPoints", objWalkPoint);
-nodeArray[14] = instance_create_layer(650, 515, "WalkPoints", objWalkPoint);
+nodeArray[14] = instance_create_layer(600, 330, "WalkPoints", objWalkPoint);
 indexArray[0] = 5;
 indexArray[1] = 14;
 scrSetupNodeSameListsViaArray(nodeArray, indexArray);
 
 //Points 6
 nodeArray[6] = instance_create_layer(460, 290, "WalkPoints", objWalkPoint);
+nodeArray[15] = instance_create_layer(520, 270, "WalkPoints", objWalkPoint);
 indexArray[0] = 6;
+indexArray[1] = 15;
 scrSetupNodeSameListsViaArray(nodeArray, indexArray);
 
 //Points 7
 nodeArray[7] = instance_create_layer(210, 425, "WalkPoints", objWalkPoint);
+nodeArray[16] = instance_create_layer(260, 430, "WalkPoints", objWalkPoint);
 indexArray[0] = 7;
+indexArray[1] = 16;
 scrSetupNodeSameListsViaArray(nodeArray, indexArray);
 
 //Points 8
 nodeArray[8] = instance_create_layer(190, 535, "WalkPoints", objWalkPoint);
+nodeArray[17] = instance_create_layer(180, 490, "WalkPoints", objWalkPoint);
 indexArray[0] = 8;
+indexArray[1] = 17;
 scrSetupNodeSameListsViaArray(nodeArray, indexArray);
 
 
