@@ -666,6 +666,14 @@
             }
         },
         {
+            "Key": "3e323d68-2f1b-4f87-9017-cf051294d366",
+            "Value": {
+                "id": "78c615c4-26e4-48d4-8e1b-43b891d42c01",
+                "resourcePath": "rooms\\roomGameOver\\roomGameOver.yy",
+                "resourceType": "GMRoom"
+	    }
+	},
+	{
             "Key": "3bf1f41c-3efe-40eb-bfda-a6114eaaa067",
             "Value": {
                 "id": "08262d20-9091-4fc8-9fef-fe725ffef039",
@@ -1996,6 +2004,14 @@
             }
         },
         {
+            "Key": "a9d6f068-55c5-4c69-96dc-cc13d5f5b772",
+            "Value": {
+                "id": "5f8d2484-0b1c-44e9-a83b-f021fb4d71ca",
+                "resourcePath": "objects\\objGameOverControl\\objGameOverControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa611d9f-6489-487b-abec-6fab8ee6f679",
             "Value": {
                 "id": "7999636f-3d1c-4a2e-ab9e-e3df19a902f0",
@@ -2258,6 +2274,14 @@
                     "default"
                 ],
                 "resourcePath": "fonts\/fontNormal\/fontNormal.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "d55fe9df-342f-409c-b078-53511ff5bad7",
+            "Value": {
+                "id": "281db9c4-b374-497e-98d8-a7edd92c9ac1",
+                "resourcePath": "fonts\\fontMoneyNormal\\fontMoneyNormal.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -2808,7 +2832,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\\roomMain\\roomMain.yy",
                 "resourceType": "GMRoom"
             }
         },

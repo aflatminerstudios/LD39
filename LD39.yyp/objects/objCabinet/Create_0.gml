@@ -12,7 +12,9 @@ powerUsage = 30.0;
 //Income variables
 incomePerPlay = 0.25;
 incomePerTimeStep = 5.0;
-incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+if (instance_number(objGameControl) > 0) {
+  incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+}
 
 //sprites
 onSprite = sprCabinet;

@@ -6,7 +6,9 @@ event_inherited();
 
 powerUsage = 50.0;
 incomePerTimeStep = 10.0;
-incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+if (instance_number(objGameControl) > 0) {
+  incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+}
 
 style = STYLE_ACTION;
 baseHappiness = 0.25;
