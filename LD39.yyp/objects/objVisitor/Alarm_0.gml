@@ -7,6 +7,14 @@ if (scrIsActivityCabinet(currentActivity)) {
   scrVisitorCabinetActivity(self.id, currentActivity);
 }
 
+//Not happy if you're not doing anything at all
+if (currentState == VISITOR_IDLE || currentState == VISITOR_WAITING) {
+  happiness -= 0.1;
+} else if (currentState = VISITOR_ENROUTE && currentActivity == noone && futureActivity == noone) {  
+  //Also frustrating if you're just wandering aimlessly
+  happiness -= 0.1;
+}
+
 
 scrCalculateEnergyChanges(self.id);
 

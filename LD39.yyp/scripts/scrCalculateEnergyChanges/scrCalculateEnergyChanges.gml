@@ -14,7 +14,8 @@ with (visitorID) {
       amountToChange += 0.025 * stylePrefs[currentActivity.style];
     }
   } else if (currentState = VISITOR_WAITING) {
-  
+    //Being idle is BORING
+    amountToChange -= 0.05;
   } else if (currentState = VISITOR_ENROUTE) {
   
   }
