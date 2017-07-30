@@ -18,7 +18,13 @@ if (totalPower % 10 != 0) {
   totalBoxes += 1;
 }
 
+if (totalBoxes < usedBoxes) 
+  usedBoxes = totalBoxes;
+  
+
 totalBoxes -= usedBoxes;
+
+
 
 for (var i = 0; i < usedBoxes; ++i) {
   draw_sprite(sprPowerFull, 0, x + 30 + 10 * boxCount, y);
