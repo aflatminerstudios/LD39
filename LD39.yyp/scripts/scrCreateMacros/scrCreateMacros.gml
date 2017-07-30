@@ -9,3 +9,4 @@
 #macro STYLE_SHMUP 2
 #macro STYLE_ACTION 3
 #macro STYLE_PUZZLE 4
+#macro STYLE_FOOD 5

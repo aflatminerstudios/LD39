@@ -109,8 +109,14 @@ if(currentState == VISITOR_IDLE) {
 	if(distance_to_point(targetLocation[0], targetLocation[1]) < 10.0) {
 		if(futureActivity != noone) {
       if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
-        if (futureActivity.isBeingPlayed) {          
-          scrSetTargetCabinetWatchForVisitor(futureActivity, self.id);
+        if (futureActivity.isBeingPlayed) {  
+          if (futureActivity.style != STYLE_FOOD) {        
+            scrSetTargetCabinetWatchForVisitor(futureActivity, self.id);
+          } else {
+            currentState = VISITOR_WAITING;
+            futureActivity = noone;
+            speed = 0;
+          }
           return;
         } else {        
           scrPlayCabinetWithVisitor(futureActivity, self.id);

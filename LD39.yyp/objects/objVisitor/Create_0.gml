@@ -48,6 +48,7 @@ moneyOnHand = 100.0;
 for (var i = 0; i < NUM_STYLES; ++i) {
   stylePrefs[i] = 1.0;
 }
+stylePrefs[STYLE_FOOD] = 4.0;
 
 //Number of steps user has been doing current activity, used to help decide if they quit
 timeInActivity = 0;

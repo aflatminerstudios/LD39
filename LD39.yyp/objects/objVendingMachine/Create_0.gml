@@ -8,7 +8,7 @@ powerUsage = 50.0;
 incomePerTimeStep = 10.0;
 incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 
-style = STYLE_PUZZLE;
+style = STYLE_FOOD;
 baseHappiness = 0.25;
 
 

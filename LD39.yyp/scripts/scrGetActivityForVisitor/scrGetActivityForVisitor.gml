@@ -16,7 +16,7 @@ if (aCabinet != noone) {
       if (aCabinet.isBeingPlayed) {
         //Aww, someone else is playing, user might want to give up or might want to watch
         r = random(randomMax);
-        if (r < visitorID.stylePrefs[aCabinet.style]) {
+        if (r < visitorID.stylePrefs[aCabinet.style]  && aCabinet.style != STYLE_FOOD) {
           scrSetTargetCabinetWatchForVisitor(aCabinet, visitorID);
           return; 
         }
@@ -38,7 +38,7 @@ if (aCabinet != noone) {
     if (aCabinet.isBeingPlayed) {
       //Aww, someone else is playing, user might want to give up or might want to watch
       r = random(randomMax);
-      if (r < visitorID.stylePrefs[aCabinet.style]) {
+      if (r < visitorID.stylePrefs[aCabinet.style] && aCabinet.style != STYLE_FOOD) {
         scrSetTargetCabinetWatchForVisitor(aCabinet, visitorID);
         return;  
       }
