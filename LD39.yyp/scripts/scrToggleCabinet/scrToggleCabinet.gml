@@ -9,8 +9,12 @@ with (cabinetID) {
 
 	if(isPowered) {
 		sprite_index = onSprite;
+    if (objGameControl.isSoundOn)
+      audio_play_sound(sndTurnOnCabinet, 100, false);
 	} else {
 		sprite_index = offSprite;
+    if (objGameControl.isSoundOn)
+      audio_play_sound(sndTurnOffCabinet, 100, false);
 	}
 }
 
