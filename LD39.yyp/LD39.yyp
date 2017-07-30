@@ -229,6 +229,25 @@
             }
         },
         {
+            "Key": "17c41523-2b5b-4f28-bb05-5d2b3dc484b6",
+            "Value": {
+                "id": "c883d9b1-fa7c-45c3-9a27-738d66af1c77",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objBrideOfPinbotCabinet\/objBrideOfPinbotCabinet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18ad76a6-47b4-4d65-9762-e562aed7855c",
             "Value": {
                 "id": "fae43c3b-cf8b-474b-a0b5-dc37583ed1d7",
@@ -397,6 +416,25 @@
                 ],
                 "resourcePath": "objects\/objDoorframe\/objDoorframe.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a15c294-2098-4e40-8855-6044fc3e6bfe",
+            "Value": {
+                "id": "571c2f75-ab10-4286-adbd-2649d71125a7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprBrideOfPinbotCabinetOff\/sprBrideOfPinbotCabinetOff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1654,6 +1692,25 @@
             }
         },
         {
+            "Key": "910e51b9-8f99-4da5-a619-0939ce8cd773",
+            "Value": {
+                "id": "e40827cd-be99-403e-bee5-d1d4aac6b63d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/910e51b9-8f99-4da5-a619-0939ce8cd773.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "91c85af1-5044-49f5-8008-1b36776b3e62",
             "Value": {
                 "id": "9a308278-85ad-4931-9ac1-9586783cc63b",
@@ -2110,6 +2167,25 @@
             }
         },
         {
+            "Key": "c381f44c-df7c-447b-94ca-3c390ec37827",
+            "Value": {
+                "id": "297320d8-91e8-4409-b533-17bf56d3296f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprBrideOfPinbotCabinetReflection\/sprBrideOfPinbotCabinetReflection.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c90f6540-2dfa-4a9c-a157-eb10299423e6",
             "Value": {
                 "id": "11104462-4c68-4e10-bb65-6b2c78d28ae0",
@@ -2395,6 +2471,25 @@
             }
         },
         {
+            "Key": "e2493422-f77e-41be-b459-342938722c8d",
+            "Value": {
+                "id": "f9d65846-bd1a-447a-a9f0-22fa4a1f5813",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprBrideOfPinbotCabinetPlaying\/sprBrideOfPinbotCabinetPlaying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2fb26a2-c0a3-4c76-9c5e-c5f97d360503",
             "Value": {
                 "id": "3080066e-5b41-492b-969a-a3a46138f710",
@@ -2471,6 +2566,25 @@
             }
         },
         {
+            "Key": "eaae6b10-dfeb-4be3-81fa-3a4a90e8a1b5",
+            "Value": {
+                "id": "5c6f7fec-b6b8-41b9-901c-fec428a2451b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprBrideOfPinbotCabinetFried\/sprBrideOfPinbotCabinetFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec3f0f2c-01c2-4baa-aff5-5417985876f8",
             "Value": {
                 "id": "d9315989-54ce-4853-aaba-c41051c286ae",
@@ -2486,6 +2600,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprVendingMachineFried\/sprVendingMachineFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eda89f3b-b5da-45dd-af7e-90af1a0e1561",
+            "Value": {
+                "id": "531fbdd5-6792-4a31-ab7d-d92dce4cddb8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprBrideOfPinbotCabinetOn\/sprBrideOfPinbotCabinetOn.yy",
                 "resourceType": "GMSprite"
             }
         },
