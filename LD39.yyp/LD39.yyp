@@ -239,6 +239,25 @@
             }
         },
         {
+            "Key": "414512d4-5f36-46c8-b676-1ffca6634a0a",
+            "Value": {
+                "id": "2c3e23b6-7dbf-4e49-9032-0b0db34c85e3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/414512d4-5f36-46c8-b676-1ffca6634a0a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "41d58844-3aec-47e2-b956-aac16e03b679",
             "Value": {
                 "id": "56455a54-e64e-44cf-978d-f635d46ff6c1",
@@ -356,6 +375,25 @@
                 "id": "efe39904-f3ae-44d8-8e7f-dc3303a7cd88",
                 "resourcePath": "scripts\/scrLayerShaderEnd\/scrLayerShaderEnd.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6582f480-a77d-4fa1-9427-fa2fbc0156d7",
+            "Value": {
+                "id": "6fc807ee-1845-47c3-bb28-c996840fb8f3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objVendingMachine\/objVendingMachine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
