@@ -229,6 +229,25 @@
             }
         },
         {
+            "Key": "274c0f79-c4fb-4cee-806a-125d05e1f1e1",
+            "Value": {
+                "id": "81cc7bf8-31dc-4bd3-9d3b-41a6031f3e53",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltronCabinetFried\/sprSwoltronCabinetFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a42ea6b-21c0-4363-bc0b-75d6d769f38c",
             "Value": {
                 "id": "25f62919-eebe-4aca-890d-707b9bf3be16",
@@ -533,6 +552,25 @@
             }
         },
         {
+            "Key": "4c4a0da7-58c1-4407-a80d-005632917689",
+            "Value": {
+                "id": "51cdfa9d-6d66-4e07-83d5-881992a3857f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltronCabinetPlaying\/sprSwoltronCabinetPlaying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f2a8d81-3813-49eb-b3dc-0fced6336c11",
             "Value": {
                 "id": "de37e648-96cf-49f2-9168-3e169c3e38f7",
@@ -548,6 +586,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprPowerEmpty\/sprPowerEmpty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "50772d31-a561-4716-936d-3d439fba2bf8",
+            "Value": {
+                "id": "e33684a7-fa11-4c12-94ff-933ae462aaad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltronCabinetReflection\/sprSwoltronCabinetReflection.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1046,6 +1103,25 @@
             }
         },
         {
+            "Key": "85bd5a7b-9688-44b2-bf64-719881308b92",
+            "Value": {
+                "id": "f34470f5-aace-4197-9952-d1fdae41d941",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/85bd5a7b-9688-44b2-bf64-719881308b92.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "87d8f63a-b5d8-4ada-90ac-c337558fc669",
             "Value": {
                 "id": "c5828906-84ee-4c9f-8296-cf6a3deb627b",
@@ -1483,6 +1559,25 @@
             }
         },
         {
+            "Key": "c089f9ab-295b-4070-948d-b76e96d7fd69",
+            "Value": {
+                "id": "54505158-6e16-4a80-9e4a-7f3994d09ef4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltronCabinetOff\/sprSwoltronCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c90f6540-2dfa-4a9c-a157-eb10299423e6",
             "Value": {
                 "id": "11104462-4c68-4e10-bb65-6b2c78d28ae0",
@@ -1594,6 +1689,25 @@
                 ],
                 "resourcePath": "views\/d9f9789a-ae2a-41ed-9069-624254a47c67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
+            "Value": {
+                "id": "d7e261ce-682c-410e-ad57-d7594680d919",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/objSwoltronCabinet\/objSwoltronCabinet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1765,6 +1879,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa60ad34-a8c3-4217-8353-15a01916720c",
+            "Value": {
+                "id": "4316f23a-c99e-45b7-866e-11490944dd35",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprSwoltronCabinetOn\/sprSwoltronCabinetOn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
