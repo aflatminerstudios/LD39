@@ -35,3 +35,11 @@ for (var i = 0; i < totalBoxes; ++i) {
   draw_sprite(sprPowerEmpty, 0, x + 30 + 10 * boxCount, y);
   boxCount += 1;
 }
+
+if (isPowerDecreasing) {
+  draw_sprite(sprPowerDecreasing, 0, x + 40, y + 15);
+}
+
+if (isPowerIncreasing) {
+  draw_sprite(sprPowerIncreasing, 0, x + 40 + 10 * boxCount, y - 15);
+}

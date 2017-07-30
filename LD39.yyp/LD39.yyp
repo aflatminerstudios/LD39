@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1ef1f0a9-dd68-40b6-aacf-587b5b097f74",
+            "Value": {
+                "id": "62b96ca1-d71d-4ea1-9b6a-d7cc344dfd96",
+                "resourcePath": "sprites\\sprOpenSignOff\\sprOpenSignOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20452c61-f9f0-431b-b489-2de9cf6319fb",
             "Value": {
                 "id": "c5aa06bc-47bd-49a4-885c-1568d4aa5756",
@@ -196,6 +204,14 @@
                 "id": "94b503c9-b08c-416c-84f7-02e57f59cff8",
                 "resourcePath": "scripts\/scrSetupNodeSameListsViaArray\/scrSetupNodeSameListsViaArray.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "311e619d-576d-48d2-a675-c805bfd92d78",
+            "Value": {
+                "id": "518dccee-625f-4839-911c-4531500ed440",
+                "resourcePath": "sprites\\sprPowerIncreasing\\sprPowerIncreasing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -380,6 +396,14 @@
                 "id": "71c09e84-2a8b-456e-8147-9db3cea8c2f2",
                 "resourcePath": "scripts\/scrStopWatchingVisitor\/scrStopWatchingVisitor.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "616ecf0e-53ab-442a-9e06-90026e04d361",
+            "Value": {
+                "id": "22a5aea7-280d-42a3-bc4d-635e18c9694d",
+                "resourcePath": "sprites\\sprOpenSignOn\\sprOpenSignOn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -711,6 +735,14 @@
             }
         },
         {
+            "Key": "b2cedd40-872c-40b1-97f8-82716250e428",
+            "Value": {
+                "id": "040c91c4-7508-4740-866e-a80cfb373a07",
+                "resourcePath": "objects\\objOpenSign\\objOpenSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb045fcb-ac09-49cc-adf2-15e1bbcc7c72",
             "Value": {
                 "id": "82a4d1f3-b3bb-4fd2-9484-821bb59ca478",
@@ -852,6 +884,14 @@
                 "id": "7ae9de87-8888-4c26-a63f-9d4bf5593a65",
                 "resourcePath": "views\/e3d64026-1ece-4a1e-be01-71551661cc10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7da0b2e-f1e2-4334-b50e-dd70528f0045",
+            "Value": {
+                "id": "a0f6ed8e-38d4-45a8-a5c1-393899ab4dc7",
+                "resourcePath": "sprites\\sprPowerDecreasing\\sprPowerDecreasing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

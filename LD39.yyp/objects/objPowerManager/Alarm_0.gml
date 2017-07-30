@@ -6,9 +6,13 @@ powerDifference += irandom_range(-30, 30);
 //change brightness if power is changing
 if (powerDifference > 0) {
   brightness = 1.50;
+  objPowerMeter.isPowerIncreasing = true;
 } else if (powerDifference < 0) {
   brightness = 0.50;
+  objPowerMeter.isPowerDecreasing = true;
 }
+
+
 
 
 //alarm for changing power
