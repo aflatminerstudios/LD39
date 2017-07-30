@@ -1,7 +1,7 @@
 /// @description Randomly changes total amount of power
 // You can write your code in this editor
 
-powerDifference += irandom_range(-30, 30);
+powerDifference += irandom_range(-30, -1);
 
 //change brightness if power is changing
 if (powerDifference > 0) {
@@ -10,6 +10,10 @@ if (powerDifference > 0) {
 } else if (powerDifference < 0) {
   brightness = 0.50;
   objPowerMeter.isPowerDecreasing = true;
+  
+  if (objOpenSign.alarm[0] <= 0)
+    objOpenSign.alarm[0] = 1;
+  
 }
 
 

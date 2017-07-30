@@ -7,8 +7,8 @@ usedPower = 0;
 powerDifference = 0;
 brightness = 1.0;
 
-minTime = 5;
-maxTime = 15;
+minTime = 1;//5;
+maxTime = 5;//15;
 
 
 isLowPower = false;
