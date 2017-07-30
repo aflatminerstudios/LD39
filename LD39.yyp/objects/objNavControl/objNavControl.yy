@@ -1,18 +1,18 @@
 {
-    "id": "fcd96fa2-cf6d-4fc5-bf6e-7a7cdeca57fb",
+    "id": "5d032948-f036-4c7b-8fb3-0de33972eb61",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objWalkPoint",
+    "name": "objNavControl",
     "eventList": [
         {
-            "id": "b82b07bb-4b76-4bd2-940f-493638bf75ca",
+            "id": "4407128e-dd4a-4e1d-9854-a1290dd770a7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "fcd96fa2-cf6d-4fc5-bf6e-7a7cdeca57fb"
+            "m_owner": "5d032948-f036-4c7b-8fb3-0de33972eb61"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

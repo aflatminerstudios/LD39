@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2f0d6b3c-7dbb-4bf9-ad98-09bdaa629ed6",
+            "Value": {
+                "id": "94b503c9-b08c-416c-84f7-02e57f59cff8",
+                "resourcePath": "scripts\\scrSetupNodeSameListsViaArray\\scrSetupNodeSameListsViaArray.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "317e4226-37dd-4a08-ab7c-22438a1839a3",
             "Value": {
                 "id": "a8c570cc-296d-44f7-b9ba-c16d36fb9172",
@@ -276,6 +284,22 @@
                 "id": "98874839-d85f-41f0-b3c8-c188834c837f",
                 "resourcePath": "views\/5ca981bb-61a0-40ec-a6a8-26850888d815.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5ce73d0f-5355-48ee-bfdc-beeb01e9aa08",
+            "Value": {
+                "id": "c60efdac-29dd-4878-a368-32423ad3310b",
+                "resourcePath": "scripts\\scrAddListToNodesCAdjacent\\scrAddListToNodesCAdjacent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5d032948-f036-4c7b-8fb3-0de33972eb61",
+            "Value": {
+                "id": "9cb497e0-9ad6-44ab-8aa8-1a1075b1b743",
+                "resourcePath": "objects\\objNavControl\\objNavControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -439,6 +463,14 @@
             }
         },
         {
+            "Key": "90af6794-cbf4-4861-9837-906f54cef21a",
+            "Value": {
+                "id": "a3f656f5-583d-4300-b403-d8f574fcd662",
+                "resourcePath": "scripts\\scrAddListToListCAdjacent\\scrAddListToListCAdjacent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "91c85af1-5044-49f5-8008-1b36776b3e62",
             "Value": {
                 "id": "9a308278-85ad-4931-9ac1-9586783cc63b",
@@ -519,6 +551,14 @@
             }
         },
         {
+            "Key": "a89a2cc4-87a9-414b-b6c2-f87947f994e4",
+            "Value": {
+                "id": "92a2312c-d205-43bc-87c3-500e54474e4b",
+                "resourcePath": "scripts\\scrAddListToListCCAdjacent\\scrAddListToListCCAdjacent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "a86d50bd-2a08-451c-ac65-f1540e278b02",
@@ -548,6 +588,14 @@
                 "id": "3da6d3c1-df87-4ad4-82d2-f79e50b65c15",
                 "resourcePath": "sprites\\sprOtherCabinet\\sprOtherCabinet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0d0bb5c-5e2f-415d-a4a8-c965a5e936d1",
+            "Value": {
+                "id": "4584f7a4-e12e-42b0-895d-9bfc683521ff",
+                "resourcePath": "views\\b0d0bb5c-5e2f-415d-a4a8-c965a5e936d1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -701,6 +749,14 @@
                 "resourcePath": "sprites\\sprSSCabinetOff\\sprSSCabinetOff.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "fec1d8f8-b71e-4419-bc94-cbb325b61598",
+            "Value": {
+                "id": "4314d10d-32b0-4b68-beaa-3706ee5a7078",
+                "resourcePath": "scripts\\scrAddListToNodesCCAdjacent\\scrAddListToNodesCCAdjacent.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -727,7 +783,12 @@
         "2622fca6-06d5-487b-a489-eba6da93426f",
         "41d58844-3aec-47e2-b956-aac16e03b679",
         "c90f6540-2dfa-4a9c-a157-eb10299423e6",
-        "64f08d98-9877-42eb-98d1-a9d307ac2d5e"
+        "64f08d98-9877-42eb-98d1-a9d307ac2d5e",
+        "5ce73d0f-5355-48ee-bfdc-beeb01e9aa08",
+        "90af6794-cbf4-4861-9837-906f54cef21a",
+        "fec1d8f8-b71e-4419-bc94-cbb325b61598",
+        "a89a2cc4-87a9-414b-b6c2-f87947f994e4",
+        "2f0d6b3c-7dbb-4bf9-ad98-09bdaa629ed6"
     ],
     "tutorial": ""
 }
