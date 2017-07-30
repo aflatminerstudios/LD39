@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 draw_self();
-draw_circle_color(x, y, 4, c_white, c_white, false);
+draw_circle_color(x, y, 6, c_red, c_red, false);
