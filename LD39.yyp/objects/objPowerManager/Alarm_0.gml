@@ -1,7 +1,7 @@
 /// @description Randomly changes total amount of power
 // You can write your code in this editor
 
-powerDifference += irandom_range(-30, -1);
+powerDifference += irandom_range(-30, 30);
 
 //change brightness if power is changing
 if (powerDifference > 0) {
