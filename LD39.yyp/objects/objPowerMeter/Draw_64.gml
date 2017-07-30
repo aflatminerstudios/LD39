@@ -41,6 +41,12 @@ for (var i = 0; i < totalBoxes; ++i) {
   boxCount += 1;
 }
 
+if (isInDanger) {
+  
+}
+
+
+
 if (isPowerDecreasing) {
   draw_sprite(sprPowerDecreasing, 0, x + 40, y + 15);
 }
