@@ -3,4 +3,6 @@
 
 if (scrIsActivityCabinet(currentActivity)) {
   scrStopPlayingCabinetWithVisitor(self.id, currentActivity.id);
+} else if (scrIsActivityVisitor(currentActivity)) {
+  scrStopWatchingVisitor(self.id, currentActivity.id);
 }

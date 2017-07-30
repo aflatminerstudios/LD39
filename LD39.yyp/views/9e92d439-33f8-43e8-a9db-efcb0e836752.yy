@@ -15,7 +15,8 @@
         "f1489e3e-067e-4f51-b826-ccbb2dc5611b",
         "684e9dbe-3af0-4166-a767-777da900cdb8",
         "fa66e190-4388-49db-bfb8-982a0dd459b8",
-        "2622fca6-06d5-487b-a489-eba6da93426f"
+        "2622fca6-06d5-487b-a489-eba6da93426f",
+        "41d58844-3aec-47e2-b956-aac16e03b679"
     ],
     "filterType": "GMScript",
     "folderName": "Cabinet Utility",

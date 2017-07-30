@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description This is where the magic happens
 // You can write your code in this editor
 
 //Change depth
@@ -6,7 +6,8 @@ depth = layer_get_depth("Instances") - ( y + sprite_height / 2);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
-		scrFindCabinetToPlayForVisitor(self.id);
+    timeInActivity = 0;
+		scrGetActivityForVisitor(self.id);
 		// Didn't find someting to do, so just go to the center of the room
 		if(currentState == VISITOR_IDLE) {
     
@@ -15,8 +16,8 @@ if(currentState == VISITOR_IDLE) {
       var tar2 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
       var tar3 = instance_find(objWalkPoint, irandom(instance_number(objWalkPoint) - 1));
       var d1 = distance_to_point(tar1.x, tar1.y);
-      var d2 = distance_to_point(tar1.x, tar1.y);
-      var d3 = 9999//;distance_to_point(tar1.x, tar1.y);
+      var d2 = distance_to_point(tar2.x, tar2.y);
+      var d3 = distance_to_point(tar3.x, tar3.y);
       var target;
       if (d1 < d2 && d1 < d3) {
         target = tar1;
@@ -44,10 +45,18 @@ if(currentState == VISITOR_IDLE) {
     }  
   }
   
+
+  if (scrIsActivityVisitor(currentActivity)) {
+    //If watching a visitor not playing a game, stop
+    if (!scrIsActivityCabinet(currentActivity.currentActivity)) {
+      alarm[2] = 1;
+    }
+  }
   
   timeInActivity += 1;
   
 } else if(currentState == VISITOR_WAITING) {
+  timeInActivity = 0;
 	// if alarm is not active, set waiting alarm
   if (alarm[3] <= 0) {
     alarm[3] = objGameControl.timeStep;
@@ -61,17 +70,32 @@ if(currentState == VISITOR_IDLE) {
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
-	if(distance_to_point(targetLocation[0], targetLocation[1]) < 1.0) {
-		if(futureActivity != noone &&
-			 futureActivity.isPowered && !futureActivity.isBeingPlayed) {
-			scrPlayCabinetWithVisitor(futureActivity, self.id);
-			return;
-		} else {
-			// wait or give up
-			// give up for now
-			futureActivity = noone;
-			currentState = VISITOR_WAITING;
-			speed = 0;
-		}
-	}
+	if(distance_to_point(targetLocation[0], targetLocation[1]) < 10.0) {
+		if(futureActivity != noone) {
+      if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
+        if (futureActivity.isBeingPlayed) {          
+          scrSetTargetCabinetWatchForVisitor(self.id, futureActivity);
+          return;
+        } else {        
+          scrPlayCabinetWithVisitor(futureActivity, self.id);
+          return;
+        }
+  		}  else if (scrIsActivityVisitor(futureActivity) && scrIsActivityCabinet(futureActivity.currentActivity)) {
+        //future activity is a person playing a game        
+        scrWatchVisitor(self.id, futureActivity);
+      } else {      
+  			// wait or give up
+  			// give up for now
+  			futureActivity = noone;
+  			currentState = VISITOR_WAITING;
+  			speed = 0;
+  		}
+  	} else {
+	// wait or give up
+  			// give up for now
+  			futureActivity = noone;
+  			currentState = VISITOR_WAITING;
+  			speed = 0;    
+    }
+  }
 }

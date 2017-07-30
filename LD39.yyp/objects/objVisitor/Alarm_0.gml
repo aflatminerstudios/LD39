@@ -7,6 +7,12 @@ if (scrIsActivityCabinet(currentActivity)) {
   scrVisitorCabinetActivity(self.id, currentActivity);
 }
 
+  
+if (scrIsActivityVisitor(currentActivity)) {
+  //Engage in watching
+  scrVisitorVisitorActivity(self.id, currentActivity);  
+}
+
 //Not happy if you're not doing anything at all
 if (currentState == VISITOR_IDLE || currentState == VISITOR_WAITING) {
   happiness -= 0.1;
