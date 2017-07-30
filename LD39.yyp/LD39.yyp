@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "d0a1fbfd-4e17-4043-82f7-133a4b14cf45",
+            "Value": {
+                "id": "ad9a9ec5-54d6-4a69-971c-0b1d02821e62",
+                "resourcePath": "fonts\\fontNormal\\fontNormal.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d59bd09d-fca0-4c6a-9d93-f2e83b216c88",
             "Value": {
                 "id": "eb6414f5-f538-43fd-aa78-5d90e412a0c5",
@@ -852,6 +860,14 @@
                 "id": "d7e261ce-682c-410e-ad57-d7594680d919",
                 "resourcePath": "objects\/objSwoltronCabinet\/objSwoltronCabinet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd1e3ae6-1100-4bcf-8e69-45015b4775f8",
+            "Value": {
+                "id": "a882357d-ff13-41ac-ab5f-4df5188a8976",
+                "resourcePath": "fonts\\fontLarge\\fontLarge.yy",
+                "resourceType": "GMFont"
             }
         },
         {
