@@ -231,11 +231,35 @@
             }
         },
         {
+            "Key": "4f2a8d81-3813-49eb-b3dc-0fced6336c11",
+            "Value": {
+                "id": "de37e648-96cf-49f2-9168-3e169c3e38f7",
+                "resourcePath": "sprites\\sprPowerEmpty\\sprPowerEmpty.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52dba5e5-8b36-41ac-9fbe-5a87b640c552",
+            "Value": {
+                "id": "9e9ab810-2e97-475b-971a-e83795aaaddf",
+                "resourcePath": "sprites\\sprPowerFull\\sprPowerFull.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56405942-3989-4f55-b41e-6556b1d0a7dd",
             "Value": {
                 "id": "bd8aef9b-6f10-4167-9364-f4791aa35e57",
                 "resourcePath": "sprites\/sprCabinetOff\/sprCabinetOff.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56fa93b8-c185-4660-8c53-95467cd65064",
+            "Value": {
+                "id": "bc9a8649-459e-40d2-909b-d1f57bb371f0",
+                "resourcePath": "objects\\objPowerMeter\\objPowerMeter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -444,6 +468,14 @@
                 "id": "80180959-1816-43e7-93f4-0b883f7f8c23",
                 "resourcePath": "scripts\\scrVisitorVisitorActivity\\scrVisitorVisitorActivity.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "95c0f2a6-aa98-4bdb-b599-14598b9383a0",
+            "Value": {
+                "id": "5ec2b128-d530-43c5-bd8c-9722fd6a21d4",
+                "resourcePath": "sprites\\sprPowerIcon\\sprPowerIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
