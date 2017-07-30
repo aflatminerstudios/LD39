@@ -5,3 +5,5 @@ isPowerIncreasing = false;
 isPowerDecreasing = false;
 
 isInDanger = false;
+
+color = c_white;
