@@ -12,12 +12,12 @@ style = STYLE_PUZZLE;
 baseHappiness = 0.25;
 
 
-onSprite = sprSwoltronCabinetOn;
-offSprite = sprSwoltronCabinetOff;
-playingSprite = sprSwoltronCabinetPlaying;
-friedSprite = sprSwoltronCabinetFried;
+onSprite = sprVendingMachineOn;
+offSprite = sprVendingMachineOff;
+playingSprite = sprVendingMachinePlaying;
+friedSprite = sprVendingMachineFried;
 
-reflection.sprite_index = sprSwoltronCabinetReflection;
+reflection.sprite_index = sprVendingMachineReflection;
 
-playPos[0] = x - 16;
+playPos[0] = x;
 playPos[1] = y + 81;

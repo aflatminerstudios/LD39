@@ -1887,6 +1887,42 @@
             "Value": {
                 "id": "07eb29cf-8809-496a-b214-679f6432a321",
                 "resourcePath": "sprites\\sprDoorframe\\sprDoorframe.yy",
+		}
+        },
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "d17f4487-741f-43cb-b5ad-141fa126b4f3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "options\/android\/options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "ec3f0f2c-01c2-4baa-aff5-5417985876f8",
+            "Value": {
+                "id": "29c33119-20c9-4668-a88f-5d5035571a62",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprVendingMachineFried\/sprVendingMachineFried.yy",
                 "resourceType": "GMSprite"
             }
         },
