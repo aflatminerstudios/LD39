@@ -3,6 +3,7 @@
 #macro VISITOR_IDLE 1
 #macro VISITOR_ACTIVE 2
 #macro VISITOR_WAITING 4
+#macro VISITOR_OFFPATH 5
 #macro VISITOR_ENROUTE 8
 
 walkingSpeed = 3.0;
@@ -26,6 +27,8 @@ targetLocation[0] = room_width/2;
 targetLocation[1] = room_height/2;
 targetNode = noone;
 nextNode = noone;
+//
+whichDir = 0;
 
 // Happiness goes from 0.0-1.0, where 1.0 is max happiness
 happiness = 0.5;

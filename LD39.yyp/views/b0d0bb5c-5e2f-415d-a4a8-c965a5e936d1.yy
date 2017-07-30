@@ -11,7 +11,8 @@
         "2f0d6b3c-7dbb-4bf9-ad98-09bdaa629ed6",
         "8544b109-0666-44e7-be3e-c000a1c75df1",
         "d9317dd6-adcc-4235-9ee5-ede395d85c3c",
-        "e2fb26a2-c0a3-4c76-9c5e-c5f97d360503"
+        "e2fb26a2-c0a3-4c76-9c5e-c5f97d360503",
+        "a6044cfb-7fcc-4e36-8903-6d9bf3127a0f"
     ],
     "filterType": "GMScript",
     "folderName": "Navigation Node Utility",

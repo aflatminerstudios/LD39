@@ -5,3 +5,5 @@
 samePointList = ds_list_create();
 adjacentPointsClockwise = ds_list_create();
 adjacentPointsCounterClockwise = ds_list_create();
+
+groupNum = -1;

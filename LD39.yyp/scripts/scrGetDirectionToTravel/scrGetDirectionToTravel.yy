@@ -1,8 +1,8 @@
 {
-    "id": "8544b109-0666-44e7-be3e-c000a1c75df1",
+    "id": "a6044cfb-7fcc-4e36-8903-6d9bf3127a0f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrFindNextNode",
+    "name": "scrGetDirectionToTravel",
     "IsCompatibility": false,
     "IsDnD": false
 }

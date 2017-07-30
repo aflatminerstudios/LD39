@@ -28,8 +28,11 @@ if(currentState == VISITOR_IDLE) {
       }
       
       targetNode = target;
-      nextNode = chooseNode(self.id);
+      nextNode = scrChooseNode(x, y);
       
+      
+      //-1 is counterclockwise, 1 is clockwise
+      whichDir = scrGetDirectionToTravel(targetNode, nextNode);
       
 			targetLocation[0] = target.x;
 			targetLocation[1] = target.y;
@@ -66,6 +69,35 @@ if(currentState == VISITOR_IDLE) {
     alarm[3] = objGameControl.timeStep;
   }
 } else if(currentState == VISITOR_ENROUTE) {
+  //Gets target node if they don't have it yet
+  if (targetNode == noone) {
+    targetNode = scrChooseNode(targetLocation[0], targetLocation[1]);
+  }
+  
+  //Gets the next node if they don't have one yet
+  if (nextNode == noone) {
+    nextNode = scrChooseNode(x, y);
+    whichDir = scrGetDirectionToTravel(targetNode, nextNode);
+  }
+  motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
+	if(speed > walkingSpeed)
+		speed = walkingSpeed;
+  
+  
+  //If they have reached the next node on their path
+  if (distance_to_point(nextNode.x, nextNode.y) < 5.0) {
+    nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
+  }
+  //If they have reached the target node
+  if (distance_to_point(targetNode.x, targetNode.y) < 5.0) {
+    targetNode = noone;
+    nextNode = noone;
+    currentState = VISITOR_OFFPATH;
+  }
+  
+  
+} else if (currentState == VISITOR_OFFPATH) {
+  //Visitor is done walking the node path, now walk straight to target
 	// Move one step closer, avoiding obstacles
 	motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);
 	if(speed > walkingSpeed)

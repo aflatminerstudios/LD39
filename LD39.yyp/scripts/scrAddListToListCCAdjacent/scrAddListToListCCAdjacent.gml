@@ -7,5 +7,5 @@ var listToAdd = argument0;
 var destList = argument1;
 
 for (var i = 0; i < ds_list_size(destList); ++i) {
-  scrAddListToNodesCCAdjacent(listToAdd, destList[| j]);  
+  scrAddListToNodesCCAdjacent(listToAdd, destList[| i]);  
 }
