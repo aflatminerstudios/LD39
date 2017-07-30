@@ -2,3 +2,5 @@
 // You can write your code in this editor
 
 show_debug_message("Visitor " + string(self.id) + " should be leaving now.");
+
+currentState = VISITOR_LEAVING;

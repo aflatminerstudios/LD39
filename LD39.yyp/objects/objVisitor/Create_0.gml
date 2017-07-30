@@ -4,6 +4,7 @@
 #macro VISITOR_ACTIVE 2
 #macro VISITOR_WAITING 4
 #macro VISITOR_OFFPATH 5
+#macro VISITOR_LEAVING 6
 #macro VISITOR_ENROUTE 8
 
 walkingSpeed = 3.0;

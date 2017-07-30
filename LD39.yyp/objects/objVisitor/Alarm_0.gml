@@ -30,15 +30,16 @@ but I changed it up to this to make the visitor less likely to leave, can always
 */
 //if (r >= energy)
 var toCompare = 1 - ((1 - energy) / 2)
+show_debug_message(string(r) + " vs " +string(toCompare));
 
-if ( r >= toCompare) {
+if ( r <= toCompare) {
   //Stick around, check endurance later
   alarm[0] = objGameControl.timeStep;
 } else {
   //Leave, will need to do something here, temporarily setting another alarm
   //random so they don't always leave on step
-  //alarm[1] = 2 * room_speed * random(1);
+  alarm[1] = 2 * room_speed * random(1);
   
   //TODO: REMOVE THIS LATER WHEN THEY ACTUALLY LEAVE
-  alarm[0] = objGameControl.timeStep;
+  //alarm[0] = objGameControl.timeStep;
 }
