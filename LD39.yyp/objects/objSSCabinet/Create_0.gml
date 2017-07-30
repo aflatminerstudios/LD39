@@ -4,18 +4,18 @@
 //call parent event
 event_inherited();
 
-powerUsage = 35.0;
-incomePerTimeStep = 6.0;
+powerUsage = 50.0;
+incomePerTimeStep = 10.0;
 incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 
-style = STYLE_PUZZLE;
-baseHappiness = 0.15;
+style = STYLE_ACTION;
+baseHappiness = 0.25;
 
 
-onSprite = sprMPMCabinetOn;
-offSprite = sprMPMCabinetOff;
-playingSprite = sprMPMCabinetPlaying;
-friedSprite = sprMPMCabinetFried;
+onSprite = sprSSCabinetOn;
+offSprite = sprSSCabinetOff;
+playingSprite = sprSSCabinetPlaying;
+friedSprite = sprSSCabinetFried;
 
 reflection.sprite_index = sprMPMReflection;
 
