@@ -92,7 +92,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1571A81A",
-                    "x": 640,
+                    "x": 624,
                     "y": 192,
                     "IsDnD": false,
                     "colour": {
@@ -102,7 +102,7 @@
                     "creationCodeType": "",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_1571A81A",
-                    "objId": "18ad76a6-47b4-4d65-9762-e562aed7855c",
+                    "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -116,7 +116,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6B9D3024",
-                    "x": 768,
+                    "x": 752,
                     "y": 256,
                     "IsDnD": false,
                     "colour": {
@@ -126,7 +126,7 @@
                     "creationCodeType": "",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6B9D3024",
-                    "objId": "18ad76a6-47b4-4d65-9762-e562aed7855c",
+                    "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
