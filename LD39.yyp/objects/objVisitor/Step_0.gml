@@ -74,7 +74,7 @@ if(currentState == VISITOR_IDLE) {
 		if(futureActivity != noone) {
       if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
         if (futureActivity.isBeingPlayed) {          
-          scrSetTargetCabinetWatchForVisitor(self.id, futureActivity);
+          scrSetTargetCabinetWatchForVisitor(futureActivity, self.id);
           return;
         } else {        
           scrPlayCabinetWithVisitor(futureActivity, self.id);

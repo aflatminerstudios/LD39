@@ -1,9 +1,11 @@
-///@func scrSetTargetCabinetForVisitor(cabinetInstance, visitorInstance)
+///@func scrSetTargetCabinetWatchForVisitor(cabinetInstance, visitorInstance)
 ///@param cabinetInstance  
 ///@param visitorInstance  
 
 var cabinetInstance = argument0;
 var visitorInstance = argument1;
+
+
 
 if(cabinetInstance == noone || visitorInstance == noone) {
 	show_debug_message("Invalid instance in call to scrSetTargetCabinetForVisitor(" + string(cabinetInstance) + ", " + string(visitorInstance) + ")");
@@ -20,7 +22,8 @@ with (objVisitor) {
 }
 
 if (watchedVisitor == noone) {
-  show_debug_message("Chose a cabinet that is not being played to watch. That is incorrect");
+  show_debug_message("Chose a cabinet that is not being played to watch.");
+  show_debug_message("Is being played? " + string(cabinetInstance.isBeingPlayed));
   return;
 }
 

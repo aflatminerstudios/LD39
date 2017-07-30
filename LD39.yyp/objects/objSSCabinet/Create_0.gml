@@ -17,7 +17,7 @@ offSprite = sprSSCabinetOff;
 playingSprite = sprSSCabinetPlaying;
 friedSprite = sprSSCabinetFried;
 
-reflection.sprite_index = sprMPMReflection;
+reflection.sprite_index = sprSSCabinetReflection;
 
 playPos[0] = x + 16;
 playPos[1] = y + 81;
