@@ -134,4 +134,6 @@ if(currentState == VISITOR_IDLE) {
   			speed = 0;    
     }
   }
+} else if (currentState = VISITOR_LEAVING) {
+  scrVisitorLeave(self.id);
 }
