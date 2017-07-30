@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "d55fe9df-342f-409c-b078-53511ff5bad7",
+            "Value": {
+                "id": "281db9c4-b374-497e-98d8-a7edd92c9ac1",
+                "resourcePath": "fonts\\fontMoneyNormal\\fontMoneyNormal.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d59bd09d-fca0-4c6a-9d93-f2e83b216c88",
             "Value": {
                 "id": "eb6414f5-f538-43fd-aa78-5d90e412a0c5",
