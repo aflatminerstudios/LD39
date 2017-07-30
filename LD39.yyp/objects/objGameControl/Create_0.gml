@@ -14,3 +14,5 @@ layer_script_end(instancesID, scrLayerShaderEnd);
 
 
 showCircuits = false;
+
+displayDebug = false;
