@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "3e323d68-2f1b-4f87-9017-cf051294d366",
+            "Value": {
+                "id": "78c615c4-26e4-48d4-8e1b-43b891d42c01",
+                "resourcePath": "rooms\\roomGameOver\\roomGameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3eef34dc-e8d7-4a15-858e-4cc754006495",
             "Value": {
                 "id": "5888ad23-0c2c-4017-8eed-fe3dcb13a54e",
@@ -719,6 +727,14 @@
             }
         },
         {
+            "Key": "a9d6f068-55c5-4c69-96dc-cc13d5f5b772",
+            "Value": {
+                "id": "5f8d2484-0b1c-44e9-a83b-f021fb4d71ca",
+                "resourcePath": "objects\\objGameOverControl\\objGameOverControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa611d9f-6489-487b-abec-6fab8ee6f679",
             "Value": {
                 "id": "7999636f-3d1c-4a2e-ab9e-e3df19a902f0",
@@ -1010,7 +1026,7 @@
             "Key": "fcfb5f75-e45a-4384-b08a-930c59bb5d80",
             "Value": {
                 "id": "a83f028c-01e3-4592-a30f-f59618f10d9b",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\\roomMain\\roomMain.yy",
                 "resourceType": "GMRoom"
             }
         },

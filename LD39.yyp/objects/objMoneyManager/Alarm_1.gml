@@ -8,7 +8,7 @@ powerCost += powerIncrement;
 
 if (money < 0) {
 	show_debug_message("YOU LOSE! Money is negative!");
-	room_goto(room0);
+	room_goto(roomGameOver);
 }
 
 alarm[1] = objGameControl.timeStepsInDay * objGameControl.timeStep;
