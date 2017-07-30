@@ -13,14 +13,14 @@ if (currentNode = targetNode) {
   return noone;
 }
 
-var returnNode = noone;
-
 if (dir == 1) {
+  if (ds_list_find_index(currentNode.adjacentPointsClockwise, targetNode) != -1)
+    return targetNode;
   var which = random(ds_list_size(currentNode.adjacentPointsClockwise));
-  returnNode = currentNode.adjacentPointsClockwise[| which];
+  return currentNode.adjacentPointsClockwise[| which];
 } else {
+  if (ds_list_find_index(currentNode.adjacentPointsCounterClockwise, targetNode) != -1)
+    return targetNode;
   var which = random(ds_list_size(currentNode.adjacentPointsCounterClockwise));
-  returnNode = currentNode.adjacentPointsCounterClockwise[| which];
+  return currentNode.adjacentPointsCounterClockwise[| which];
 }
-
-return returnNode;
