@@ -242,17 +242,6 @@
             "Key": "414512d4-5f36-46c8-b676-1ffca6634a0a",
             "Value": {
                 "id": "2c3e23b6-7dbf-4e49-9032-0b0db34c85e3",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "views\/414512d4-5f36-46c8-b676-1ffca6634a0a.yy",
                 "resourceType": "GMFolder"
             }
@@ -381,17 +370,6 @@
             "Key": "6582f480-a77d-4fa1-9427-fa2fbc0156d7",
             "Value": {
                 "id": "6fc807ee-1845-47c3-bb28-c996840fb8f3",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/objVendingMachine\/objVendingMachine.yy",
                 "resourceType": "GMObject"
             }
@@ -474,6 +452,14 @@
                 "id": "00c5754e-8bd8-42a7-9501-25366e22a150",
                 "resourcePath": "objects\/objGameControl\/objGameControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "80e46955-9d5d-4ba1-bd6f-7afd31e33937",
+            "Value": {
+                "id": "4734bfb1-184e-4dfc-8236-15b46037e255",
+                "resourcePath": "views\\80e46955-9d5d-4ba1-bd6f-7afd31e33937.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -778,6 +764,14 @@
                 "id": "c6267071-68b3-406a-9977-ddfcf58e216c",
                 "resourcePath": "scripts\/scrGetPowerUsage\/scrGetPowerUsage.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e10d2a3a-c816-4369-b2a5-c7c5be2a1f64",
+            "Value": {
+                "id": "a341e57d-0186-4791-add3-ffa2f69817f8",
+                "resourcePath": "objects\\objVisitorManager\\objVisitorManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {

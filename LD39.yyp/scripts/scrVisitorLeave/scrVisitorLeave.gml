@@ -24,6 +24,7 @@ with (visitorID) {
     if (targetNode == objNavControl.exitNode) {
       targetNode = noone;
       nextNode = noone; 
+      objVisitorManager.numVisitors -= 1;
       instance_destroy();
     } else {
       nextNode = objNavControl.exitNode;
