@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "8c3eb0e2-62ee-4fdf-8147-d1d996c8a72b",
+            "Value": {
+                "id": "6fd395b2-c5e7-49cb-b10a-486f4ba5a484",
+                "resourcePath": "sprites\\sprThoughtBubble\\sprThoughtBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8de1e8b3-331b-48d1-98b4-abf17f33b81a",
             "Value": {
                 "id": "6f0f0277-6f8a-4cbc-bd66-6bab24dacddd",
