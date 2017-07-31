@@ -13,6 +13,7 @@ if(activityID == noone || visitorID == noone) {
 
 visitorID.currentState = VISITOR_ACTIVE;
 visitorID.currentActivity = activityID;
+visitorID.isWalking = false;
 //visitorInstance.x = cabinetInstance.x;
 //visitorInstance.y = cabinetInstance.y + 100;
 visitorID.futureActivity = noone;

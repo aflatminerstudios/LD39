@@ -19,4 +19,6 @@ with (visitorID) {
     sprite_index = spriteStaticSE;
   }
   
+  image_index = 0;
+  
 }

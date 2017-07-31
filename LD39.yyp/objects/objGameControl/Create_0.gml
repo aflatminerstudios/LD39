@@ -17,7 +17,7 @@ showCircuits = false;
 
 //For sounds
 audio_group_load(soundEffects);
-
+audio_group_set_gain(soundEffects, 0, 1);
 
 //For debugging
 displayDebug = false;

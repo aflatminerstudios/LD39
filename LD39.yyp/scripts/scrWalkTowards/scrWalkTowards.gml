@@ -15,8 +15,12 @@ with (visitorID) {
     image_index = 0;
     isWalking = true;
   }
-  
+  oldIndex = image_index;
   sprite_index = scrVisitorPickSpriteWhenWalking(self.id, dir);
   
+  if (point_distance(x, y, targetX, targetY) < stopWalking)
+    scrSetVisitorStatic(visitorID, dir);
+  
+  image_index = oldIndex;
   
 }

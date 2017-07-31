@@ -10,7 +10,7 @@ if(currentState == VISITOR_IDLE) {
     
     timeInActivity = 0;
 		scrGetActivityForVisitor(self.id);
-		// Didn't find someting to do, so just go to the center of the room
+		// Didn't find someting to do, so just go to a random position
 		if(currentState == VISITOR_IDLE) {
     
       //Find 3 random walking points, pick the closest, so it biases towards not moving as much
@@ -77,6 +77,7 @@ if(currentState == VISITOR_IDLE) {
   if (scrIsActivityVisitor(currentActivity)) {
     //If watching a visitor not playing a game, stop
     if (!scrIsActivityCabinet(currentActivity.currentActivity)) {
+      scrSetVisitorStatic(self.id, dir);
       alarm[2] = 1;
     }
   }
@@ -153,6 +154,7 @@ if(currentState == VISITOR_IDLE) {
   			// wait or give up
   			// give up for now
   			futureActivity = noone;
+        isWalking = false;
   			currentState = VISITOR_WAITING;
   			speed = 0;
   		}
@@ -160,6 +162,7 @@ if(currentState == VISITOR_IDLE) {
 	// wait or give up
   			// give up for now
   			futureActivity = noone;
+        isWalking = false;
   			currentState = VISITOR_WAITING;
   			speed = 0;    
     }
