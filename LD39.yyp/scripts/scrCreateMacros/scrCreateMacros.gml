@@ -10,3 +10,9 @@
 #macro STYLE_ACTION 3
 #macro STYLE_PUZZLE 4
 #macro STYLE_FOOD 5
+
+
+
+//playing macros
+#macro PLAY_LEFT 0
+#macro PLAY_RIGHT 1

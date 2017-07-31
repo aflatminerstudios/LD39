@@ -6,8 +6,9 @@ var activityID = argument1;
 var cabinetID = activityID.currentActivity;
 
 with (visitorID) {
-  if (sprite_index != spriteStatic) {
-    scrSetVisitorStatic(self.id);
+  if (sprite_index != spriteStaticNW && sprite_index != spriteStaticNE && sprite_index != spriteStaticSW && sprite_index != spriteStaticSE) {
+    var actDir = point_direction(x, y, activityID.x, activityID.y);  
+    scrSetVisitorStatic(self.id, actDir);
   }
 }
 

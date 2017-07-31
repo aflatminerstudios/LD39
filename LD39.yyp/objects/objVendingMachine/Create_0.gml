@@ -23,3 +23,5 @@ reflection.sprite_index = sprVendingMachineReflection;
 
 playPos[0] = x;
 playPos[1] = y + 10;
+
+playDirection = PLAY_RIGHT;

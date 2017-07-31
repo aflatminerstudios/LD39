@@ -96,6 +96,14 @@
             }
         },
         {
+            "Key": "0803a9a1-0801-45d9-b722-57de619241fd",
+            "Value": {
+                "id": "4e863183-c578-4ea8-9ea8-69b7bcf7c65b",
+                "resourcePath": "sprites\\sprTwinkieWalkingSE\\sprTwinkieWalkingSE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a5cf389-dbb5-41a2-8682-87d13409dbb7",
             "Value": {
                 "id": "f130faca-cfe6-4c56-a7b4-53b31bbdb9c4",
@@ -172,6 +180,14 @@
             }
         },
         {
+            "Key": "1041a5ca-32e3-43ce-8108-0b7018f9a495",
+            "Value": {
+                "id": "64b5a4c7-023a-4986-909c-33d739c72063",
+                "resourcePath": "objects\\objCabinetBack\\objCabinetBack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "10649f0a-4801-487a-9602-317920ca7500",
             "Value": {
                 "id": "2849f6a0-2aa7-45b1-8c91-9e1148a541c9",
@@ -188,6 +204,14 @@
                 ],
                 "resourcePath": "sounds\/sndTurnOnCabinet\/sndTurnOnCabinet.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "12460e46-3b48-4554-885b-7010e69b7628",
+            "Value": {
+                "id": "95dad8f6-30c6-458f-a5d5-16558686ae06",
+                "resourcePath": "sprites\\sprTwinkiePlayingNE\\sprTwinkiePlayingNE.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -666,6 +690,14 @@
             }
         },
         {
+            "Key": "2dfa5ec1-51ea-48ba-b628-954af9441284",
+            "Value": {
+                "id": "36e53ff7-699b-49d6-925e-1910029a7383",
+                "resourcePath": "sprites\\sprTwinkiePlayingNW\\sprTwinkiePlayingNW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e175136-eb6b-4a87-82c1-5f16a1219f3a",
             "Value": {
                 "id": "57e9c978-6104-4718-a10b-4a27dbe713d8",
@@ -1008,6 +1040,14 @@
             }
         },
         {
+            "Key": "4653b763-558f-4d9b-938d-04aa81e21a22",
+            "Value": {
+                "id": "296ca1a7-abe4-4974-b94b-71e217408394",
+                "resourcePath": "sprites\\sprCabinetBack\\sprCabinetBack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a4dd7c8-bfb4-45b3-8e3f-05f9bcf9bd6d",
             "Value": {
                 "id": "836bd4c3-86bd-42a4-ad99-373e85e07b17",
@@ -1061,6 +1101,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSwoltronCabinetPlaying\/sprSwoltronCabinetPlaying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c8e6382-0e91-491c-a7a9-ecd089601f68",
+            "Value": {
+                "id": "73a531a8-0e27-4d72-b9f5-c1cdf0b234f9",
+                "resourcePath": "sprites\\sprTwinkieWalkingNE\\sprTwinkieWalkingNE.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1312,6 +1360,14 @@
             }
         },
         {
+            "Key": "5e49cf35-3d84-40ec-af6d-c96a29fc7331",
+            "Value": {
+                "id": "2eb24a98-1f3e-4d35-b501-3f71caa70f58",
+                "resourcePath": "views\\5e49cf35-3d84-40ec-af6d-c96a29fc7331.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5f0c5874-a6d5-44ce-8e49-bbcb384f1a5e",
             "Value": {
                 "id": "ecac84ff-692a-48c2-84f0-a3a57144ca92",
@@ -1384,6 +1440,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprOpenSignOn\/sprOpenSignOn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "621d9da3-47e1-4d63-8c5e-013a5009200d",
+            "Value": {
+                "id": "cd46153c-1a77-4dee-8f43-a9e0785db7b8",
+                "resourcePath": "sprites\\sprTwinkieStandingSW\\sprTwinkieStandingSW.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1464,6 +1528,14 @@
             }
         },
         {
+            "Key": "678dc824-b063-415b-876e-a8f1f92286a6",
+            "Value": {
+                "id": "f69ce375-b0a1-4375-b210-7ddc984133eb",
+                "resourcePath": "sprites\\sprMachineDesc\\sprMachineDesc.yy",
+                "resourceType": "GMSprite"
+	    }
+	},
+	{
             "Key": "671805b7-3c1a-48cb-be57-609cfa701e3d",
             "Value": {
                 "id": "77b44034-95bf-44ed-b752-48aec7b760a1",
@@ -1521,6 +1593,14 @@
             }
         },
         {
+            "Key": "71475b06-e6e3-43bd-82d7-9ecb358611ed",
+            "Value": {
+                "id": "576247c7-a60c-419f-99da-2a2d5eb0090e",
+                "resourcePath": "sprites\\sprHappinessDesc\\sprHappinessDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "715dc81f-4531-4064-abdf-9e1efeab65f9",
             "Value": {
                 "id": "8b277f0a-bc2a-43bd-a9e0-c4e699df73c4",
@@ -1536,6 +1616,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSwoltron2CabinetOn\/sprSwoltron2CabinetOn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71d023a8-2bc7-40d6-89cf-a156e3e06341",
+            "Value": {
+                "id": "52a5e453-b795-4deb-a891-9f9c42398c42",
+                "resourcePath": "sprites\\sprTwinkieWalkingSW\\sprTwinkieWalkingSW.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2490,6 +2578,14 @@
             }
         },
         {
+            "Key": "adf54f1b-0a1f-4d0e-a47a-9c465136b0c9",
+            "Value": {
+                "id": "8ee095be-020b-4112-9e4a-76ae53d25b57",
+                "resourcePath": "sprites\\sprTwinkieStandingNE\\sprTwinkieStandingNE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae5f9f99-7367-4eb4-ad1b-0f32aac6b415",
             "Value": {
                 "id": "a7b31268-2ac3-440d-a80d-1e59fb606a0a",
@@ -2661,6 +2757,14 @@
             }
         },
         {
+            "Key": "bc7b9990-9b5e-463e-b54b-63aa16c7452c",
+            "Value": {
+                "id": "fdecf5aa-8974-47db-8eba-e221a50e0975",
+                "resourcePath": "sprites\\sprMoneyDesc\\sprMoneyDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfa3e6c9-aaa3-4eed-a7ba-4a5c6ebd2369",
             "Value": {
                 "id": "81037c9e-565e-40e5-9834-8edde11e1b15",
@@ -2699,6 +2803,14 @@
             }
         },
         {
+            "Key": "c367f12f-2caf-459d-9d5b-eed87b37fd9b",
+            "Value": {
+                "id": "8fdd43cc-1f7a-4d95-82d2-de92a5ab7f48",
+                "resourcePath": "sprites\\sprTwinkieStandingSE\\sprTwinkieStandingSE.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+	{
             "Key": "c2848232-5aaf-4774-a918-0c6284d4b5e9",
             "Value": {
                 "id": "b2aa87d0-33f8-4a4f-84d2-365dae2a0925",
@@ -2923,6 +3035,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSwoltron2CabinetFried\/sprSwoltron2CabinetFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d76127e3-9537-41a2-aff3-5dcfef923cf8",
+            "Value": {
+                "id": "f50da38b-ce5b-43cb-9501-98a1449a3d7a",
+                "resourcePath": "sprites\\sprTwinkieWalkingNW\\sprTwinkieWalkingNW.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3345,6 +3465,14 @@
             }
         },
         {
+            "Key": "e5a4afc6-1bed-4c93-8895-0f64a90b870f",
+            "Value": {
+                "id": "90faeb90-e587-4ab5-80ac-f14c1a07a309",
+                "resourcePath": "sprites\\sprTwinkieStandingNW\\sprTwinkieStandingNW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e586b403-254d-47d3-a18e-fac6151b2bb1",
             "Value": {
                 "id": "fbd33a37-d924-45c3-a40f-acfb6261ad90",
@@ -3630,6 +3758,14 @@
             }
         },
         {
+            "Key": "f57e8844-585c-47f5-957d-5481d0346b38",
+            "Value": {
+                "id": "ab399b94-f92b-4495-b11e-b08835c3bb78",
+                "resourcePath": "sprites\\sprPowerDesc\\sprPowerDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f81dc541-4198-44ad-add2-66cd966e6423",
             "Value": {
                 "id": "c3d541e7-7a50-45b7-8898-21e1aab07b18",
@@ -3646,6 +3782,14 @@
                 ],
                 "resourcePath": "objects\/objSwoltron2Cabinet\/objSwoltron2Cabinet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8f4c9bd-4354-4dc6-9abd-937276971b3e",
+            "Value": {
+                "id": "dc29052a-3504-42ad-b1b4-df22cbc2772b",
+                "resourcePath": "views\\f8f4c9bd-4354-4dc6-9abd-937276971b3e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

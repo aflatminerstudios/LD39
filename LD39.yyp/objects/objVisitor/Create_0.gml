@@ -61,14 +61,19 @@ alarm[0] = objGameControl.timeStep;
 
 
 ///Sprite list
+spriteStaticNW = sprTwinkieStandingNW;
+spriteStaticNE = sprTwinkieStandingNE;
+spriteStaticSW = sprTwinkieStandingSW;
+spriteStaticSE = sprTwinkieStandingSE;
+spritePlayingNW = sprTwinkiePlayingNW;
+spritePlayingNE = sprTwinkiePlayingNE;
+spriteWalkingNW = sprTwinkieWalkingNW;
+spriteWalkingNE = sprTwinkieWalkingNE;
+spriteWalkingSE = sprTwinkieWalkingSE;
+spriteWalkingSW = sprTwinkieWalkingSW;
 
-spriteStatic = sprVisitor;
-spritePlaying = sprVisitor;
-spriteWalkingNW = sprVisitor;
-spriteWalkingNE = sprVisitor;
-spriteWalkingSE = sprVisitor;
-spriteWalkingSW = sprVisitor;
+sprite_index = spriteStaticNW;
 
-
+dir = 45;
 
 

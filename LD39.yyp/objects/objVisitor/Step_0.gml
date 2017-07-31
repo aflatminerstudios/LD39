@@ -6,7 +6,7 @@ depth = layer_get_depth("Instances") - ( y + sprite_height / 2);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
-    scrSetVisitorStatic(self.id);
+    scrSetVisitorStatic(self.id, dir);
     
     timeInActivity = 0;
 		scrGetActivityForVisitor(self.id);
@@ -44,11 +44,23 @@ if(currentState == VISITOR_IDLE) {
   isWalking = false;
   
   if (scrIsActivityCabinet(currentActivity)) {
-  //change sprite
-    if (sprite_index != spritePlaying) {
-      sprite_index = spritePlaying;
-      image_index = 0;
-    }
+  
+  
+    if (currentActivity.playDirection == PLAY_LEFT) {
+      //change sprite
+      if (sprite_index != spritePlayingNW) {
+        sprite_index = spritePlayingNW;
+        image_index = 0;
+      }
+    } else {
+      //change sprite
+      if (sprite_index != spritePlayingNE) {
+        sprite_index = spritePlayingNE;
+        image_index = 0;
+      }
+    }  
+  
+    
     //Remove money
     moneyOnHand = clamp(moneyOnHand - currentActivity.incomePerStep, 0, moneyOnHand);  
     //Always quit immediately when visitor runs out of money
@@ -72,7 +84,7 @@ if(currentState == VISITOR_IDLE) {
   timeInActivity += 1;
   
 } else if(currentState == VISITOR_WAITING) {
-  scrSetVisitorStatic(self.id);
+  scrSetVisitorStatic(self.id, dir);
   timeInActivity = 0;
 	// if alarm is not active, set waiting alarm
   if (alarm[3] <= 0) {
