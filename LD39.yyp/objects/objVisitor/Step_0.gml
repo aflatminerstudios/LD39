@@ -107,7 +107,7 @@ if(currentState == VISITOR_IDLE) {
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
 
-  show_debug_message("Moving towards point (" + string(targetLocation[0]) + ", " + string(targetLocation[1]) + ")");
+  //show_debug_message("Moving towards point (" + string(targetLocation[0]) + ", " + string(targetLocation[1]) + ")");
   
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
