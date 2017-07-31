@@ -6,7 +6,9 @@ event_inherited();
 
 powerUsage = 40.0;
 incomePerTimeStep = 8.0;
-incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+if (instance_number(objGameControl) > 0) {
+  incomePerStep = incomePerTimeStep / objGameControl.timeStep;
+}
 
 style = STYLE_PUZZLE;
 baseHappiness = 0.25;
