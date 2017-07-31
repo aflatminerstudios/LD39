@@ -85,11 +85,11 @@ if(currentState == VISITOR_IDLE) {
   
   
   //If they have reached the next node on their path
-  if (distance_to_point(nextNode.x, nextNode.y) < 5.0) {
+  if (distance_to_point(nextNode.x, nextNode.y) < 1.0) {
     nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
   }
   //If they have reached the target node
-  if (distance_to_point(targetNode.x, targetNode.y) < 5.0) {
+  if (distance_to_point(targetNode.x, targetNode.y) < 1.0) {
     targetNode = noone;
     nextNode = noone;
     currentState = VISITOR_OFFPATH;
@@ -106,7 +106,7 @@ if(currentState == VISITOR_IDLE) {
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
-	if(distance_to_point(targetLocation[0], targetLocation[1]) < 10.0) {
+	if(distance_to_point(targetLocation[0], targetLocation[1]) < 1.0) {
 		if(futureActivity != noone) {
       if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
         if (futureActivity.isBeingPlayed) {  

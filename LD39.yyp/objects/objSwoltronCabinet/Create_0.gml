@@ -21,5 +21,5 @@ friedSprite = sprSwoltronCabinetFried;
 
 reflection.sprite_index = sprSwoltronCabinetReflection;
 
-playPos[0] = x - 16;
-playPos[1] = y + 81;
+playPos[0] = x - 33 * sign(image_xscale);
+playPos[1] = y;

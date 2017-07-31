@@ -21,5 +21,5 @@ friedSprite = sprMPMCabinetFried;
 
 reflection.sprite_index = sprMPMReflection;
 
-playPos[0] = x + 16;
-playPos[1] = y + 81;
+playPos[0] = x + 37;
+playPos[1] = y + 5;

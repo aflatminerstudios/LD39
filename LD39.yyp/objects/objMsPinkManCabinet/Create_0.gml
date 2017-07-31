@@ -21,5 +21,5 @@ friedSprite = sprMsPinkManCabinetFried;
 
 reflection.sprite_index = sprMsPinkManCabinetReflection;
 
-playPos[0] = x + 16;
-playPos[1] = y + 81;
+playPos[0] = x + 37;
+playPos[1] = y + 5;
