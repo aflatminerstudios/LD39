@@ -24,7 +24,8 @@
         "c64ff69c-2350-4c85-8700-ac835e2d43d5",
         "ab3b7e79-1a8a-4960-a9f5-4d37531c8924",
         "82728944-775a-4f3c-9194-d7285a5f815a",
-        "f2096a53-07c6-4a67-9005-9343047a2390"
+        "f2096a53-07c6-4a67-9005-9343047a2390",
+        "864a3899-18bb-49ca-bfca-34b5702e8a1e"
     ],
     "layers": [
         {
@@ -433,6 +434,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "864a3899-18bb-49ca-bfca-34b5702e8a1e",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_2E4D8BE0",
+                    "x": 640,
+                    "y": 544,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_2E4D8BE0",
+                    "objId": "0de1246b-d425-4c27-9fe4-554c8cddfe5a",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -485,30 +510,7 @@
             "userdefined_depth": false,
             "visible": true,
             "assets": [
-                {
-                    "__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat",
-                    "id": "7b4fff57-7423-40aa-ad73-c2ca2ec6f354",
-                    "modelName": "GMRSpriteGraphic",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "graphic_41391D95",
-                    "x": 640,
-                    "y": 544,
-                    "animationFPS": 15,
-                    "animationSpeedType": 0,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "frameIndex": 0,
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1,
-                    "spriteId": "06b442ac-c5b6-44e0-abb7-56aa09c32411",
-                    "userdefined_animFPS": false
-                }
+                
             ]
         },
         {

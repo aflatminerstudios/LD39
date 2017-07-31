@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0de1246b-d425-4c27-9fe4-554c8cddfe5a",
+            "Value": {
+                "id": "ced4169b-1fc4-4bef-984b-6778e07a30b0",
+                "resourcePath": "objects\\objReplayButton\\objReplayButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ec95ef4-008e-433d-96cf-7df02839a240",
             "Value": {
                 "id": "727d8f3a-39e9-4e7f-b46d-f946954b69ae",
