@@ -69,7 +69,7 @@
                     "ignore": false,
                     "inheritItemSettings": false,
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
+                    "m_serialiseFrozen": true,
                     "name": "graphic_7DEEF890",
                     "x": 428,
                     "y": 12,

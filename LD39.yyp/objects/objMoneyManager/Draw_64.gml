@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 draw_set_font(fontLarge);
-draw_text(120, 50, "$" + string_format(money,0,2));
+draw_text(750, 50, "$" + string_format(money,0,2));
 
 
 if (displayPayment) {
@@ -12,7 +12,7 @@ if (displayPayment) {
     alpha -= (paymentPopupTime - paymentPopupMaxTime / 2)/ (paymentPopupMaxTime / 2);    
   }
   
-  draw_text_color(145, 30, "-$" + string_format(paymentAmount,0,2),c_red,c_red,c_red,c_red,alpha);
+  draw_text_color(775, 30, "-$" + string_format(paymentAmount,0,2),c_red,c_red,c_red,c_red,alpha);
 
   paymentPopupTime += 1;
   if (paymentPopupTime > paymentPopupMaxTime) {

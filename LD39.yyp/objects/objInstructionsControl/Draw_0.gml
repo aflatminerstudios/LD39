@@ -3,7 +3,7 @@
 
 var money = 150.00;
 draw_set_font(fontLarge);
-draw_text(50, 50, "$" + string_format(money,0,2));
+draw_text(750, 50, "$" + string_format(money,0,2));
 
 
 var color = c_white;
