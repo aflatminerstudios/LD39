@@ -3,7 +3,7 @@
 
 
 
-maxVisitors = 20;
+maxVisitors = 12;
 
 
 //Spawn initial visitors
