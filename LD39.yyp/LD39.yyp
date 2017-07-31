@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "5e49cf35-3d84-40ec-af6d-c96a29fc7331",
+            "Value": {
+                "id": "2eb24a98-1f3e-4d35-b501-3f71caa70f58",
+                "resourcePath": "views\\5e49cf35-3d84-40ec-af6d-c96a29fc7331.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5f0c5874-a6d5-44ce-8e49-bbcb384f1a5e",
             "Value": {
                 "id": "ecac84ff-692a-48c2-84f0-a3a57144ca92",
@@ -583,6 +591,14 @@
             }
         },
         {
+            "Key": "678dc824-b063-415b-876e-a8f1f92286a6",
+            "Value": {
+                "id": "f69ce375-b0a1-4375-b210-7ddc984133eb",
+                "resourcePath": "sprites\\sprMachineDesc\\sprMachineDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "684e9dbe-3af0-4166-a767-777da900cdb8",
             "Value": {
                 "id": "c47ce8a4-faa1-4cfe-a7dd-72cb6a4e3fcc",
@@ -595,6 +611,14 @@
             "Value": {
                 "id": "8dd793b0-26e7-4bdc-83f1-d750d2662b37",
                 "resourcePath": "sprites\/sprMsPinkManCabinetOff\/sprMsPinkManCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71475b06-e6e3-43bd-82d7-9ecb358611ed",
+            "Value": {
+                "id": "576247c7-a60c-419f-99da-2a2d5eb0090e",
+                "resourcePath": "sprites\\sprHappinessDesc\\sprHappinessDesc.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -999,6 +1023,14 @@
             }
         },
         {
+            "Key": "bc7b9990-9b5e-463e-b54b-63aa16c7452c",
+            "Value": {
+                "id": "fdecf5aa-8974-47db-8eba-e221a50e0975",
+                "resourcePath": "sprites\\sprMoneyDesc\\sprMoneyDesc.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfa3e6c9-aaa3-4eed-a7ba-4a5c6ebd2369",
             "Value": {
                 "id": "81037c9e-565e-40e5-9834-8edde11e1b15",
@@ -1291,6 +1323,14 @@
             "Value": {
                 "id": "2627d0ae-ddb7-411d-b902-337f1d504897",
                 "resourcePath": "sprites\\sprCreditsBG\\sprCreditsBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f57e8844-585c-47f5-957d-5481d0346b38",
+            "Value": {
+                "id": "ab399b94-f92b-4495-b11e-b08835c3bb78",
+                "resourcePath": "sprites\\sprPowerDesc\\sprPowerDesc.yy",
                 "resourceType": "GMSprite"
             }
         },
