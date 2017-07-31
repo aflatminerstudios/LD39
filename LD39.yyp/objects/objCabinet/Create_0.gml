@@ -39,3 +39,7 @@ playPos[0] = x;
 playPos[1] = y + 75;
 
 playDirection = PLAY_LEFT;
+
+
+///Change play direction if reversed
+alarm[0] = 1;
