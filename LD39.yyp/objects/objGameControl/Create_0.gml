@@ -22,5 +22,6 @@ audio_group_load(soundEffects);
 //For debugging
 displayDebug = false;
 isSoundOn = false;
+isAmbienceOn = true;
 
 draw_set_font(fontNormal);
