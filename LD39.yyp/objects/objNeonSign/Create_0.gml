@@ -4,6 +4,6 @@
 offSprite = sprNeonSignOff;
 onSprite = sprNeonSignOn;
 
-isPowered = false;
+isPowered = true;
 
 powerUsage = 10;
