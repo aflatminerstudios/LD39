@@ -4,7 +4,7 @@
 depth = -10000;
 
 if (objGameControl.displayDebug) {
-  draw_rectangle_color(x - 10, y - 10, x + 10, y + 10, c_red, c_red, c_red, c_red, false);
+  draw_rectangle_color(x - 5, y - 5, x + 5, y + 5, c_red, c_red, c_red, c_red, false);
   draw_text(x - 5, y - 5, groupNum);
 }
 

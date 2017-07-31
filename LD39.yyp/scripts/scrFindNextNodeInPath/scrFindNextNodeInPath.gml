@@ -13,14 +13,23 @@ if (currentNode = targetNode) {
   return noone;
 }
 
+var rVal;
 if (dir == 1) {
-  if (ds_list_find_index(currentNode.adjacentPointsClockwise, targetNode) != -1)
-    return targetNode;
-  var which = random(ds_list_size(currentNode.adjacentPointsClockwise));
-  return currentNode.adjacentPointsClockwise[| which];
+  if (ds_list_find_index(currentNode.adjacentPointsClockwise, targetNode) != -1) {
+    rVal = targetNode;    
+    } else {
+  var which = random(ds_list_size(currentNode.adjacentPointsClockwise));  
+  rVal = currentNode.adjacentPointsClockwise[| which];
+  }
 } else {
-  if (ds_list_find_index(currentNode.adjacentPointsCounterClockwise, targetNode) != -1)
-    return targetNode;
+  if (ds_list_find_index(currentNode.adjacentPointsCounterClockwise, targetNode) != -1) {
+    rVal = targetNode;   
+    } else {
   var which = random(ds_list_size(currentNode.adjacentPointsCounterClockwise));
-  return currentNode.adjacentPointsCounterClockwise[| which];
+  rVal = currentNode.adjacentPointsCounterClockwise[| which];
+  }
 }
+
+//show_debug_message("Going to " + string(rVal.groupNum) + " on the way to " + string(targetNode.groupNum));
+
+return rVal;

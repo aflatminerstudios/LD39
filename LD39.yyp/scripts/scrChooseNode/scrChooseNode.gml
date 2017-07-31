@@ -3,8 +3,8 @@
 ///@param xVal x coordinate of target position
 ///@param yVal y coordinate of target position
 
-var xVAl = argument0;
+var xVal = argument0;
 var yVal = argument1;
 
-return instance_nearest(x, y, objWalkPoint);
+return instance_nearest(xVal, yVal, objWalkPoint);
 

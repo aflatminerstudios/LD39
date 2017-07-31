@@ -79,17 +79,20 @@ if(currentState == VISITOR_IDLE) {
     nextNode = scrChooseNode(x, y);
     whichDir = scrGetDirectionToTravel(targetNode, nextNode);
   }
-  motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
+  //motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
+  move_towards_point(nextNode.x, nextNode.y, walkingSpeed);
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
   
   
   //If they have reached the next node on their path
-  if (distance_to_point(nextNode.x, nextNode.y) < 1.0) {
+  if (distance_to_point(nextNode.x, nextNode.y) < 3.0) {
+    
     nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
   }
   //If they have reached the target node
-  if (distance_to_point(targetNode.x, targetNode.y) < 1.0) {
+  if (distance_to_point(targetNode.x, targetNode.y) < 3.0) {
+    
     targetNode = noone;
     nextNode = noone;
     currentState = VISITOR_OFFPATH;
@@ -99,14 +102,17 @@ if(currentState == VISITOR_IDLE) {
 } else if (currentState == VISITOR_OFFPATH) {
   //Visitor is done walking the node path, now walk straight to target
 	// Move one step closer, avoiding obstacles
-	motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);
+	//motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);  
+  move_towards_point(targetLocation[0], targetLocation[1], walkingSpeed);
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
-	
+
+  show_debug_message("Moving towards point (" + string(targetLocation[0]) + ", " + string(targetLocation[1]) + ")");
+  
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
-	if(distance_to_point(targetLocation[0], targetLocation[1]) < 1.0) {
+	if(distance_to_point(targetLocation[0], targetLocation[1]) < 3.0) {
 		if(futureActivity != noone) {
       if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
         if (futureActivity.isBeingPlayed) {  
