@@ -7,5 +7,5 @@ if (sprite_index == spriteOn) {
   audio_group_set_gain(group, 0, 1);
 } else {
   sprite_index = spriteOn;
-  audio_group_set_gain(group, 1, 1);
+  audio_group_set_gain(group, level, 1);
 }

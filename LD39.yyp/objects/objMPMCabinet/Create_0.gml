@@ -4,14 +4,14 @@
 //call parent event
 event_inherited();
 
-powerUsage = 15.0;
-incomePerTimeStep = 3.0;
+powerUsage = 10.0;
+incomePerTimeStep = 2.0;
 if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 }
 
-style = STYLE_PUZZLE;
-baseHappiness = 0.15;
+style = STYLE_PACMAN;
+baseHappiness = 0.25;
 
 
 onSprite = sprMPMCabinetOn;

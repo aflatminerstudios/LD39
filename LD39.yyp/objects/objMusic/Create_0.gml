@@ -5,3 +5,4 @@ spriteOff = sprMusicOff;
 spriteOn = sprMusicOn;
 
 group = audiogroup_default;
+level = 0.25;

@@ -123,7 +123,7 @@ if(currentState == VISITOR_IDLE) {
   //Visitor is done walking the node path, now walk straight to target
 	// Move one step closer, avoiding obstacles
 	//motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);  
-
+  timeInActivity = 0;
   scrWalkTowards(self.id, targetLocation[0], targetLocation[1]);
   
   //show_debug_message("Moving towards point (" + string(targetLocation[0]) + ", " + string(targetLocation[1]) + ")");
@@ -168,6 +168,6 @@ if(currentState == VISITOR_IDLE) {
     }
   }
 } else if (currentState = VISITOR_LEAVING) {
-  
+  timeInActivity = 0;
   scrVisitorLeave(self.id);
 }

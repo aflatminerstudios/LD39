@@ -43,3 +43,7 @@ playDirection = PLAY_LEFT;
 
 ///Change play direction if reversed
 alarm[0] = 1;
+
+
+///How many steps playing = +25% chance to leave
+leaveSteps = 200;

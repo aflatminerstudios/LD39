@@ -3,13 +3,12 @@
 
 
 //Style macros
-#macro NUM_STYLES 5
-#macro STYLE_FIGHTING 0
-#macro STYLE_SHOOTING 1
-#macro STYLE_SHMUP 2
-#macro STYLE_ACTION 3
-#macro STYLE_PUZZLE 4
-#macro STYLE_FOOD 5
+#macro NUM_STYLES 4
+#macro STYLE_PACMAN 0
+#macro STYLE_SWOLTRON 1
+#macro STYLE_SOULS 2
+#macro STYLE_PINBALL 3
+#macro STYLE_FOOD 4
 
 
 

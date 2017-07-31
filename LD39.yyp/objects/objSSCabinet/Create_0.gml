@@ -4,14 +4,14 @@
 //call parent event
 event_inherited();
 
-powerUsage = 25.0;
-incomePerTimeStep = 4.0;
+powerUsage = 30.0;
+incomePerTimeStep = 8.0;
 if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 }
 
-style = STYLE_ACTION;
-baseHappiness = 0.25;
+style = STYLE_SOULS;
+baseHappiness = 0.35;
 
 
 onSprite = sprSSCabinetOn;

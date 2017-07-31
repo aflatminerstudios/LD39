@@ -14,5 +14,9 @@ maxTime = 8;
 isLowPower = false;
 isInDanger = false;
 
+
+hardMin = 50;
+softMax = 150;
+
 //fluctuate in alarm[0]
 alarm[0] = irandom_range(minTime, maxTime) * room_speed;

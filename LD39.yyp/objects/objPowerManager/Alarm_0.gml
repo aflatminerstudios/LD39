@@ -3,6 +3,12 @@
 
 powerDifference += irandom_range(-30, 30);
 
+if(totalPower < hardMin) {
+  powerDifference = powerDifference + 40;
+} else if (totalPower > softMax) {
+  powerDifference = powerDifference - 20;
+}
+
 //change brightness if power is changing
 if (powerDifference > 0) {
   brightness = 1.50;

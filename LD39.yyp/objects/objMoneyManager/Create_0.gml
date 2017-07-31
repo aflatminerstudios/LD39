@@ -2,7 +2,7 @@
 
 
 money = 120;
-rent = 100;
+rent = 75;
 powerCost = 0;
 powerIncrement = 5;
 

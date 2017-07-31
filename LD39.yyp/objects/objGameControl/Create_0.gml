@@ -4,7 +4,7 @@
 randomise();
 
 timeStep = room_speed * 2;
-timeStepsInDay = 12;
+timeStepsInDay = 6;
 
 scrCreateMacros();
 
@@ -22,7 +22,7 @@ audio_group_load(soundEffects);
 
 //For debugging
 displayDebug = false;
-isSoundOn = false;
+isSoundOn = true;
 isAmbienceOn = true;
 
 draw_set_font(fontNormal);

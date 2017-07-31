@@ -4,7 +4,7 @@
 //call parent event
 event_inherited();
 
-powerUsage = 10.0;
+powerUsage = 5.0;
 incomePerTimeStep = 1.0;
 if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
@@ -25,3 +25,5 @@ playPos[0] = x;
 playPos[1] = y + 10;
 
 playDirection = PLAY_RIGHT;
+
+leaveSteps = 50;

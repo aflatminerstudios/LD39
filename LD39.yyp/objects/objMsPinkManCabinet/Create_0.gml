@@ -10,8 +10,8 @@ if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 }
 
-style = STYLE_ACTION;
-baseHappiness = 0.25;
+style = STYLE_PACMAN;
+baseHappiness = 0.2;
 
 
 onSprite = sprMsPinkManCabinetOn;

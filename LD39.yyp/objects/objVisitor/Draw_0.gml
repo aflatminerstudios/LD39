@@ -6,4 +6,7 @@ draw_self();
 
 if (objGameControl.displayDebug) {
   draw_circle_color(x, y, 2, c_aqua, c_aqua, false);
+  draw_text(x, y - 60, "H:" + string(happiness));
+  draw_text(x, y - 90, "E:" + string(energy));
+
 }
