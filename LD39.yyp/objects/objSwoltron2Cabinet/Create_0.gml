@@ -4,14 +4,14 @@
 //call parent event
 event_inherited();
 
-powerUsage = 40.0;
-incomePerTimeStep = 9.0;
+powerUsage = 30.0;
+incomePerTimeStep = 7.5;
 if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 }
 
 style = STYLE_SWOLTRON;
-baseHappiness = 0.2;
+baseHappiness = 0.22;
 
 
 onSprite = sprSwoltron2CabinetOn;
