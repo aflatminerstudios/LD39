@@ -23,3 +23,5 @@ reflection.sprite_index = sprSwoltronCabinetReflection;
 
 playPos[0] = x - 33 * sign(image_xscale);
 playPos[1] = y;
+
+playDirection = PLAY_RIGHT;

@@ -37,3 +37,5 @@ reflection = instance_create_layer(x, y, "Reflections", objReflection);
 
 playPos[0] = x;
 playPos[1] = y + 75;
+
+playDirection = PLAY_LEFT;

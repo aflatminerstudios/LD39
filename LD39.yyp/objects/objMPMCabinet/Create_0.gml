@@ -23,3 +23,5 @@ reflection.sprite_index = sprMPMReflection;
 
 playPos[0] = x + 37;
 playPos[1] = y + 5;
+
+playDirection = PLAY_LEFT;
