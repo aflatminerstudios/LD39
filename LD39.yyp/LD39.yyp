@@ -53,7 +53,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/LittleLaserShot2\/LittleLaserShot2.yy",
+                "resourcePath": "sounds\/sndLittleLaserShot2\/sndLittleLaserShot2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -74,6 +74,25 @@
                 ],
                 "resourcePath": "scripts\/scrIsActivityCabinet\/scrIsActivityCabinet.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0507a3fa-9faf-4f5d-b429-03f366b47f5f",
+            "Value": {
+                "id": "8a3e1bf2-0ba7-46af-a8a5-8084765ae760",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/0507a3fa-9faf-4f5d-b429-03f366b47f5f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -338,7 +357,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/PassingGrungyUFO\/PassingGrungyUFO.yy",
+                "resourcePath": "sounds\/sndPassingGrungyUFO\/sndPassingGrungyUFO.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -832,7 +851,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/LittleLaserShot\/LittleLaserShot.yy",
+                "resourcePath": "sounds\/sndLittleLaserShot\/sndLittleLaserShot.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -851,7 +870,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/ExtraCrappyCrowdStatic\/ExtraCrappyCrowdStatic.yy",
+                "resourcePath": "sounds\/sndExtraCrappyCrowdStatic\/sndExtraCrappyCrowdStatic.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1193,7 +1212,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/HighShortAsteroidsShot\/HighShortAsteroidsShot.yy",
+                "resourcePath": "sounds\/sndHighShortAsteroidsShot\/sndHighShortAsteroidsShot.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1459,7 +1478,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/GlassLaserManRicochet3\/GlassLaserManRicochet3.yy",
+                "resourcePath": "sounds\/sndGlassLaserManRicochet3\/sndGlassLaserManRicochet3.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1611,7 +1630,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/FlameFired2\/FlameFired2.yy",
+                "resourcePath": "sounds\/sndFlameFired2\/sndFlameFired2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1915,7 +1934,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/DoubleBounceBeep\/DoubleBounceBeep.yy",
+                "resourcePath": "sounds\/sndDoubleBounceBeep\/sndDoubleBounceBeep.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2105,7 +2124,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/LittleLaserShot3\/LittleLaserShot3.yy",
+                "resourcePath": "sounds\/sndLittleLaserShot3\/sndLittleLaserShot3.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2295,7 +2314,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/SmoothGameOverFall\/SmoothGameOverFall.yy",
+                "resourcePath": "sounds\/sndSmoothGameOverFall\/sndSmoothGameOverFall.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2371,7 +2390,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/GlassLaserManRicochet2\/GlassLaserManRicochet2.yy",
+                "resourcePath": "sounds\/sndGlassLaserManRicochet2\/sndGlassLaserManRicochet2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2561,7 +2580,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/SpringBoxBounce\/SpringBoxBounce.yy",
+                "resourcePath": "sounds\/sndSpringBoxBounce\/sndSpringBoxBounce.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2599,7 +2618,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/FlameFired\/FlameFired.yy",
+                "resourcePath": "sounds\/sndFlameFired\/sndFlameFired.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2694,7 +2713,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/DisorientedUFO\/DisorientedUFO.yy",
+                "resourcePath": "sounds\/sndDisorientedUFO\/sndDisorientedUFO.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2751,7 +2770,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/PowerDown\/PowerDown.yy",
+                "resourcePath": "sounds\/sndPowerDown\/sndPowerDown.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2846,7 +2865,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/BadLowFuzzyRoar\/BadLowFuzzyRoar.yy",
+                "resourcePath": "sounds\/sndBadLowFuzzyRoar\/sndBadLowFuzzyRoar.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3055,7 +3074,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/LowShortAsteroidsShot\/LowShortAsteroidsShot.yy",
+                "resourcePath": "sounds\/sndLowShortAsteroidsShot\/sndLowShortAsteroidsShot.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3074,7 +3093,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/GlassLaserManRicochet\/GlassLaserManRicochet.yy",
+                "resourcePath": "sounds\/sndGlassLaserManRicochet\/sndGlassLaserManRicochet.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3093,7 +3112,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/LowShortAsteroidsShot2\/LowShortAsteroidsShot2.yy",
+                "resourcePath": "sounds\/sndLowShortAsteroidsShot2\/sndLowShortAsteroidsShot2.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3132,6 +3151,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/scrGetPowerUsage\/scrGetPowerUsage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e0397548-6660-428f-9b34-77211e1c9b48",
+            "Value": {
+                "id": "5dc4743b-ecb5-4360-80c8-344f75bc9e25",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scrPlayRandomCabinetSound\/scrPlayRandomCabinetSound.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3321,7 +3359,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/RandomBleps\/RandomBleps.yy",
+                "resourcePath": "sounds\/sndRandomBleps\/sndRandomBleps.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3378,7 +3416,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/CloudMonkeyCoinPickup\/CloudMonkeyCoinPickup.yy",
+                "resourcePath": "sounds\/sndCloudMonkeyCoinPickup\/sndCloudMonkeyCoinPickup.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3416,7 +3454,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/PowerUp\/PowerUp.yy",
+                "resourcePath": "sounds\/sndPowerUp\/sndPowerUp.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3454,7 +3492,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/FallingZillo\/FallingZillo.yy",
+                "resourcePath": "sounds\/sndFallingZillo\/sndFallingZillo.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3492,7 +3530,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sounds\/FlameFired3\/FlameFired3.yy",
+                "resourcePath": "sounds\/sndFlameFired3\/sndFlameFired3.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -3819,7 +3857,8 @@
         "8544b109-0666-44e7-be3e-c000a1c75df1",
         "d9317dd6-adcc-4235-9ee5-ede395d85c3c",
         "e2fb26a2-c0a3-4c76-9c5e-c5f97d360503",
-        "a6044cfb-7fcc-4e36-8903-6d9bf3127a0f"
+        "a6044cfb-7fcc-4e36-8903-6d9bf3127a0f",
+        "e0397548-6660-428f-9b34-77211e1c9b48"
     ],
     "tutorial": ""
 }
