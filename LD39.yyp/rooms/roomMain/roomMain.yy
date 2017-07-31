@@ -28,13 +28,13 @@
         "877064c5-136a-451e-a729-3c2e509c6f47",
         "12bdae38-52da-43d3-8c56-527ed4000c37",
         "e3f64136-b4c7-4ebd-ae67-bee8fbc158f6",
-        "4a955da8-7413-47e6-87dc-5a9f33543c9f",
         "a3142761-a4dd-4189-ba96-b33a44a20d23",
         "95677f12-c550-4276-ae5f-d8a5b315fb99",
         "045d0d05-4e61-475c-ad0e-a7efab77b185",
         "822a308a-a494-4efa-9f53-72f200a284f1",
         "f772d6b6-36b3-485a-a9a5-7da113479cb9",
-        "e97117fb-f43f-4176-b334-74ae7a8266e0"
+        "e97117fb-f43f-4176-b334-74ae7a8266e0",
+        "ba361841-cc3d-4311-aafa-4100d497e227"
     ],
     "layers": [
         {
@@ -142,8 +142,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_431633AC",
-                    "x": 396,
-                    "y": 251,
+                    "x": 439,
+                    "y": 234,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -214,8 +214,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_9DDE9E3",
-                    "x": 336,
-                    "y": 305,
+                    "x": 113,
+                    "y": 420,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -238,8 +238,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_513CFF62",
-                    "x": 267,
-                    "y": 344,
+                    "x": 340,
+                    "y": 318,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -286,8 +286,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4F5BD601",
-                    "x": 123,
-                    "y": 419,
+                    "x": 182,
+                    "y": 390,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -358,8 +358,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_79120616",
-                    "x": 400,
-                    "y": 464,
+                    "x": 429,
+                    "y": 455,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -382,8 +382,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_61C04BD2",
-                    "x": 192,
-                    "y": 384,
+                    "x": 252,
+                    "y": 353,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -406,8 +406,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7D9D3F27",
-                    "x": 400,
-                    "y": 274,
+                    "x": 399,
+                    "y": 280,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -417,30 +417,6 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_7D9D3F27",
                     "objId": "e154199c-6749-4e84-b184-b79cbdf16b0e",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "4a955da8-7413-47e6-87dc-5a9f33543c9f",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_EAE4473",
-                    "x": 688,
-                    "y": 320,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_EAE4473",
-                    "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
@@ -539,6 +515,30 @@
                     "objId": "cbd00009-ddab-4beb-bc40-0fb0b5a41a27",
                     "rotation": 0,
                     "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "ba361841-cc3d-4311-aafa-4100d497e227",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_DCC904E",
+                    "x": 682,
+                    "y": 321,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_DCC904E",
+                    "objId": "14dcacad-25e0-4156-bfb9-0296f31b8ade",
+                    "rotation": 0,
+                    "scaleX": -1,
                     "scaleY": 1
                 }
             ]

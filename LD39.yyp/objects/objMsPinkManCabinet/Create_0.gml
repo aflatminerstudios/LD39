@@ -21,7 +21,7 @@ friedSprite = sprMsPinkManCabinetFried;
 
 reflection.sprite_index = sprMsPinkManCabinetReflection;
 
-playPos[0] = x + 47;
+playPos[0] = x + 47 * image_xscale;
 playPos[1] = y + 2;
 
 playDirection = PLAY_LEFT;
