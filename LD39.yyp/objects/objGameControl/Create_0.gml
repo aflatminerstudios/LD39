@@ -15,8 +15,12 @@ layer_script_end(instancesID, scrLayerShaderEnd);
 
 showCircuits = false;
 
+
+
 //For sounds
-audio_group_load(soundEffects);
+if (!audio_group_is_loaded(soundEffects))
+  audio_group_load(soundEffects);
+
 //audio_group_set_gain(soundEffects, 0, 1);
 //audio_group_set_gain(audiogroup_default, 0, 1);
 

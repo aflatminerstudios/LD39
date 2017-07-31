@@ -238,7 +238,7 @@
                     "m_serialiseFrozen": false,
                     "name": "graphic_6B27939E",
                     "x": 1095,
-                    "y": 86,
+                    "y": 97,
                     "animationFPS": 15,
                     "animationSpeedType": 0,
                     "colour": {
