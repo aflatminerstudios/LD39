@@ -1,10 +1,10 @@
 /// @description Sets up variables
 
 
-money = 120;
-rent = 75;
+money = 110;
+rent = 60;
 powerCost = 0;
-powerIncrement = 2;
+powerIncrement = 3;
 
 
 paymentPopupTime = 0;
