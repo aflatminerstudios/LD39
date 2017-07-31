@@ -16,11 +16,22 @@ with (visitorID) {
     isWalking = true;
   }
   oldIndex = image_index;
-  sprite_index = scrVisitorPickSpriteWhenWalking(self.id, dir);
+  
+  
+  var spriteToBe = scrVisitorPickSpriteWhenWalking(self.id, dir);
+
+  //if (sprite_index != spriteToBe) {  
+  //  if (timeInSprite >= minTimeInSprite) {
+      sprite_index = spriteToBe;
+    //  timeInSprite = 0;
+  //  }  
+  //}
   
   if (point_distance(x, y, targetX, targetY) < stopWalking)
     scrSetVisitorStatic(visitorID, dir);
   
   image_index = oldIndex;
   
+  //timeInSprite++;
 }
+

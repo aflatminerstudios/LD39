@@ -55,9 +55,11 @@ stylePrefs = scrGenerateStylePrefs();
 
 //Number of steps user has been doing current activity, used to help decide if they quit
 timeInActivity = 0;
-
 isWalking = false;
 isPlaying = false;
+timeInSprite = 0;
+minTimeInSprite = room_speed / 3;
+
 
 //Calculate endurance every time step
 alarm[0] = objGameControl.timeStep;

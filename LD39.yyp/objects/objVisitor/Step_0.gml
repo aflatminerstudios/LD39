@@ -6,10 +6,27 @@ depth = layer_get_depth("Instances") - ( y + sprite_height);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
+    isWalking = false;
     scrSetVisitorStatic(self.id, dir);
     
     timeInActivity = 0;
 		scrGetActivityForVisitor(self.id);
+    
+    
+    if (futureActivity != noone) {
+      if (scrIsActivityCabinet(futureActivity)) {
+        if (futureActivity.style == STYLE_FOOD) {
+          scrCreateThoughtBubble(self.id, sprGoEat);
+        } else {
+          scrCreateThoughtBubble(self.id, sprGoPlay);
+        }
+      } else if (scrIsActivityVisitor(futureActivity)) {
+        scrCreateThoughtBubble(self.id, sprGoWatch);        
+      } else {
+        show_debug_message("What are you doing? Should never get here in visitor step!");
+      }
+    }
+    
 		// Didn't find someting to do, so just go to a random position
 		if(currentState == VISITOR_IDLE) {
     
@@ -48,7 +65,7 @@ if(currentState == VISITOR_IDLE) {
   
     if (currentActivity.playDirection == PLAY_LEFT) {
       //change sprite
-      if (sprite_index != spritePlayingNW) {
+      if (sprite_index != spritePlayingNW) {        
         sprite_index = spritePlayingNW;
         image_index = 0;
       }
@@ -137,6 +154,7 @@ if(currentState == VISITOR_IDLE) {
         if (futureActivity.isBeingPlayed) {  
           if (futureActivity.style != STYLE_FOOD) {        
             scrSetTargetCabinetWatchForVisitor(futureActivity, self.id);
+            scrCreateThoughtBubble(self.id, sprGoWatch);            
           } else {
             currentState = VISITOR_WAITING;
             futureActivity = noone;

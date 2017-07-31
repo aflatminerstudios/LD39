@@ -6,19 +6,22 @@
 var visitorID = argument0;
 var dir = argument1;
 with (visitorID) {
-  isWalking = false;  
-  image_index = 0;
+ // if (timeInSprite >= minTimeInSprite) {
+   // timeInSprite = 0;
+    isWalking = false;  
+    image_index = 0;
   
-  if (dir < 90) {
-    sprite_index = spriteStaticNE;
-  } else if (dir < 180) {
-    sprite_index = spriteStaticNW;
-  } else if (dir < 270) {
-    sprite_index = spriteStaticSW;
-  } else {
-    sprite_index = spriteStaticSE;
+    if (dir < 90) {
+      sprite_index = spriteStaticNE;      
+    } else if (dir < 180) {
+      sprite_index = spriteStaticNW;      
+    } else if (dir < 270) {
+      sprite_index = spriteStaticSW;      
+    } else {
+      sprite_index = spriteStaticSE;      
+    }
+  
+    image_index = 0;
   }
-  
-  image_index = 0;
-  
-}
+//  timeInSprite++;
+//}

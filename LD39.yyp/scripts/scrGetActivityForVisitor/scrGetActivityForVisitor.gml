@@ -52,3 +52,4 @@ if (aCabinet != noone) {
 }
 
 scrFindCabinetToPlayForVisitor(visitorID);
+

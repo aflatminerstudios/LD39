@@ -13,6 +13,7 @@ while (dir >= 360) {
   dir -= 360;
 }
 
+
 if (dir < 90) {
   return visitorID.spriteWalkingNE;
 } else if (dir < 180) {
@@ -22,3 +23,4 @@ if (dir < 90) {
 } else {
   return visitorID.spriteWalkingSE;
 }
+

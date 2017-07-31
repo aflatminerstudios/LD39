@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d3f7035-7723-4974-8255-925e2be67a1e",
+            "Value": {
+                "id": "200751c4-cc98-452b-8c36-eaa421258cdf",
+                "resourcePath": "views\\0d3f7035-7723-4974-8255-925e2be67a1e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0ddf7fb6-67b6-4e1a-9e64-bef0d702d921",
             "Value": {
                 "id": "bd73385b-2173-458f-995c-79e965616f62",
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "4487d1c1-b25b-4d03-8601-beea4f2e0caf",
+            "Value": {
+                "id": "ee2089e2-9312-47ac-89a0-3e391e9b7dc0",
+                "resourcePath": "sprites\\sprGoWatch\\sprGoWatch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4653b763-558f-4d9b-938d-04aa81e21a22",
             "Value": {
                 "id": "296ca1a7-abe4-4974-b94b-71e217408394",
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "5cb9cb55-2c31-4543-bbe9-10c6010654e4",
+            "Value": {
+                "id": "df83cf18-a2df-4872-b212-536a32306f53",
+                "resourcePath": "sprites\\sprThoughtBubble\\sprThoughtBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ce73d0f-5355-48ee-bfdc-beeb01e9aa08",
             "Value": {
                 "id": "c60efdac-29dd-4878-a368-32423ad3310b",
@@ -740,6 +764,14 @@
                 "id": "22a5aea7-280d-42a3-bc4d-635e18c9694d",
                 "resourcePath": "sprites\/sprOpenSignOn\/sprOpenSignOn.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61ca240c-5ac7-43d6-9f09-70d93d676bac",
+            "Value": {
+                "id": "1b0d89fd-91e0-494d-8385-504ae7e79a01",
+                "resourcePath": "objects\\objThoughtBubble\\objThoughtBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1058,7 +1090,7 @@
             "Key": "8c3eb0e2-62ee-4fdf-8147-d1d996c8a72b",
             "Value": {
                 "id": "6fd395b2-c5e7-49cb-b10a-486f4ba5a484",
-                "resourcePath": "sprites\/sprThoughtBubble\/sprThoughtBubble.yy",
+                "resourcePath": "sprites\\sprGoPlay\\sprGoPlay.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1180,14 +1212,6 @@
                 "id": "d294f58f-b64d-4694-8f2e-cb7439509960",
                 "resourcePath": "views\/9e92d439-33f8-43e8-a9db-efcb0e836752.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9f35fcf3-3221-4f80-bd54-7aa40ee6b12d",
-            "Value": {
-                "id": "97450882-d06f-471d-8ead-e38dd7ae1928",
-                "resourcePath": "sprites\\sprite84\\sprite84.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1703,6 +1727,14 @@
             }
         },
         {
+            "Key": "e61e3262-4955-40d7-97c3-2a9bfc25bcfd",
+            "Value": {
+                "id": "26e14526-f139-4bca-a352-b849aacc72b0",
+                "resourcePath": "sprites\\sprGoEat\\sprGoEat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7a29105-e4c2-44d1-9873-61b199e43a09",
             "Value": {
                 "id": "3ddf8d0d-0a37-4fde-ac7d-b1caee3420c7",
@@ -1859,6 +1891,14 @@
             "Value": {
                 "id": "19eb20cc-2d15-4bc1-977c-bc38b49c2a5e",
                 "resourcePath": "scripts\/scrGetRandomOpenPoweredCabinet\/scrGetRandomOpenPoweredCabinet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fbca5533-ba52-4b61-8a00-ac8fe08a0e29",
+            "Value": {
+                "id": "f4d3e096-c6b8-4ae0-9403-79564f35275e",
+                "resourcePath": "scripts\\scrCreateThoughtBubble\\scrCreateThoughtBubble.yy",
                 "resourceType": "GMScript"
             }
         },
