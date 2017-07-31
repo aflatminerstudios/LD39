@@ -21,7 +21,7 @@ with (visitorID) {
 		speed = walkingSpeed;
   
   //If they have reached the target node
-  if (distance_to_point(targetNode.x, targetNode.y) < 5.0) {
+  if (distance_to_point(targetNode.x, targetNode.y) < stopWalking) {
     var door = instance_find(objDoorframe, 0);
     if (targetNode == door) {
       targetNode = noone;
@@ -34,7 +34,7 @@ with (visitorID) {
     }  
   } else {
     //If they have reached the next node on their path
-    if (distance_to_point(nextNode.x, nextNode.y) < 5.0) {
+    if (distance_to_point(nextNode.x, nextNode.y) < stopWalking) {
       nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
     }
   }

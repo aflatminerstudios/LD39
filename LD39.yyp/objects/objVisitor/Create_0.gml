@@ -8,6 +8,7 @@
 #macro VISITOR_ENROUTE 8
 
 walkingSpeed = 3.0;
+stopWalking = 2.0;
 
 // visitor states are VISITOR_IDLE, VISITOR_ACTIVE, VISITOR_WAITING, VISITOR_ENROUTE
 currentState = VISITOR_IDLE;

@@ -19,7 +19,7 @@ friedSprite = sprBrideOfPinbotCabinetFried;
 
 reflection.sprite_index = sprBrideOfPinbotCabinetReflection;
 
-playPos[0] = x - 40 * sign(image_xscale);
+playPos[0] = x - 45 * sign(image_xscale);
 playPos[1] = y + 10;
 
 playDirection = PLAY_RIGHT;

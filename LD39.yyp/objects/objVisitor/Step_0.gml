@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Change depth
-depth = layer_get_depth("Instances") - ( y + sprite_height / 2);
+depth = layer_get_depth("Instances") - ( y + sprite_height);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
@@ -10,7 +10,7 @@ if(currentState == VISITOR_IDLE) {
     
     timeInActivity = 0;
 		scrGetActivityForVisitor(self.id);
-		// Didn't find someting to do, so just go to the center of the room
+		// Didn't find someting to do, so just go to a random position
 		if(currentState == VISITOR_IDLE) {
     
       //Find 3 random walking points, pick the closest, so it biases towards not moving as much
@@ -77,6 +77,7 @@ if(currentState == VISITOR_IDLE) {
   if (scrIsActivityVisitor(currentActivity)) {
     //If watching a visitor not playing a game, stop
     if (!scrIsActivityCabinet(currentActivity.currentActivity)) {
+      scrSetVisitorStatic(self.id, dir);
       alarm[2] = 1;
     }
   }
@@ -105,12 +106,12 @@ if(currentState == VISITOR_IDLE) {
   scrWalkTowards(self.id, nextNode.x, nextNode.y);
   
   //If they have reached the next node on their path
-  if (distance_to_point(nextNode.x, nextNode.y) < 3.0) {
+  if (point_distance(x, y, nextNode.x, nextNode.y) < stopWalking) {
     
     nextNode = scrFindNextNodeInPath(nextNode, targetNode, whichDir);
   }
   //If they have reached the target node
-  if (distance_to_point(targetNode.x, targetNode.y) < 3.0) {
+  if (point_distance(x, y, targetNode.x, targetNode.y) < stopWalking) {
     
     targetNode = noone;
     nextNode = noone;
@@ -130,7 +131,7 @@ if(currentState == VISITOR_IDLE) {
 	// Check if we are there and interact with activity instance if we have one
 	// Probably good to check that if we are going for a futureActivity
 	//   to see (at a distance) if it is being used and divert accordingly
-	if(distance_to_point(targetLocation[0], targetLocation[1]) < 3.0) {
+	if(point_distance(x, y, targetLocation[0], targetLocation[1]) < stopWalking) {
 		if(futureActivity != noone) {
       if (scrIsActivityCabinet(futureActivity) && futureActivity.isPowered) {
         if (futureActivity.isBeingPlayed) {  
@@ -153,6 +154,7 @@ if(currentState == VISITOR_IDLE) {
   			// wait or give up
   			// give up for now
   			futureActivity = noone;
+        isWalking = false;
   			currentState = VISITOR_WAITING;
   			speed = 0;
   		}
@@ -160,6 +162,7 @@ if(currentState == VISITOR_IDLE) {
 	// wait or give up
   			// give up for now
   			futureActivity = noone;
+        isWalking = false;
   			currentState = VISITOR_WAITING;
   			speed = 0;    
     }

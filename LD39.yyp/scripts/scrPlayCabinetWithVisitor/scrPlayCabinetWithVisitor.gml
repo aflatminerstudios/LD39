@@ -14,6 +14,8 @@ visitorInstance.currentActivity = cabinetInstance;
 //visitorInstance.y = cabinetInstance.y + 100;
 visitorInstance.futureActivity = noone;
 visitorInstance.speed = 0;
+visitorInstance.isWalking = false;
+
 
 cabinetInstance.isBeingPlayed = true;
 cabinetInstance.sprite_index = cabinetInstance.playingSprite;

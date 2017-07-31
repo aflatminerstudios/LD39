@@ -856,6 +856,25 @@
             }
         },
         {
+            "Key": "34248891-8d1b-4627-8b3b-8523e958f006",
+            "Value": {
+                "id": "6584944e-3579-426e-8876-cfa0f1a5f7e3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprTreatsSign\/sprTreatsSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39a8e03b-5302-4c3c-8763-0aa623fc42f1",
             "Value": {
                 "id": "ba02c8ef-2789-43c4-805c-aff5927b1e44",
@@ -1808,7 +1827,7 @@
         {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
-                "id": "f0fed70f-b121-4dc9-a5f4-6c37a4069b75",
+                "id": "46ed40a2-c5b7-41bd-a854-52d9ca1f2e89",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -2036,7 +2055,7 @@
         {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
-                "id": "3f95bee9-f38e-4560-ae56-38cbd9766afa",
+                "id": "190f1efb-b984-4c26-aea2-b46ad1a6cbc8",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -3632,7 +3651,7 @@
         {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
-                "id": "a14f2b10-f4aa-4aa9-a016-2fbd9a22276c",
+                "id": "dfb8a497-496a-4d26-951a-a41b18efb50e",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [

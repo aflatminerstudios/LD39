@@ -29,8 +29,6 @@
         "12bdae38-52da-43d3-8c56-527ed4000c37",
         "e3f64136-b4c7-4ebd-ae67-bee8fbc158f6",
         "4a955da8-7413-47e6-87dc-5a9f33543c9f",
-        "20cfdbd7-5f9c-4476-95d6-ad920cade7d5",
-        "6e840d59-403f-4e28-9c42-2528d46f09d9",
         "a3142761-a4dd-4189-ba96-b33a44a20d23",
         "95677f12-c550-4276-ae5f-d8a5b315fb99",
         "045d0d05-4e61-475c-ad0e-a7efab77b185",
@@ -39,6 +37,55 @@
         "e97117fb-f43f-4176-b334-74ae7a8266e0"
     ],
     "layers": [
+        {
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "d82cc33f-a6e1-4ccc-8514-2e66daa5b91f",
+            "modelName": "GMRAssetLayer",
+            "mvc": "1.0",
+            "depth": -100,
+            "grid_x": 4,
+            "grid_y": 4,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Assets_1",
+            "userdefined_depth": false,
+            "visible": true,
+            "assets": [
+                {
+                    "__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat",
+                    "id": "faffebce-cd61-44bd-8486-ed39d5f2d558",
+                    "modelName": "GMRSpriteGraphic",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "graphic_7DEEF890",
+                    "x": 428,
+                    "y": 12,
+                    "animationFPS": 5,
+                    "animationSpeedType": 0,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "frameIndex": 0,
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "spriteId": "34248891-8d1b-4627-8b3b-8523e958f006",
+                    "userdefined_animFPS": false
+                }
+            ]
+        },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "52c8f50f-25b9-45dc-8de6-23b2dadc1c4f",
@@ -393,54 +440,6 @@
                     "creationCodeType": "",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_EAE4473",
-                    "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "20cfdbd7-5f9c-4476-95d6-ad920cade7d5",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_40E2F19",
-                    "x": 752,
-                    "y": 608,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_40E2F19",
-                    "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "6e840d59-403f-4e28-9c42-2528d46f09d9",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_5D28AB65",
-                    "x": 96,
-                    "y": 544,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_5D28AB65",
                     "objId": "da229411-ea6f-4daa-af00-1f84c41fa7a0",
                     "rotation": 0,
                     "scaleX": 1,
