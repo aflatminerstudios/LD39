@@ -9,5 +9,14 @@ with (visitorID) {
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
     
-    
+  var dir = point_direction(x, y, targetX, targetY);
+  
+  if (!isWalking) {
+    image_index = 0;
+    isWalking = true;
+  }
+  
+  sprite_index = scrVisitorPickSpriteWhenWalking(self.id, dir);
+  
+  
 }

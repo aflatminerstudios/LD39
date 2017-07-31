@@ -6,6 +6,7 @@ depth = layer_get_depth("Instances") - ( y + sprite_height / 2);
 
 //Handle state
 if(currentState == VISITOR_IDLE) {
+    isWalking = false;
     timeInActivity = 0;
 		scrGetActivityForVisitor(self.id);
 		// Didn't find someting to do, so just go to the center of the room
@@ -39,6 +40,7 @@ if(currentState == VISITOR_IDLE) {
 			currentState = VISITOR_ENROUTE;
 		}
 } else if(currentState == VISITOR_ACTIVE) {
+  isWalking = false;
   //Remove money
   if (scrIsActivityCabinet(currentActivity)) {
     moneyOnHand = clamp(moneyOnHand - currentActivity.incomePerStep, 0, moneyOnHand);  
@@ -63,6 +65,7 @@ if(currentState == VISITOR_IDLE) {
   timeInActivity += 1;
   
 } else if(currentState == VISITOR_WAITING) {
+  isWalking = false;
   timeInActivity = 0;
 	// if alarm is not active, set waiting alarm
   if (alarm[3] <= 0) {

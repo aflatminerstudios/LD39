@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "d77ea159-1015-4aae-abaa-f49c62a4a0dd",
+            "Value": {
+                "id": "41519a9f-2ff1-4ee5-bc1b-da0484f3c51b",
+                "resourcePath": "scripts\\scrVisitorPickSpriteWhenWalking\\scrVisitorPickSpriteWhenWalking.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d8687f06-5a43-465e-9c3b-f5acf3b90a02",
             "Value": {
                 "id": "ab7c1953-190b-4932-9806-a3c0383926bd",
@@ -1363,6 +1371,7 @@
         "40c3f424-10c7-47e1-bb62-e9f66885d17d",
         "165b6bbb-7e7c-4b66-8001-12384521a194",
         "0f4f7706-c94e-4622-8600-695bf733bfae",
+        "d77ea159-1015-4aae-abaa-f49c62a4a0dd",
         "84cfd20b-514e-42d7-b8bd-070b5be78115",
         "deed745a-555b-461f-96d1-1c64ee28fd2f",
         "ac0c7180-847c-4b70-8564-82a4eaf7081a",
