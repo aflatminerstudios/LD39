@@ -80,10 +80,7 @@ if(currentState == VISITOR_IDLE) {
     whichDir = scrGetDirectionToTravel(targetNode, nextNode);
   }
   //motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
-  move_towards_point(nextNode.x, nextNode.y, walkingSpeed);
-	if(speed > walkingSpeed)
-		speed = walkingSpeed;
-  
+  scrWalkTowards(self.id, nextNode.x, nextNode.y);
   
   //If they have reached the next node on their path
   if (distance_to_point(nextNode.x, nextNode.y) < 3.0) {
@@ -103,10 +100,9 @@ if(currentState == VISITOR_IDLE) {
   //Visitor is done walking the node path, now walk straight to target
 	// Move one step closer, avoiding obstacles
 	//motion_add(point_direction(x, y, targetLocation[0], targetLocation[1]), walkingSpeed);  
-  move_towards_point(targetLocation[0], targetLocation[1], walkingSpeed);
-	if(speed > walkingSpeed)
-		speed = walkingSpeed;
 
+  scrWalkTowards(self.id, targetLocation[0], targetLocation[1]);
+  
   //show_debug_message("Moving towards point (" + string(targetLocation[0]) + ", " + string(targetLocation[1]) + ")");
   
 	// Check if we are there and interact with activity instance if we have one
@@ -147,5 +143,6 @@ if(currentState == VISITOR_IDLE) {
     }
   }
 } else if (currentState = VISITOR_LEAVING) {
+  
   scrVisitorLeave(self.id);
 }

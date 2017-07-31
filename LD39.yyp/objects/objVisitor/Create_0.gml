@@ -53,7 +53,8 @@ stylePrefs[STYLE_FOOD] = 4.0;
 //Number of steps user has been doing current activity, used to help decide if they quit
 timeInActivity = 0;
 
-
+isWalking = false;
+isPlaying = false;
 
 //Calculate endurance every time step
 alarm[0] = objGameControl.timeStep;

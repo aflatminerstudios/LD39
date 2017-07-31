@@ -15,7 +15,8 @@ with (visitorID) {
     nextNode = scrChooseNode(x, y);
     whichDir = scrGetDirectionToTravel(targetNode, nextNode);
   }
-  motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
+  //motion_add(point_direction(x, y, nextNode.x, nextNode.y), walkingSpeed);
+  scrWalkTowards(visitorID, nextNode.x, nextNode.y);
 	if(speed > walkingSpeed)
 		speed = walkingSpeed;
   
