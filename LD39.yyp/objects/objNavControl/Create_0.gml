@@ -20,7 +20,7 @@ scrSetupNodeSameListsViaArray(nodeArray, indexArray, 0);
 
 //Points 1
 nodeArray[1] = instance_create_layer(415, 490, "WalkPoints", objWalkPoint);
-nodeArray[10] = instance_create_layer(440, 480, "WalkPoints", objWalkPoint);
+nodeArray[10] = instance_create_layer(410, 480, "WalkPoints", objWalkPoint);
 nodeArray[19] = instance_create_layer(511, 496, "WalkPoints", objWalkPoint);
 nodeArray[28] = instance_create_layer(345, 505, "WalkPoints", objWalkPoint);
 indexArray[0] = 1;
@@ -54,7 +54,7 @@ scrSetupNodeSameListsViaArray(nodeArray, indexArray, 3);
 //Points 4
 nodeArray[4] = instance_create_layer(890, 404, "WalkPoints", objWalkPoint);
 nodeArray[13] = instance_create_layer(900, 450, "WalkPoints", objWalkPoint);
-nodeArray[22] = instance_create_layer(786, 396, "WalkPoints", objWalkPoint);
+nodeArray[22] = instance_create_layer(800, 397, "WalkPoints", objWalkPoint);
 nodeArray[31] = instance_create_layer(824, 476, "WalkPoints", objWalkPoint);
 indexArray[0] = 4;
 indexArray[1] = 13;
@@ -64,9 +64,9 @@ scrSetupNodeSameListsViaArray(nodeArray, indexArray, 4);
 
 //Points 5
 nodeArray[5] = instance_create_layer(670, 390, "WalkPoints", objWalkPoint);
-nodeArray[14] = instance_create_layer(600, 330, "WalkPoints", objWalkPoint);
+nodeArray[14] = instance_create_layer(620, 310, "WalkPoints", objWalkPoint);
 nodeArray[23] = instance_create_layer(603, 364, "WalkPoints", objWalkPoint);
-nodeArray[32] = instance_create_layer(817, 428, "WalkPoints", objWalkPoint);
+nodeArray[32] = instance_create_layer(750, 391, "WalkPoints", objWalkPoint);
 indexArray[0] = 5;
 indexArray[1] = 14;
 indexArray[2] = 23;
