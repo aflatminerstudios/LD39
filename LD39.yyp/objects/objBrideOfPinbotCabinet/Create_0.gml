@@ -4,8 +4,8 @@
 //call parent event
 event_inherited();
 
-powerUsage = 50.0;
-incomePerTimeStep = 10.0;
+powerUsage = 40.0;
+incomePerTimeStep = 8.0;
 incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 
 style = STYLE_PUZZLE;

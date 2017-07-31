@@ -4,8 +4,8 @@
 //call parent event
 event_inherited();
 
-powerUsage = 50.0;
-incomePerTimeStep = 10.0;
+powerUsage = 10.0;
+incomePerTimeStep = 1.0;
 if (instance_number(objGameControl) > 0) {
   incomePerStep = incomePerTimeStep / objGameControl.timeStep;
 }

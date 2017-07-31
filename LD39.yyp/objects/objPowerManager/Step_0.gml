@@ -11,6 +11,9 @@ with (objCabinet) {
 
 }
 
+if (objNeonSign.isPowered) {
+  usedPower += objNeonSign.powerUsage;
+}
 
 if (usedPower > totalPower) {
   
