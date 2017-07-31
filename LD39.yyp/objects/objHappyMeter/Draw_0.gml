@@ -33,13 +33,13 @@ draw_sprite_ext(sprite_index, 0, x, y, 1, 1, 0, color, 1);
 
 
 for (var i = 0; i < usedBoxes; ++i) {
-  draw_sprite_ext(sprPowerFull, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
+  draw_sprite_ext(sprHappyFull, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
   boxCount += 1;
 }
 
 
 for (var i = 0; i < totalBoxes; ++i) {
-  draw_sprite_ext(sprPowerEmpty, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
+  draw_sprite_ext(sprHappyEmpty, 0, x + 30 + 10 * boxCount, y, 1, 1, 0, color, 1);
   boxCount += 1;
 }
 

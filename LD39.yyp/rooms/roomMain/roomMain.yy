@@ -526,7 +526,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_14DB3D3F",
-                    "x": 451,
+                    "x": 448,
                     "y": 636,
                     "IsDnD": false,
                     "colour": {
