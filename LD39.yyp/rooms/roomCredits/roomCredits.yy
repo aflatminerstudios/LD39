@@ -13,11 +13,60 @@
     ],
     "layers": [
         {
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "7fe0c90e-5c9e-48d7-a139-3ef8f0e0d71d",
+            "modelName": "GMRAssetLayer",
+            "mvc": "1.0",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "Assets_1",
+            "userdefined_depth": false,
+            "visible": true,
+            "assets": [
+                {
+                    "__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat",
+                    "id": "5bff2880-d276-4c5f-8abc-bf1ffbc6a384",
+                    "modelName": "GMRSpriteGraphic",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "graphic_6825F1B2",
+                    "x": 0,
+                    "y": 0,
+                    "animationFPS": 15,
+                    "animationSpeedType": 0,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "frameIndex": 0,
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "spriteId": "813699fb-b5ef-4b64-a921-84a399f4525a",
+                    "userdefined_animFPS": false
+                }
+            ]
+        },
+        {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "00a48365-0814-4fe0-93eb-d1e3e1bbd32c",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -66,7 +115,7 @@
             "id": "72b06aff-8ae6-4116-a749-5f71bed9e830",
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -86,11 +135,11 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4294967295
+                "Value": 4281611316
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "f5600ed0-c192-496e-96a2-9092df14441e",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
