@@ -60,6 +60,15 @@ isPlaying = false;
 alarm[0] = objGameControl.timeStep;
 
 
+///Sprite list
+
+spriteStatic = sprVisitor;
+spritePlaying = sprVisitor;
+spriteWalkingNW = sprVisitor;
+spriteWalkingNE = sprVisitor;
+spriteWalkingSE = sprVisitor;
+spriteWalkingSW = sprVisitor;
+
 
 
 

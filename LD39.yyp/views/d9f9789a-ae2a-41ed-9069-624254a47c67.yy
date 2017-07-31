@@ -14,7 +14,8 @@
         "40c3f424-10c7-47e1-bb62-e9f66885d17d",
         "165b6bbb-7e7c-4b66-8001-12384521a194",
         "0f4f7706-c94e-4622-8600-695bf733bfae",
-        "d77ea159-1015-4aae-abaa-f49c62a4a0dd"
+        "d77ea159-1015-4aae-abaa-f49c62a4a0dd",
+        "1f2e2ad9-7962-470c-bf62-61714d8bca6c"
     ],
     "filterType": "GMScript",
     "folderName": "Visitor Scripts",

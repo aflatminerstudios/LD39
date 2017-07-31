@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "1f2e2ad9-7962-470c-bf62-61714d8bca6c",
+            "Value": {
+                "id": "0dee8ea3-642a-4cc0-84d0-8a2166387798",
+                "resourcePath": "scripts\\scrSetVisitorStatic\\scrSetVisitorStatic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "200515dd-a0e9-4575-b3d4-2422d0171bcd",
             "Value": {
                 "id": "67a461d9-051e-461e-93cb-ea39003be390",
@@ -1380,6 +1388,7 @@
         "165b6bbb-7e7c-4b66-8001-12384521a194",
         "0f4f7706-c94e-4622-8600-695bf733bfae",
         "d77ea159-1015-4aae-abaa-f49c62a4a0dd",
+        "1f2e2ad9-7962-470c-bf62-61714d8bca6c",
         "84cfd20b-514e-42d7-b8bd-070b5be78115",
         "deed745a-555b-461f-96d1-1c64ee28fd2f",
         "ac0c7180-847c-4b70-8564-82a4eaf7081a",

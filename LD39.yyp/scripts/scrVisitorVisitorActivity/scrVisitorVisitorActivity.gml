@@ -5,6 +5,13 @@ var activityID = argument1;
 
 var cabinetID = activityID.currentActivity;
 
+with (visitorID) {
+  if (sprite_index != spriteStatic) {
+    scrSetVisitorStatic(self.id);
+  }
+}
+
+
 if (cabinetID == noone || !scrIsActivityCabinet(cabinetID)) {
   show_debug_message("Errror: Visitor is watching someone do nothing.");
 }

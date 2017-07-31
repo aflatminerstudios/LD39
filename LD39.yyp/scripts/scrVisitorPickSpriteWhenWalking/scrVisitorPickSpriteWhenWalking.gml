@@ -6,4 +6,19 @@
 var visitorID = argument0;
 var dir = argument1;
 
-return visitorID.sprite_index;
+if (dir < 0)
+  dir = 360 + dir;
+  
+while (dir >= 360) {
+  dir -= 360;
+}
+
+if (dir < 90) {
+  return visitorID.spriteWalkingNE;
+} else if (dir < 180) {
+  return visitorID.spriteWalkingNW;
+} else if (dir < 270) {
+  return visitorID.spriteWalkingSW;
+} else {
+  return visitorID.spriteWalkingSE;
+}
