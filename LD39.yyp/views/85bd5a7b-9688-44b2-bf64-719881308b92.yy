@@ -8,7 +8,8 @@
         "c089f9ab-295b-4070-948d-b76e96d7fd69",
         "4c4a0da7-58c1-4407-a80d-005632917689",
         "274c0f79-c4fb-4cee-806a-125d05e1f1e1",
-        "50772d31-a561-4716-936d-3d439fba2bf8"
+        "50772d31-a561-4716-936d-3d439fba2bf8",
+        "0ddf7fb6-67b6-4e1a-9e64-bef0d702d921"
     ],
     "filterType": "GMSprite",
     "folderName": "SwoltronCabinet",

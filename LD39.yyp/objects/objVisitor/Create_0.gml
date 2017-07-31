@@ -48,6 +48,10 @@ moneyOnHand = 100.0;
 //sets up style preferences
 stylePrefs = scrGenerateStylePrefs();
 
+/*for (var i = 0; i < NUM_STYLES; ++i) {
+  show_debug_message("Generated " + string(stylePrefs[i]) + " for " + string(i));
+}*/
+
 
 //Number of steps user has been doing current activity, used to help decide if they quit
 timeInActivity = 0;

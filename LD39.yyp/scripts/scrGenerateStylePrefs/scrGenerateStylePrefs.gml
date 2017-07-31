@@ -15,16 +15,12 @@ for (var i = 0; i < NUM_STYLES - 1; ++i) {
   current -= 0.2;
 }
 
-show_debug_message(string(current) + " should be 3.2");
+
 ///Randomly split between style prefs in increments of 0.05
 while (current != 0) {  
   var which = irandom(NUM_STYLES - 2);
   current -= 0.05;
   sp[which] += 0.05
-}
-
-for (var i = 0; i < NUM_STYLES - 1; ++i) {
-  show_debug_message("Generated " + string(sp[i]) + " for " + string(i));
 }
 
 //Sets up food to be between 3 and 5

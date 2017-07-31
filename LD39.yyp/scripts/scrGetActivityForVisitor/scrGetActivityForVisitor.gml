@@ -2,8 +2,8 @@
 
 var visitorID = argument0;
 
-var aCabinet = scrGetRandomCabinet();
-var randomMax = 1.15;
+var aCabinet = scrGetRandomCabinet(self.id);
+var randomMax = 1.5;
 
 
 //Get first random variable (might need more later)
@@ -16,7 +16,7 @@ if (aCabinet != noone) {
       if (aCabinet.isBeingPlayed) {
         //Aww, someone else is playing, user might want to give up or might want to watch
         r = random(randomMax);
-        if (r < visitorID.stylePrefs[aCabinet.style]  && aCabinet.style != STYLE_FOOD) {
+        if (r < visitorID.stylePrefs[aCabinet.style]  && aCabinet.style != STYLE_FOOD) {          
           scrSetTargetCabinetWatchForVisitor(aCabinet, visitorID);
           return; 
         }
@@ -30,7 +30,7 @@ if (aCabinet != noone) {
   }
 }
 
-aCabinet = scrGetRandomPoweredCabinet();
+aCabinet = scrGetRandomPoweredCabinet(self.id);
 
 if (aCabinet != noone) {
   //Is the user specifically feeling this particular cabinet
@@ -38,7 +38,7 @@ if (aCabinet != noone) {
     if (aCabinet.isBeingPlayed) {
       //Aww, someone else is playing, user might want to give up or might want to watch
       r = random(randomMax);
-      if (r < visitorID.stylePrefs[aCabinet.style] && aCabinet.style != STYLE_FOOD) {
+      if (r < visitorID.stylePrefs[aCabinet.style] && aCabinet.style != STYLE_FOOD) {        
         scrSetTargetCabinetWatchForVisitor(aCabinet, visitorID);
         return;  
       }
