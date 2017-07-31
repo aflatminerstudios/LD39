@@ -4,7 +4,7 @@
 money = 120;
 rent = 75;
 powerCost = 0;
-powerIncrement = 5;
+powerIncrement = 2;
 
 
 paymentPopupTime = 0;
