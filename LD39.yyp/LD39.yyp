@@ -818,6 +818,25 @@
             }
         },
         {
+            "Key": "30fa0927-c472-4c16-a4aa-7e4fa508fbf5",
+            "Value": {
+                "id": "af26b5f5-0904-4634-989e-6bb5fd4bb1e3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/sndMusicTrackA\/sndMusicTrackA.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "311e619d-576d-48d2-a675-c805bfd92d78",
             "Value": {
                 "id": "518dccee-625f-4839-911c-4531500ed440",
@@ -2828,6 +2847,25 @@
                     "default"
                 ],
                 "resourcePath": "views\/b0d0bb5c-5e2f-415d-a4a8-c965a5e936d1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1e34510-922b-477a-9701-2703f2c76d87",
+            "Value": {
+                "id": "3fe3cfe7-091a-4b50-804e-c0de07aeb969",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/b1e34510-922b-477a-9701-2703f2c76d87.yy",
                 "resourceType": "GMFolder"
             }
         },

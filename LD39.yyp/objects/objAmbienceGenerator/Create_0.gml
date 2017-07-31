@@ -8,3 +8,9 @@ alarmMaxTime = floor(room_speed*0.6);
 for(var i = 0; i < numSimultaneousSounds; i++) {
 	alarm[i] = irandom_range(0, alarmMaxTime);
 }
+
+currentMusicTrack = choose(sndMusicTrackA);
+
+if(!audio_is_playing(currentMusicTrack)) {
+	audio_play_sound(currentMusicTrack, 2, true);
+}
