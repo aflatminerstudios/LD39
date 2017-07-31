@@ -3,7 +3,7 @@
 
 
 //Style macros
-#macro NUM_STYLES 4
+#macro NUM_STYLES 5
 #macro STYLE_PACMAN 0
 #macro STYLE_SWOLTRON 1
 #macro STYLE_SOULS 2
