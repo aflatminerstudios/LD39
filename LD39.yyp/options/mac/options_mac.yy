@@ -11,7 +11,7 @@
     "option_mac_build_app_store": false,
     "option_mac_copyright": "(c) 2017 A Flat Miner",
     "option_mac_display_cursor": true,
-    "option_mac_display_name": "Lola's Barkade",
+    "option_mac_display_name": "Lolas Barkade",
     "option_mac_enable_steam": false,
     "option_mac_icon_png": "${options_dir}\/mac\/icons\/1024.png",
     "option_mac_interpolate_pixels": false,
