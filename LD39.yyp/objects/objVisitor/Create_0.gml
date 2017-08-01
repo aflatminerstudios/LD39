@@ -69,7 +69,7 @@ alarm[0] = objGameControl.timeStep;
 
 r = random(1);
 
-if (r <= 0.5) {
+if (r <= 0.25) {
   spriteStaticNW = sprTwinkieStandingNW;
   spriteStaticNE = sprTwinkieStandingNE;
   spriteStaticSW = sprTwinkieStandingSW;
@@ -80,7 +80,7 @@ if (r <= 0.5) {
   spriteWalkingNE = sprTwinkieWalkingNE;
   spriteWalkingSE = sprTwinkieWalkingSE;
   spriteWalkingSW = sprTwinkieWalkingSW;
-} else {
+} else if (r <= 0.5) {
   spriteStaticNW = sprTwinkieStandingNW1;
   spriteStaticNE = sprTwinkieStandingNE1;
   spriteStaticSW = sprTwinkieStandingSW1;
@@ -91,7 +91,31 @@ if (r <= 0.5) {
   spriteWalkingNE = sprTwinkieWalkingNE1;
   spriteWalkingSE = sprTwinkieWalkingSE1;
   spriteWalkingSW = sprTwinkieWalkingSW1;
+} else if (r <= 0.75) {
+  spriteStaticNW = sprTwinkieStandingNW11;
+  spriteStaticNE = sprTwinkieStandingNE11;
+  spriteStaticSW = sprTwinkieStandingSW11;
+  spriteStaticSE = sprTwinkieStandingSE11;
+  spritePlayingNW = sprTwinkiePlayingNW11;
+  spritePlayingNE = sprTwinkiePlayingNE11;
+  spriteWalkingNW = sprTwinkieWalkingNW11;
+  spriteWalkingNE = sprTwinkieWalkingNE11;
+  spriteWalkingSE = sprTwinkieWalkingSE11;
+  spriteWalkingSW = sprTwinkieWalkingSW11;
+} else {
+  spriteStaticNW = sprTwinkieStandingNW111;
+  spriteStaticNE = sprTwinkieStandingNE111;
+  spriteStaticSW = sprTwinkieStandingSW111;
+  spriteStaticSE = sprTwinkieStandingSE111;
+  spritePlayingNW = sprTwinkiePlayingNW111;
+  spritePlayingNE = sprTwinkiePlayingNE111;
+  spriteWalkingNW = sprTwinkieWalkingNW111;
+  spriteWalkingNE = sprTwinkieWalkingNE111;
+  spriteWalkingSE = sprTwinkieWalkingSE111;
+  spriteWalkingSW = sprTwinkieWalkingSW111;
 }
+
+
 
 sprite_index = spriteStaticNW;
 

@@ -533,6 +533,14 @@
             }
         },
         {
+            "Key": "1b6c7163-de64-4b3f-9396-09b583044349",
+            "Value": {
+                "id": "58035052-82ee-4b23-84e8-7aa9d8df9f02",
+                "resourcePath": "sprites\\sprTwinkiePlayingNW111\\sprTwinkiePlayingNW111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bc0ac4a-89c7-41f9-8893-5667cf077ae3",
             "Value": {
                 "id": "1f0aa811-26b8-4ff5-b46a-0c3d195989dd",
@@ -700,6 +708,22 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprArcade\/sprArcade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "21676532-72b2-455e-9d0c-49e2ac5712c4",
+            "Value": {
+                "id": "f458bb57-7ef8-4ce9-aef1-1fb02439df1f",
+                "resourcePath": "sprites\\sprTwinkiePlayingNW11\\sprTwinkiePlayingNW11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "233baa0b-23a2-401e-8207-7c8d1a15ebf7",
+            "Value": {
+                "id": "1f00389e-0d0c-4950-9b04-41ea1a809616",
+                "resourcePath": "sprites\\sprTwinkieWalkingSE111\\sprTwinkieWalkingSE111.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -929,6 +953,22 @@
                 ],
                 "resourcePath": "objects\/objClickForCredits\/objClickForCredits.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2e2205dc-0e75-4830-9cc3-61c1076a6a66",
+            "Value": {
+                "id": "cf86bf7a-dccd-4068-9d28-0c6e28302b65",
+                "resourcePath": "sprites\\sprTwinkieStandingNE11\\sprTwinkieStandingNE11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e66e727-fe75-499a-9683-adb25f76e54d",
+            "Value": {
+                "id": "88a9db4e-1fdf-40df-b8e0-928d36f70fda",
+                "resourcePath": "sprites\\sprTwinkieStandingNW111\\sprTwinkieStandingNW111.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1388,6 +1428,14 @@
             }
         },
         {
+            "Key": "44c9e3ff-ee5a-4611-a2f0-22eaa2c53691",
+            "Value": {
+                "id": "0d5b74d5-3a7b-4664-860e-b0bb74fdb970",
+                "resourcePath": "sprites\\sprTwinkieStandingSE111\\sprTwinkieStandingSE111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4653b763-558f-4d9b-938d-04aa81e21a22",
             "Value": {
                 "id": "296ca1a7-abe4-4974-b94b-71e217408394",
@@ -1442,6 +1490,14 @@
                 ],
                 "resourcePath": "views\/4ba2d9d8-848a-4349-b611-abf1b6895359.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c1fcfbc-9710-48cb-8c1a-a57a0bc7442a",
+            "Value": {
+                "id": "1a95f328-4d27-48d7-8b9d-2e130f0d4961",
+                "resourcePath": "sprites\\sprTwinkieStandingNE111\\sprTwinkieStandingNE111.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1840,6 +1896,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprMPMCabinetFried\/sprMPMCabinetFried.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5fcfd03c-bbe7-4e2c-b265-3c8f78e592d8",
+            "Value": {
+                "id": "5028f3d2-03bb-46df-acb7-2daef6249616",
+                "resourcePath": "sprites\\sprTwinkieWalkingSE11\\sprTwinkieWalkingSE11.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2281,6 +2345,14 @@
             }
         },
         {
+            "Key": "7653703c-7be3-4871-ba45-275a242f6177",
+            "Value": {
+                "id": "0fb0e61b-3d78-49e1-9ffc-eca5d90be272",
+                "resourcePath": "sprites\\sprTwinkieWalkingNE111\\sprTwinkieWalkingNE111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76dff1ea-094c-4b7d-9a0c-3ae4042f40aa",
             "Value": {
                 "id": "94aab6b2-7282-4905-9b1d-08ccc64c506e",
@@ -2391,6 +2463,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprMPMCabinetOff\/sprMPMCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e6aabf6-a91e-4704-9b80-4dd7e77e9cc7",
+            "Value": {
+                "id": "4e267f03-2187-4e9b-9f4d-cf22eae0c4b3",
+                "resourcePath": "sprites\\sprTwinkieWalkingSW11\\sprTwinkieWalkingSW11.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2604,6 +2684,14 @@
             }
         },
         {
+            "Key": "8796e5f0-a676-4211-88e3-907aa391ff69",
+            "Value": {
+                "id": "d2983ba2-3394-4d92-ae08-4c2955adbee8",
+                "resourcePath": "sprites\\sprTwinkieWalkingNW111\\sprTwinkieWalkingNW111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "87a748ad-5905-47a1-ade7-784d8c7a1419",
             "Value": {
                 "id": "65c690e3-711d-428b-a76f-f6d54e27de00",
@@ -2734,6 +2822,14 @@
                 ],
                 "resourcePath": "views\/8b3338d5-8260-4dd2-aefa-07f54228c6ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8b501029-03b1-4574-bc89-c4b76d7adca0",
+            "Value": {
+                "id": "0911dc79-4a2e-491d-b533-423956c9c055",
+                "resourcePath": "sprites\\sprTwinkiePlayingNE11\\sprTwinkiePlayingNE11.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2946,6 +3042,14 @@
             }
         },
         {
+            "Key": "951e8ef4-fa1e-49fb-af8c-9ee32720cf47",
+            "Value": {
+                "id": "47d418eb-eb37-42e0-83f8-c445ed252ef6",
+                "resourcePath": "sprites\\sprTwinkiePlayingNE111\\sprTwinkiePlayingNE111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95312a19-108d-4ede-a704-dc29c3578d33",
             "Value": {
                 "id": "ec9dc0c5-0cd8-4423-a7e1-96724b05f60d",
@@ -3018,6 +3122,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprTwinkieWalkingNW1\/sprTwinkieWalkingNW1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c305603-4803-4059-b5fc-c00797c0fc1a",
+            "Value": {
+                "id": "c047fd7c-e042-45c2-af1b-7409d956a9e2",
+                "resourcePath": "sprites\\sprTwinkieStandingSW111\\sprTwinkieStandingSW111.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3307,6 +3419,14 @@
             }
         },
         {
+            "Key": "ae54546a-4a7f-44fb-82f7-008d1f318521",
+            "Value": {
+                "id": "460f2b06-4d0d-4af8-8b79-9ba5d0c3458d",
+                "resourcePath": "sprites\\sprTwinkieStandingNW11\\sprTwinkieStandingNW11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae5f9f99-7367-4eb4-ad1b-0f32aac6b415",
             "Value": {
                 "id": "a7b31268-2ac3-440d-a80d-1e59fb606a0a",
@@ -3554,6 +3674,14 @@
             }
         },
         {
+            "Key": "c2732072-9272-4501-a96a-0dcd157bbfd7",
+            "Value": {
+                "id": "e177ffee-9794-4bc9-a23c-d1907472e289",
+                "resourcePath": "sprites\\sprTwinkieWalkingSW111\\sprTwinkieWalkingSW111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c2848232-5aaf-4774-a918-0c6284d4b5e9",
             "Value": {
                 "id": "b2aa87d0-33f8-4a4f-84d2-365dae2a0925",
@@ -3722,6 +3850,14 @@
                 ],
                 "resourcePath": "scripts\/scrLayerShaderStart\/scrLayerShaderStart.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c9b33e22-566b-44bf-9ccb-f6d65b5e6cfc",
+            "Value": {
+                "id": "ad286182-f2b0-4a9f-91c0-56ae2604d488",
+                "resourcePath": "sprites\\sprTwinkieWalkingNW11\\sprTwinkieWalkingNW11.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4561,6 +4697,14 @@
             }
         },
         {
+            "Key": "ee004c7c-04f3-4945-8250-ea55bc489601",
+            "Value": {
+                "id": "88586541-de51-4420-967d-dfa9c7e7931f",
+                "resourcePath": "sprites\\sprTwinkieStandingSE11\\sprTwinkieStandingSE11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ef7cb637-eb5e-436a-a9ff-799309ee2bda",
             "Value": {
                 "id": "f0254bd4-db4e-43af-bb2e-e145c8c74c7b",
@@ -4634,6 +4778,14 @@
                 ],
                 "resourcePath": "views\/f19c5fdd-1933-4a3c-b924-cfe00c91d3b8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f2441ab2-0b6c-4844-bfbb-61f23bb4ada1",
+            "Value": {
+                "id": "e6232af5-cf52-46d7-b0fc-5854f247187b",
+                "resourcePath": "sprites\\sprTwinkieStandingSW11\\sprTwinkieStandingSW11.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4880,6 +5032,14 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sprSSCabinetOff\/sprSSCabinetOff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fe1b443b-9ee7-47b5-b1bd-c82f78679c29",
+            "Value": {
+                "id": "12f1a8bf-6530-45a3-99b9-63f036260062",
+                "resourcePath": "sprites\\sprTwinkieWalkingNE11\\sprTwinkieWalkingNE11.yy",
                 "resourceType": "GMSprite"
             }
         },
