@@ -9,12 +9,16 @@ with (cabinetID) {
 
 	if(isPowered) {
 		sprite_index = onSprite;
-    if (instance_number(objGameControl) > 0 && objGameControl.isSoundOn)
-      audio_play_sound(sndTurnOnCabinet, 100, false);
+    if (instance_number(objGameControl) > 0 && objGameControl.isSoundOn) {
+			if(!audio_is_playing(sndTurnOnCabinet))
+				audio_play_sound(sndTurnOnCabinet, 100, false);
+		}
 	} else {
 		sprite_index = offSprite;
-    if (instance_number(objGameControl) > 0 && objGameControl.isSoundOn)
-      audio_play_sound(sndTurnOffCabinet, 100, false);
+    if (instance_number(objGameControl) > 0 && objGameControl.isSoundOn) {
+      if(!audio_is_playing(sndTurnOffCabinet))
+				audio_play_sound(sndTurnOffCabinet, 100, false);
+		}
 	}
 }
 
