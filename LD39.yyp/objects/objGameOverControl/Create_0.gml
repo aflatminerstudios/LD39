@@ -3,3 +3,7 @@
 
 canGo = room_speed;
 timer = 0;
+
+
+audio_stop_all();
+audio_play_sound(sndSmoothGameOverFall, 3, false);
