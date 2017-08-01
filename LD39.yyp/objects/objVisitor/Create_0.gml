@@ -48,9 +48,9 @@ moneyOnHand = 100.0;
 //sets up style preferences
 stylePrefs = scrGenerateStylePrefs();
 
-for (var i = 0; i < NUM_STYLES; ++i) {
+/*for (var i = 0; i < NUM_STYLES; ++i) {
   show_debug_message("Generated " + string(stylePrefs[i]) + " for " + string(i));
-}
+}*/
 
 
 //Number of steps user has been doing current activity, used to help decide if they quit
@@ -66,16 +66,32 @@ alarm[0] = objGameControl.timeStep;
 
 
 ///Sprite list
-spriteStaticNW = sprTwinkieStandingNW;
-spriteStaticNE = sprTwinkieStandingNE;
-spriteStaticSW = sprTwinkieStandingSW;
-spriteStaticSE = sprTwinkieStandingSE;
-spritePlayingNW = sprTwinkiePlayingNW;
-spritePlayingNE = sprTwinkiePlayingNE;
-spriteWalkingNW = sprTwinkieWalkingNW;
-spriteWalkingNE = sprTwinkieWalkingNE;
-spriteWalkingSE = sprTwinkieWalkingSE;
-spriteWalkingSW = sprTwinkieWalkingSW;
+
+r = random(1);
+
+if (r <= 0.5) {
+  spriteStaticNW = sprTwinkieStandingNW;
+  spriteStaticNE = sprTwinkieStandingNE;
+  spriteStaticSW = sprTwinkieStandingSW;
+  spriteStaticSE = sprTwinkieStandingSE;
+  spritePlayingNW = sprTwinkiePlayingNW;
+  spritePlayingNE = sprTwinkiePlayingNE;
+  spriteWalkingNW = sprTwinkieWalkingNW;
+  spriteWalkingNE = sprTwinkieWalkingNE;
+  spriteWalkingSE = sprTwinkieWalkingSE;
+  spriteWalkingSW = sprTwinkieWalkingSW;
+} else {
+  spriteStaticNW = sprTwinkieStandingNW1;
+  spriteStaticNE = sprTwinkieStandingNE1;
+  spriteStaticSW = sprTwinkieStandingSW1;
+  spriteStaticSE = sprTwinkieStandingSE1;
+  spritePlayingNW = sprTwinkiePlayingNW1;
+  spritePlayingNE = sprTwinkiePlayingNE1;
+  spriteWalkingNW = sprTwinkieWalkingNW1;
+  spriteWalkingNE = sprTwinkieWalkingNE1;
+  spriteWalkingSE = sprTwinkieWalkingSE1;
+  spriteWalkingSW = sprTwinkieWalkingSW1;
+}
 
 sprite_index = spriteStaticNW;
 

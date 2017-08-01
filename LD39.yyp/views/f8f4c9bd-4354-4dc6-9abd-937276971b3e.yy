@@ -13,7 +13,17 @@
         "71d023a8-2bc7-40d6-89cf-a156e3e06341",
         "0803a9a1-0801-45d9-b722-57de619241fd",
         "d76127e3-9537-41a2-aff3-5dcfef923cf8",
-        "4c8e6382-0e91-491c-a7a9-ecd089601f68"
+        "4c8e6382-0e91-491c-a7a9-ecd089601f68",
+        "cbd4bc9c-f071-49ba-8ab2-544061f2530e",
+        "5233d1e4-750e-421f-a8e0-94d6d871034e",
+        "506ef90c-c3ba-49a8-94f7-9b82b4ad0167",
+        "5af9c8c4-a03c-449b-a26a-44653ba86ec6",
+        "941a5db0-f5bc-4151-b90c-562d010fac1f",
+        "0efae09e-29fe-4b3d-9e74-eaae5a02dbff",
+        "c77e3181-adb7-45f8-a9da-01c2de800289",
+        "79d9f114-2ff2-4c56-867b-590760d84a93",
+        "986cd912-1043-45a1-9cfe-18ac29de569a",
+        "ca11d3d8-c7ec-4650-981d-f39951df10bd"
     ],
     "filterType": "GMSprite",
     "folderName": "VisitorSprites",
